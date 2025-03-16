@@ -15,6 +15,9 @@
     "author": "Maurice Gaston",
     "license": "MIT",
     "devDependencies": {
+        "@babel/core": "^7.26.10",
+        "@babel/preset-env": "^7.26.9",
+        "babel-jest": "^29.7.0",
         "gh-pages": "^5.0.0",
         "jest": "^29.7.0",
         "jest-environment-jsdom": "^29.7.0",

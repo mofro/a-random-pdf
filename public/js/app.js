@@ -7,6 +7,91 @@
  * Refactored for improved test compatibility and error handling.
  */
 
+// =====================================================================
+// CONFIGURATION
+// =====================================================================
+
+// Constants for the application
+const CONFIG = {
+    // Local storage key for view history
+    STORAGE_KEY: 'pdfExplorerHistory',
+    
+    // Maximum number of PDFs to remember in history
+    MAX_HISTORY_SIZE: 50,
+    
+    // Path to the JSON data file
+    DATA_FILE: '../data/pdf-data.json',
+    
+    // Whether to show debug messages in the console
+    DEBUG: false
+};
+
+// =====================================================================
+// HISTORY MANAGEMENT
+// =====================================================================
+
+/**
+ * Load PDF view history from localStorage
+ * @returns {Array} Array of PDF IDs the user has already seen
+ */
+function getViewHistory() {
+    try {
+        const historyJson = localStorage.getItem(CONFIG.STORAGE_KEY);
+        return historyJson ? JSON.parse(historyJson) : [];
+    } catch (error) {
+        console.error('Error loading view history:', error);
+        return [];
+    }
+}
+
+/**
+ * Save history to localStorage, keeping it within size limits
+ * @param {Array} history - Array of PDF IDs to save
+ */
+function saveViewHistory(history) {
+    try {
+        // Keep history from growing too large by removing oldest entries
+        if (history.length > CONFIG.MAX_HISTORY_SIZE) {
+            history = history.slice(history.length - CONFIG.MAX_HISTORY_SIZE);
+        }
+        localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(history));
+        
+        if (CONFIG.DEBUG) {
+            console.log(`Saved history with ${history.length} items`);
+        }
+    } catch (error) {
+        console.error('Error saving view history:', error);
+    }
+}
+
+/**
+ * Add a PDF ID to the view history
+ * @param {string} pdfId - ID of the PDF to add to history
+ */
+function addToHistory(pdfId) {
+    const history = getViewHistory();
+    history.push(pdfId);
+    saveViewHistory(history);
+    
+    if (CONFIG.DEBUG) {
+        console.log(`Added ${pdfId} to history. History size: ${history.length}`);
+    }
+}
+
+/**
+ * Clear the user's view history
+ */
+function clearHistory() {
+    try {
+        localStorage.removeItem(CONFIG.STORAGE_KEY);
+        if (CONFIG.DEBUG) {
+            console.log('History cleared');
+        }
+    } catch (error) {
+        console.error('Error clearing history:', error);
+    }
+}
+
 // Wait for the DOM to be fully loaded before executing any code
 document.addEventListener('DOMContentLoaded', () => {
     // =====================================================================
@@ -25,91 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Optional UI elements (check if they exist before using)
     const loadingIndicator = document.getElementById('loadingIndicator');
     const errorDisplay = document.getElementById('errorDisplay');
-    
-    // =====================================================================
-    // CONFIGURATION
-    // =====================================================================
-    
-    // Constants for the application
-    const CONFIG = {
-        // Local storage key for view history
-        STORAGE_KEY: 'pdfExplorerHistory',
-        
-        // Maximum number of PDFs to remember in history
-        MAX_HISTORY_SIZE: 50,
-        
-        // Path to the JSON data file
-        DATA_FILE: '../data/pdf-data.json',
-        
-        // Whether to show debug messages in the console
-        DEBUG: false
-    };
-    
-    // =====================================================================
-    // HISTORY MANAGEMENT
-    // =====================================================================
-    
-    /**
-     * Load PDF view history from localStorage
-     * @returns {Array} Array of PDF IDs the user has already seen
-     */
-    function getViewHistory() {
-        try {
-            const historyJson = localStorage.getItem(CONFIG.STORAGE_KEY);
-            return historyJson ? JSON.parse(historyJson) : [];
-        } catch (error) {
-            console.error('Error loading view history:', error);
-            return [];
-        }
-    }
-    
-    /**
-     * Save history to localStorage, keeping it within size limits
-     * @param {Array} history - Array of PDF IDs to save
-     */
-    function saveViewHistory(history) {
-        try {
-            // Keep history from growing too large by removing oldest entries
-            if (history.length > CONFIG.MAX_HISTORY_SIZE) {
-                history = history.slice(history.length - CONFIG.MAX_HISTORY_SIZE);
-            }
-            localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(history));
-            
-            if (CONFIG.DEBUG) {
-                console.log(`Saved history with ${history.length} items`);
-            }
-        } catch (error) {
-            console.error('Error saving view history:', error);
-        }
-    }
-    
-    /**
-     * Add a PDF ID to the view history
-     * @param {string} pdfId - ID of the PDF to add to history
-     */
-    function addToHistory(pdfId) {
-        const history = getViewHistory();
-        history.push(pdfId);
-        saveViewHistory(history);
-        
-        if (CONFIG.DEBUG) {
-            console.log(`Added ${pdfId} to history. History size: ${history.length}`);
-        }
-    }
-    
-    /**
-     * Clear the user's view history
-     */
-    function clearHistory() {
-        try {
-            localStorage.removeItem(CONFIG.STORAGE_KEY);
-            if (CONFIG.DEBUG) {
-                console.log('History cleared');
-            }
-        } catch (error) {
-            console.error('Error clearing history:', error);
-        }
-    }
     
     // =====================================================================
     // DATA LOADING AND PROCESSING
@@ -447,3 +447,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start the application
     initApp();
 });
+
+// Export functions for testing
+export { getViewHistory, saveViewHistory, addToHistory, clearHistory };
