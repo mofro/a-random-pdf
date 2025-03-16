@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2025-03-16T14:10:21.592679",
+  "lastValidated": "2025-03-16T15:21:44.022332",
   "pdfs": [
     {
       "id": "pdf9918964",
@@ -1718,5 +1718,16 @@
       "lastChecked": "2025-03-16",
       "isAvailable": true,
       "sizeMB": 0.57
+    },
+    {
+      "id": "pdf5642422",
+      "url": "https://www.musictogether.com/content/media-files/PlayingYourMTSongsatHome.pdf",
+      "title": "Playingyourmtsongsathome",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-16",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.74
     }
-  ]}
+  ]
+}
