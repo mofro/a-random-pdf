@@ -48,70 +48,91 @@ document.addEventListener('DOMContentLoaded', () => {
 // tests/app.test.js - Simplified version
 
 // Import functions from the main application file
-import { getViewHistory, saveViewHistory, addToHistory, clearHistory } from '../public/js/app';
+const { getViewHistory, saveViewHistory, addToHistory, clearHistory } = require('../public/js/app');
 
 // Mock data
 const mockPdfData = {
     lastValidated: "2025-03-10T15:00:00Z",
     pdfs: [
-      {
-        id: "pdf001",
-        title: "Test PDF 1",
-        dateAdded: "2025-03-11",
-        lastChecked: "2025-03-16",    
-        url: "https://example.com/test1.pdf",
-        isAvailable: true,
-        sizeMB: 5.45,
-        lastStatus: 200
-      }
+        { id: "pdf001", title: "Test PDF 1", isAvailable: true },
+        { id: "pdf002", title: "Test PDF 2", isAvailable: true },
+        { id: "pdf003", title: "Test PDF 3", isAvailable: true }
     ]
-  };
-  
-  // Test suite
-  describe('PDF Explorer Tests', () => {
-    // Set up before each test
+};
+
+// Test suite
+describe('PDF Explorer Tests', () => {
     beforeEach(() => {
-      // Set up DOM
-      document.body.innerHTML = `
-        <button id="randomButton">Show Me a Random PDF</button>
-        <div id="pdfDisplay" class="hidden">
-          <h2 id="pdfTitle"></h2>
-        </div>
-      `;
-      
-      // Mock fetch
-      global.fetch = jest.fn(() => 
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockPdfData)
-        })
-      );
-      
-      // Mock localStorage
-      const localStorageMock = (() => {
-        let store = {};
-        return {
-            getItem: jest.fn((key) => store[key] || null),
-            setItem: jest.fn((key, value) => store[key] = value.toString()),
-            removeItem: jest.fn((key) => delete store[key]),
-            clear: jest.fn(() => store = {})
-        };
-      })();
-      Object.defineProperty(window, 'localStorage', { value: localStorageMock });
+        document.body.innerHTML = `
+            <button id="randomButton">Show Me a Random PDF</button>
+            <button id="resetHistory">Reset History</button>
+            <div id="pdfDisplay" class="hidden">
+                <h2 id="pdfTitle"></h2>
+            </div>
+        `;
+
+        global.fetch = jest.fn(() =>
+            Promise.resolve({
+                ok: true,
+                json: () => Promise.resolve(mockPdfData)
+            })
+        );
+
+        const localStorageMock = (() => {
+            let store = {};
+            return {
+                getItem: jest.fn((key) => store[key] || null),
+                setItem: jest.fn((key, value) => store[key] = value.toString()),
+                removeItem: jest.fn((key) => delete store[key]),
+                clear: jest.fn(() => store = {})
+            };
+        })();
+        Object.defineProperty(window, 'localStorage', { value: localStorageMock });
     });
-    
-    // Simple test that should always pass
+
     test('should have a random button', () => {
-      const button = document.getElementById('randomButton');
-      expect(button).not.toBeNull();
-      expect(button.textContent).toBe('Show Me a Random PDF');
+        const button = document.getElementById('randomButton');
+        expect(button).not.toBeNull();
+        expect(button.textContent).toBe('Show Me a Random PDF');
     });
-    
-    // Another simple test
+
     test('fetch function should be defined', () => {
-      expect(typeof global.fetch).toBe('function');
+        expect(typeof global.fetch).toBe('function');
     });
-  });
+
+    test('handleRandomButtonClick should fetch and display a random PDF', async () => {
+        const randomButton = document.getElementById('randomButton');
+        randomButton.click();
+
+        await new Promise(setImmediate);
+
+        const pdfTitle = document.getElementById('pdfTitle');
+        expect(pdfTitle.textContent).toMatch(/Test PDF \d/);
+    });
+
+    test('handleResetHistoryClick should clear the view history', () => {
+        const resetHistoryButton = document.getElementById('resetHistory');
+        localStorage.setItem('pdfExplorerHistory', JSON.stringify(['pdf001', 'pdf002']));
+        resetHistoryButton.click();
+
+        expect(localStorage.getItem('pdfExplorerHistory')).toBeNull();
+    });
+
+    test('should not repeat the same PDF before going through the entire buffer', async () => {
+        const randomButton = document.getElementById('randomButton');
+        const seenPdfs = new Set();
+
+        for (let i = 0; i < mockPdfData.pdfs.length; i++) {
+            randomButton.click();
+            await new Promise(setImmediate);
+
+            const pdfTitle = document.getElementById('pdfTitle').textContent;
+            seenPdfs.add(pdfTitle);
+        }
+
+        expect(seenPdfs.size).toBe(mockPdfData.pdfs.length);
+    });
+});
 
 describe('History Management', () => {
     const STORAGE_KEY = 'pdfExplorerHistory';

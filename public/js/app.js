@@ -449,4 +449,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Export functions for testing
-export { getViewHistory, saveViewHistory, addToHistory, clearHistory };
+module.exports = { getViewHistory, saveViewHistory, addToHistory, clearHistory };
+
+// Export functions for testing if module is defined
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { getViewHistory, saveViewHistory, addToHistory, clearHistory };
+}
