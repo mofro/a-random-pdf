@@ -1,449 +1,1956 @@
 {
-  "lastValidated": "2025-03-16T14:10:21.592679",
+  "lastValidated": "2025-03-24T23:18:08.899466",
   "pdfs": [
+    {
+      "id": "pdf9918964",
+      "url": "https://www.bpchalihacollege.org.in/online/attendence/classnotes/files/1699604213.pdf",
+      "title": "1699604213",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1303878",
+      "url": "https://scripps.ucsd.edu/sites/scripps.ucsd.edu/files/node/3338/edit/careers_in_oceanography_7_2010_singles.pdf",
+      "title": "Careers In Oceanography 7 2010 Singles",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 5.45,
+      "lastStatus": 404
+    },
+    {
+      "id": "pdf1709688",
+      "url": "https://scmainweb.s3.us-west-1.amazonaws.com/files/resources/aa-1498-oceanography-and-marine-sciences.pdf",
+      "title": "Aa 1498 Oceanography And Marine Sciences",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.19,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7684858",
+      "url": "https://www.internationalscholarsjournals.com/articles/oceanographys-significance-and-its-various-branches.pdf",
+      "title": "Oceanographys Significance And Its Various Branches",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.46,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7330469",
+      "url": "https://tos.org/oceanography/assets/docs/21-3_powell.pdf",
+      "title": "21 3 Powell",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.15,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3734158",
+      "url": "https://www.kutztown.edu/Departments-Offices/A-F/CareerCenter/Documents/mdmarinescience.pdf",
+      "title": "Mdmarinescience",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.6,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8274960",
+      "url": "https://www.scseagrant.org/wp-content/uploads/Coastliners-Its-The-Ocean-Capstone.pdf",
+      "title": "Coastliners Its The Ocean Capstone",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 0.9,
+      "lastStatus": 403
+    },
+    {
+      "id": "pdf3194828",
+      "url": "https://www.aoml.noaa.gov/phod/docs/PhOD_programs.pdf",
+      "title": "Phod Programs",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 11.08,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1788151",
+      "url": "https://www.dentonisd.org/cms/lib/TX21000245/Centricity/Domain/1013/Chapter%201%20-%20The%20History%20of%20Oceanography.pdf",
+      "title": "Chapter%201%20 %20The%20History%20Of%20Oceanography",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 14.57,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6626314",
+      "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/7f930e013cef9cd7dec5aa88baa83f0a_MIT8_04S16_LecNotes1.pdf",
+      "title": "7F930E013Cef9Cd7Dec5Aa88Baa83F0A Mit8 04S16 Lecnotes1",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.3,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5715901",
+      "url": "https://www.fisica.net/mecanica-quantica/Griffiths%20-%20Introduction%20to%20quantum%20mechanics.pdf",
+      "title": "Griffiths%20 %20Introduction%20To%20Quantum%20Mechanics",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2712073",
+      "url": "https://chembaby.ru/wp-content/uploads/2017/11/Steven-Holzner-Quantum-Physics-For-Dummies.pdf",
+      "title": "Steven Holzner Quantum Physics For Dummies",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 6.58,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8322744",
+      "url": "https://www-thphys.physics.ox.ac.uk/people/JamesBinney/qb.pdf",
+      "title": "Qb",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 3.21,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4229331",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/quantum_physics.pdf",
+      "title": "Quantum Physics",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 2.14,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3904613",
+      "url": "https://www.pul.it/cattedra/upload_files/13/Eisberg_Resnick-quantum_physics.pdf",
+      "title": "Eisberg Resnick Quantum Physics",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9772311",
+      "url": "https://images.jumpseller.com/store/digitaluniverse/8495454/attachments/cef26eceb6051a5a4933fedd36b8b652/Quantum_Physics_for_Beginners_Discover_the_Most_Mind.pdf",
+      "title": "Quantum Physics For Beginners Discover The Most Mind",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2967215",
+      "url": "https://www.bhcsmt.com/resources/consciousness/Quantum%20Physics%20and%20the%20Future%20of%20Psychology.pdf",
+      "title": "© 2019 The Institute of Mind and Behavior, Inc.",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 13,
+      "yearPublished": "2020",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3945533",
+      "url": "https://ospi.k12.wa.us/sites/default/files/2023-08/jokes.pdf",
+      "title": "Jokes",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.32,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7668109",
+      "url": "https://foodhero.org/sites/foodhero-prod/files/health-tools/food_jokes_master_list.pdf",
+      "title": "Food Jokes Master List",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.87,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4832719",
+      "url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR27/EarthDayJokes.pdf",
+      "title": "Earthdayjokes",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.12,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2566328",
+      "url": "https://www.mvls.info/wp-content/uploads/2019/02/2019-Summer-Reading-Workshop-Jokes.pdf",
+      "title": "2019 Summer Reading Workshop Jokes",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.38,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0081081",
+      "url": "https://redapes.org/wp-content/uploads/2012/05/oo-action-joke_jar1.pdf",
+      "title": "Oo Action Joke Jar1",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.24,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6486860",
+      "url": "https://www.workforcedevelopment.com/pdf/sample/Sample_Lesson_Understanding_and_Using_Electronic_Diagrams.pdf",
+      "title": "Sample Lesson Understanding And Using Electronic Diagrams",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.04,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2834530",
+      "url": "https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Technology-Servicing-&-Construction/Complete-Guide-To-Reading-Schematic-Diagrams-John-Douglas-Young.pdf",
+      "title": "Complete Guide To Reading Schematic Diagrams John Douglas Young",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 15.37,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8367521",
+      "url": "https://www.k-state.edu/edl/docs/pubs/technical-resources/Technote8.pdf",
+      "title": "Microsoft Word - Technote 8 - Guidelines for Drawing Schematics.doc",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "Tim",
+      "pages": 13,
+      "yearPublished": "2014",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3310363",
+      "url": "https://homes.luddy.indiana.edu/herring/2variants.1996.pdf",
+      "title": "2Variants.1996",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 2.54,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6914272",
+      "url": "https://abe.ufl.edu/faculty/tburks/Presentations/ABE5152/Electrical%20Symbols%20and%20Line%20Diagrams.pdf",
+      "title": "Electrical%20Symbols%20And%20Line%20Diagrams",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 4.73,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6551321",
+      "url": "https://www.statemef.com/projects/MeF/E-StandardsforSchemaDevelopment_v1.0.pdf",
+      "title": "E Standardsforschemadevelopment V1.0",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.43,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4787375",
+      "url": "https://www.mecawp.com/wp-content/uploads/2020/06/43549-SCH.pdf",
+      "title": "43549 Sch",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.32,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9416905",
+      "url": "https://www.theiet.org/media/4173/units-and-symbols.pdf",
+      "title": "Units And Symbols",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.78,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1050393",
+      "url": "https://www.k-space.org/ymk/ElecDraw_Lec6.pdf",
+      "title": "Elecdraw Lec6",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.32,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2521159",
+      "url": "https://uca.edu/cwc/files/2017/11/Film-Script.pdf",
+      "title": "Film Scripts.fdx",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "aecol",
+      "pages": 3,
+      "sizeMB": 0.03,
+      "yearPublished": "2017",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2601099",
+      "url": "https://www.screenaustralia.gov.au/getmedia/dd176676-afd2-43a3-ab49-1514e010afc3/Suggested-script-layout.pdf",
+      "title": "Microsoft Word - Suggested Script Layout 0302.doc",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "Gail Heathwood",
+      "pages": 4,
+      "sizeMB": 0.04,
+      "yearPublished": "2008",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6704737",
+      "url": "https://www.wichita.edu/services/mrc/documents/Screenplay_Format_Examples.pdf",
+      "title": "Screenplay Format Examples",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.15,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3626457",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Her.pdf",
+      "title": "Her",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5528507",
+      "url": "https://www.simplyscripts.com/scripts/ACupofCoffee-ShortFilmScreenplay.pdf",
+      "title": "A Cup of Coffee - Short Film Screenplay Script",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 4,
+      "sizeMB": 0.06,
+      "yearPublished": "2014",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9003856",
+      "url": "https://www.sjsu.edu/writingcenter/docs/handouts/Scriptwriting%20Format.pdf",
+      "title": "Scriptwriting%20Format",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3052162",
+      "url": "https://nancyfetzer.com/wp-content/uploads/2019/09/Movie-Scripts-Free-Download.pdf",
+      "title": "Movie Scripts Free Download",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.51,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1893495",
+      "url": "https://alexanderstreet.com/sites/default/files/AFSO_BMark.pdf",
+      "title": "Afso Bmark",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.33,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0712461",
+      "url": "https://universalpicturesawards.com/wicked/screenplay/Wicked.pdf",
+      "title": "Wicked",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.35,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5558862",
+      "url": "http://www.lexwilliford.com/Tenure/Tenure%20Documents/Adobe%20pdfs/Film%20Scripts.pdf",
+      "title": "Film Scripts",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "Lex Williford",
+      "pages": 2,
+      "sizeMB": 0.03,
+      "yearPublished": "2006",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7695447",
+      "url": "https://womenfilmeditors.princeton.edu/assets/pdfs/ONO_Ideas_on_Film_MacDonald.pdf",
+      "title": "Ono Ideas On Film Macdonald",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.35,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5040262",
+      "url": "https://www.bbc.co.uk/writers/documents/screenplay.pdf",
+      "title": "FILM TITLE",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "Matthew Carless",
+      "pages": 9,
+      "sizeMB": 0.04,
+      "yearPublished": "2004",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1976723",
+      "url": "https://sigport.org/sites/default/files/docs/ICASSP_2024%20%281%29.pdf",
+      "title": "Icassp 2024%20%281%29",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.24,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0086216",
+      "url": "https://www.lib.lsu.edu/sites/default/files/sc/findaid/4343.pdf",
+      "title": "4343",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.22,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8037835",
+      "url": "https://catalog.liberty.edu/graduate/colleges-schools/communication-art/script-screenwriting-mfa/feature-film/feature-film.pdf",
+      "title": "Script & Screenwriting (M.F.A.) - Feature Film",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "CourseLeaf",
+      "pages": 1,
+      "sizeMB": 0.04,
+      "yearPublished": "2025",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8065566",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/10/Assessing-Box-Office-Performance.pdf",
+      "title": "Assessing Box Office Performance",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.43,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0105666",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/the-incredibles.pdf",
+      "title": "The Incredibles",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4425236",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Black-Swan.pdf",
+      "title": "Black Swan",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1579503",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/BeeMovie.pdf",
+      "title": "Beemovie",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2584599",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Calvary.pdf",
+      "title": "Calvary",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7142350",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/The-Equalizer.pdf",
+      "title": "The Equalizer",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6043694",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/saw-2004.pdf",
+      "title": "Saw 2004",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0100175",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/THE-LIGHTHOUSE.pdf",
+      "title": "The Lighthouse",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1172745",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/32661-EVERYTHING-EVERYWHERE-ALL-AT-ONCE-by-Daniel-Kwan-and-Daniel-Scheinert-.pdf",
+      "title": "32661 Everything Everywhere All At Once By Daniel Kwan And Daniel Scheinert",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9462453",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Mr-and-Mrs-Smith-Treatment.pdf",
+      "title": "Untitled Screenplay",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 8,
+      "yearPublished": "2019",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5551336",
+      "url": "https://s3-us-west-2.amazonaws.com/screenplays-pdf/Movie-Screenplay-PDFs/Imitation+Game.pdf",
+      "title": "Imitation+Game",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.44,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4792948",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Once-Upon-A-Time-1x01-Pilot.pdf",
+      "title": "Once Upon A Time 1X01 Pilot",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1670581",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Lost-Series-Bible.pdf",
+      "title": "Lost Series Bible",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0619895",
+      "url": "https://deadline.com/wp-content/uploads/2019/12/marriage-story-ampas-script.pdf",
+      "title": "Marriage Story Ampas Script",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.3,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7712936",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Onward.pdf",
+      "title": "Onward",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7794790",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/12AngryMen.pdf",
+      "title": "12Angrymen",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0536124",
+      "url": "https://www.screenaustralia.gov.au/getmedia/133af42b-7abe-4ebc-a164-799c1c7a4614/Story-Documents-Drama.pdf",
+      "title": "Story Documents Drama",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.86,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9365818",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/A-SIMPLE-FAVOR.pdf",
+      "title": "A Simple Favor",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4102963",
+      "url": "https://asignatura.unav.edu/INTROD-05171-2425.pdf",
+      "title": "Introduction to screenwriting",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 5,
+      "sizeMB": 0.07,
+      "yearPublished": "2024",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6000339",
+      "url": "https://blackgirlfilmschool.com/wp-content/uploads/2022/07/Jaelah-Elements-Narrative-Screenplay-W3-Write-a-substantive-paragraph.pdf",
+      "title": "Jaelah Elements Narrative Screenplay W3 Write A Substantive Paragraph",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.1,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1010583",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/93538-After-Hours-by-Joseph-Minion.pdf",
+      "title": "93538 After Hours By Joseph Minion",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6326551",
+      "url": "https://s3.amazonaws.com/thescriptlab/screenplays/2015/Trumbo.pdf",
+      "title": "Trumbo",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.29,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8205245",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Sorry-to-Bother-You.pdf",
+      "title": "Sorry To Bother You",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7436269",
+      "url": "https://www.mikeyjackson.com/pdf/Mikey_Jackson_CV.pdf",
+      "title": "Mikey Jackson Cv",
+      "dateAdded": "2025-03-11",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.34,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0473131",
+      "url": "https://s3.amazonaws.com/thescriptlab/screenplays/2015/Minions-Screenplay.pdf",
+      "title": "Minions Screenplay",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.19,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7992055",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/Coraline-Screenplay.pdf",
+      "title": "Coraline Screenplay",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2008369",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/67788-TOUGH-GUYS-by-James-Orr-and-Jim-Cruickshank-with-Revisions-by-Timothy-Harris-and-Herschel-Weingrod-.pdf",
+      "title": "67788 Tough Guys By James Orr And Jim Cruickshank With Revisions By Timothy Harris And Herschel Weingrod",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 3,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6864719",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/John-Wick.pdf",
+      "title": "John Wick",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6686215",
+      "url": "https://thescriptlab.com/wp-content/uploads/scripts/3467-The-Best-Man-1999.pdf",
+      "title": "3467 The Best Man 1999",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9369478",
+      "url": "https://mrexumsclasses.weebly.com/uploads/1/3/0/1/13017462/maxbauer_screenwriter_p5.pdf",
+      "title": "Maxbauer Screenwriter P5",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 9.24,
+      "lastStatus": 406
+    },
+    {
+      "id": "pdf8620561",
+      "url": "https://web-app.usc.edu/soc/syllabus/20193/21775.pdf",
+      "title": "21775",
+      "dateAdded": "2025-03-15",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0656459",
+      "url": "https://www.e-verify.gov/sites/default/files/everify/guides/InstructionsCreatePDFofE-VerifyManual.pdf",
+      "title": "Instructionscreatepdfofe Verifymanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.15,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3127395",
+      "url": "https://hr.northwestern.edu/essentials/alternative-work-strategies/team-user-manual-worksheet.pdf",
+      "title": "Team User Manual Worksheet",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.19,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3200528",
+      "url": "https://sos.oregon.gov/elections/documents/stateir.pdf",
+      "title": "Stateir",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.29,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7630809",
+      "url": "https://mutcd.fhwa.dot.gov/pdfs/11th_Edition/mutcd11thedition.pdf",
+      "title": "Mutcd11Thedition",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 22.98,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1844784",
+      "url": "https://www.epiloglaser.com/assets/downloads/manuals/legend-manual-web.pdf",
+      "title": "Legend Manual Web",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 9.19,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9595483",
+      "url": "https://www.aphis.usda.gov/import_export/plants/manuals/domestic/downloads/xpm.pdf",
+      "title": "Xpm",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 10.58,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3895460",
+      "url": "https://dynamiclearningmaps.org/sites/default/files/documents/Manuals_Blueprints/Test_Administration_Manual_YE.pdf",
+      "title": "Test Administration Manual Ye",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 4.94,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0784126",
+      "url": "https://www.aphis.usda.gov/sites/default/files/cites.pdf",
+      "title": "Cites",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 9.25,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9902325",
+      "url": "https://sos.oregon.gov/elections/documents/campaign-finance.pdf",
+      "title": "Campaign Finance",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.77,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9773260",
+      "url": "https://www.cms.gov/files/document/finalmds-30-rai-manual-v1191october2024.pdf",
+      "title": "Finalmds 30 Rai Manual V1191October2024",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 29.62,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5972962",
+      "url": "https://www.marylandattorneygeneral.gov/OpenGov%20Documents/omaManualPrint.pdf",
+      "title": "Omamanualprint",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 0.87,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7583068",
+      "url": "https://www.ussc.gov/sites/default/files/pdf/guidelines-manual/2021/GLMFull.pdf",
+      "title": "Glmfull",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 4.62,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6221824",
+      "url": "https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-23-preparedness-grants-manual.pdf",
+      "title": "Fema Gpd Fy 23 Preparedness Grants Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 6.07,
+      "lastStatus": 403
+    },
+    {
+      "id": "pdf6226842",
+      "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+      "title": "Dmv39",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.83,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7589201",
+      "url": "https://www.ed.gov/media/document/ocr-case-processing-manual-us-department-of-education-office-civil-rights-33891.pdf",
+      "title": "Ocr Case Processing Manual Us Department Of Education Office Civil Rights 33891",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.64,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1915109",
+      "url": "https://www.education.ky.gov/CTE/cter/Documents/Work-Based_Learning_Manual.pdf",
+      "title": "Work Based Learning Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 4.7,
+      "lastStatus": 403
+    },
+    {
+      "id": "pdf8437376",
+      "url": "https://mva.maryland.gov/Documents/Interactive-Title-and-Registration-Manual.pdf",
+      "title": "Interactive Title And Registration Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 5.03,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4133693",
+      "url": "https://www.huduser.gov/portal/sites/default/files/pdf/Federal-Housing-Administration-Underwriting-Manual.pdf",
+      "title": "Federal Housing Administration Underwriting Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 25.12,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5927608",
+      "url": "https://zoomcorp.com/media/documents/E_H6.pdf",
+      "title": "E H6",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 5.07,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9216513",
+      "url": "https://www.deadiversion.usdoj.gov/GDP/(DEA-DC-057)(EO-DEA217)_Researchers_Manual_Final_signed.pdf",
+      "title": "(Dea Dc 057)(Eo Dea217) Researchers Manual Final Signed",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.57,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7873436",
+      "url": "https://www.victronenergy.com/upload/documents/Orion_XS_12-12-50A_DC-DC_battery_charger/124067-Orion_XS_DC-DC_battery_charger-pdf-en.pdf",
+      "title": "124067 Orion Xs Dc Dc Battery Charger Pdf En",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 7.05,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3786348",
+      "url": "https://www.nysed.gov/sites/default/files/programs/state-assessment/sam-g3-8-2024.pdf",
+      "title": "Sam G3 8 2024",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 14.19,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf1893766",
+      "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+      "title": "Mv21",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.62,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7013789",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+      "title": "Drivers Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 35.92,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9996775",
+      "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+      "title": "99 0117",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 5.49,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4022247",
+      "url": "https://mdhhs-pres-prod.michigan.gov/olmweb/ex/BP/Public/BAM/000.pdf",
+      "title": "BRIDGES ADMINISTRATIVE MANUAL TABLE OF CONTENTS",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "author": "KaleJ",
+      "pages": 3,
+      "sizeMB": 0.05,
+      "yearPublished": "2025",
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5903906",
+      "url": "https://www.federalreserve.gov/publications/files/bhc.pdf",
+      "title": "Bhc",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 7.46,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6064667",
+      "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+      "title": "2025Gamemanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 9.35,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4246232",
+      "url": "https://www.dhcs.ca.gov/Documents/DMC-ODS-Billing-Manual-v-1-4.pdf",
+      "title": "Dmc Ods Billing Manual V 1 4",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.05,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3775260",
+      "url": "https://www.ama-assn.org/system/files/hod-reference-manual.pdf",
+      "title": "Hod Reference Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 2.28,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7588703",
+      "url": "https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c29pdf.pdf",
+      "title": "Clm104C29Pdf",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.95,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9443192",
+      "url": "https://www.nlm.nih.gov/docline/docline_manual/DOCLINE_manual.pdf",
+      "title": "Docline Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3298406",
+      "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+      "title": "Dl 002",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 5.95,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4324687",
+      "url": "https://www.cdc.gov/tb/programs/rvct/instructionmanual.pdf",
+      "title": "Instructionmanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 2.31,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6304957",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/13092/13092.pdf",
+      "title": "13092",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 7.86,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9764850",
+      "url": "https://www.revisor.mn.gov/static/office/2013-Revisor-Manual.fc22eeba4f7b.pdf",
+      "title": "2013 Revisor Manual.Fc22Eeba4F7B",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 2.66,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6607318",
+      "url": "https://www.bombmanual.com/print/KeepTalkingAndNobodyExplodes-BombDefusalManual-v1.pdf",
+      "title": "Keeptalkingandnobodyexplodes Bombdefusalmanual V1",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.78,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4243067",
+      "url": "https://www.sos.state.co.us/pubs/elections/CampaignFinance/files/CPFManual.pdf",
+      "title": "Cpfmanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 1.4,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5389686",
+      "url": "https://gdlp01.c-wss.com/gds/0/0300029810/01/eos-rebelt7-1500d-im-en.pdf",
+      "title": "Eos Rebelt7 1500D Im En",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 16.1,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf2821079",
+      "url": "https://health.ec.europa.eu/system/files/2022-09/md_borderline_manual_09-2022_en.pdf",
+      "title": "Md Borderline Manual 09 2022 En",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0592438",
+      "url": "https://www.adam-audio.com/content/uploads/2020/10/adam-audio-t-series-user-manual-english.pdf",
+      "title": "Adam Audio T Series User Manual English",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "pages": 0,
+      "sizeMB": 1.01,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf9240868",
+      "url": "https://omh.ny.gov/omhweb/bho/harp-mainstream-billing-manual.pdf",
+      "title": "Harp Mainstream Billing Manual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.57,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5420526",
+      "url": "https://www.ieee.org/documents/opsmanual.pdf",
+      "title": "Opsmanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.93,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6837649",
+      "url": "https://burnoutassessmenttool.be/wp-content/uploads/2020/08/User-Manual-BAT-version-2.0.pdf",
+      "title": "User Manual Bat Version 2.0",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.46,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf7401706",
+      "url": "https://www.ag.idaho.gov/content/uploads/2018/04/OpenMeeting.pdf",
+      "title": "Openmeeting",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.93,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf5201195",
+      "url": "https://www.dhs.wisconsin.gov/publications/p0/p00038.pdf",
+      "title": "P00038",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.55,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4121995",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf",
+      "title": "Esp32 Technical Reference Manual En",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 10,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf0451787",
+      "url": "https://www.kycourts.gov/Courts/County-Information/Documents/ClerksManual.pdf",
+      "title": "Clerksmanual",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 4.15,
+      "lastStatus": 403
+    },
+    {
+      "id": "pdf5437201",
+      "url": "https://www.bqa.org/media/bqa/docs/bqa_manual_final.pdf",
+      "title": "Bqa Manual Final",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 6.31,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4991942",
+      "url": "https://www.facs.org/media/bfxlv0eu/store-manual-2024.pdf",
+      "title": "Store Manual 2024",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 4.51,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4905628",
+      "url": "https://publicsafety.ohio.gov/links/mop0001.pdf",
+      "title": "Mop0001",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 4.51,
+      "lastStatus": 404
+    },
     {
       "id": "pdf4398971",
       "url": "https://www.utep.edu/business/_Files/docs/degree-plans/finance.pdf",
       "title": "Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.25
+      "sizeMB": 0.25,
+      "lastStatus": 200
     },
     {
       "id": "pdf1016492",
       "url": "https://ospi.k12.wa.us/sites/default/files/2023-08/finance_careercluster.pdf",
       "title": "Finance Careercluster",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.17
+      "sizeMB": 0.17,
+      "lastStatus": 200
     },
     {
       "id": "pdf3511185",
       "url": "https://dof.ca.gov/wp-content/uploads/sites/352/budget/budget-analyst-guide/glossary.pdf",
       "title": "Glossary",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.29
+      "sizeMB": 0.29,
+      "lastStatus": 200
     },
     {
       "id": "pdf3859220",
       "url": "https://www.unepfi.org/wordpress/wp-content/uploads/2021/12/NZAOA_Scaling-Blended-Finance.pdf",
       "title": "Nzaoa Scaling Blended Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.99
+      "sizeMB": 0.99,
+      "lastStatus": 200
     },
     {
       "id": "pdf9099780",
       "url": "https://etec.gov.sa/assets/sf/n/Finance.pdf",
       "title": "Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.86
+      "sizeMB": 0.86,
+      "lastStatus": 200
     },
     {
       "id": "pdf4299105",
       "url": "https://home.treasury.gov/system/files/136/DeFi-Risk-Full-Review.pdf",
       "title": "Defi Risk Full Review",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 1.57
+      "sizeMB": 1.57,
+      "lastStatus": 200
     },
     {
       "id": "pdf4016852",
       "url": "https://www.icmagroup.org/assets/Transition-Finance-in-the-Debt-Capital-Market-paper-ICMA-14022024.pdf",
       "title": "Transition Finance In The Debt Capital Market Paper Icma 14022024",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 1.86
+      "sizeMB": 1.86,
+      "lastStatus": 200
     },
     {
       "id": "pdf0788835",
       "url": "https://www.bis.org/publ/work1194.pdf",
       "title": "Work1194",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.94
+      "sizeMB": 0.94,
+      "lastStatus": 200
     },
     {
       "id": "pdf6719207",
       "url": "https://www.fiscal.ttuhsc.edu/appdev/collateral/Finance_Reporting_Terms.pdf",
       "title": "Microsoft Word - Finance_Reporting_Data_Dictionary.docx",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "author": "csober",
       "pages": 8,
       "sizeMB": 0.09,
-      "yearPublished": "2010"
+      "yearPublished": "2010",
+      "lastStatus": 200
     },
     {
       "id": "pdf2585719",
       "url": "https://www.financeforbiodiversity.org/wp-content/uploads/Finance_and_Biodiversity_Overview_of_Initiatives.pdf",
       "title": "Finance And Biodiversity Overview Of Initiatives",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
-      "isAvailable": true
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "lastStatus": 200
     },
     {
       "id": "pdf7270777",
       "url": "https://www.unepfi.org/wordpress/wp-content/uploads/2024/06/Nature-finance-overview.pdf",
       "title": "Nature Finance Overview",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 11.59
+      "sizeMB": 11.59,
+      "lastStatus": 200
     },
     {
       "id": "pdf3836244",
       "url": "https://www.nature.org/content/dam/tnc/nature/en/documents/TNC_PlaybookForClimateFinance.pdf",
       "title": "Tnc Playbookforclimatefinance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.0
+      "sizeMB": 0,
+      "lastStatus": 200
     },
     {
       "id": "pdf8353357",
       "url": "https://business.fau.edu/images/business/undergraduate/files/FinanceUgProgram.pdf",
       "title": "Financeugprogram",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.18
+      "sizeMB": 0.18,
+      "lastStatus": 200
     },
     {
       "id": "pdf7157613",
       "url": "https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cbe/Advising/four-year-plans/finance.pdf",
       "title": "Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.84
+      "sizeMB": 0.84,
+      "lastStatus": 200
     },
     {
       "id": "pdf5629960",
       "url": "https://www.cisl.cam.ac.uk/system/files/documents/nature-and-finance-intro.pdf",
       "title": "Nature And Finance Intro",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 1.48
+      "sizeMB": 1.48,
+      "lastStatus": 200
     },
     {
       "id": "pdf7444351",
       "url": "https://www.smfg.co.jp/english/sustainability/materiality/environment/business/pdf/tfp_en.pdf",
       "title": "Tfp En",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 1.54
+      "sizeMB": 1.54,
+      "lastStatus": 200
     },
     {
       "id": "pdf6234213",
       "url": "https://admissions.scranton.edu/academic-programs/academic-programs-pdfs/finance.pdf",
       "title": "T H E U N I V E R S I T Y O F S C R A N T O N",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 2,
       "sizeMB": 0.08,
-      "yearPublished": "2021"
+      "yearPublished": "2021",
+      "lastStatus": 200
     },
     {
       "id": "pdf6337794",
       "url": "https://finance.ec.europa.eu/document/download/5ae0ef14-2852-459a-bbbe-e55e1215a374_en?filename=250205-sustainable-finance-platform-simplifying-taxonomy_en.pdf",
       "title": "5Ae0Ef14 2852 459A Bbbe E55E1215A374 En",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.0
+      "sizeMB": 0,
+      "lastStatus": 200
     },
     {
       "id": "pdf3400147",
       "url": "https://www.fdic.gov/resources/bankers/affordable-mortgage-lending-center/guide/part-2-docs/overview.pdf",
       "title": "Overview",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.16
+      "sizeMB": 0.16,
+      "lastStatus": 200
     },
     {
       "id": "pdf1089932",
       "url": "https://uwm.edu/business-undergrad-advising/wp-content/uploads/sites/108/2020/09/UG-Finance_Four-Year-Plan-2022.pdf",
       "title": "BACHELOR OF BUSINESS ADMINISTRATION",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 2,
       "sizeMB": 0.08,
-      "yearPublished": "2022"
+      "yearPublished": "2022",
+      "lastStatus": 200
     },
     {
       "id": "pdf0161715",
       "url": "https://uindy.edu/registrar/curriculum/fin.pdf",
       "title": "Fin",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.34
+      "sizeMB": 0.34,
+      "lastStatus": 200
     },
     {
       "id": "pdf2691270",
       "url": "https://business.howard.edu/sites/business.howard.edu/files/2022-07/FINANCE%20HUSB%20FA22%20BBA%20Scheme.pdf",
       "title": "Finance%20Husb%20Fa22%20Bba%20Scheme",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.42
+      "sizeMB": 0.42,
+      "lastStatus": 200
     },
     {
       "id": "pdf1752125",
       "url": "https://www.eib.org/attachments/documents/mdb_idfc_mitigation_common_principles_en.pdf",
       "title": "Mdb Idfc Mitigation Common Principles En",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 1.43
+      "sizeMB": 1.43,
+      "lastStatus": 200
     },
     {
       "id": "pdf4934727",
       "url": "https://catalog.utsa.edu/undergraduate/business/finance/finance.pdf",
       "title": "Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.19
+      "sizeMB": 0.19,
+      "lastStatus": 200
     },
     {
       "id": "pdf3699139",
       "url": "https://sos.oregon.gov/elections/documents/campaign-finance.pdf",
       "title": "Campaign Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 1.77
+      "sizeMB": 1.77,
+      "lastStatus": 200
     },
     {
       "id": "pdf5702880",
       "url": "https://ethics.wi.gov/Resources/Campaign%20Finance%20Overview%20-%20Local%20Candidate%20Committees.pdf",
       "title": "Campaign%20Finance%20Overview%20 %20Local%20Candidate%20Committees",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.49
+      "sizeMB": 0.49,
+      "lastStatus": 200
     },
     {
       "id": "pdf5165964",
       "url": "https://www.icmagroup.org/assets/documents/Sustainable-finance/Bonds-to-Finance-the-Sustainable-Blue-Economy-a-Practitioners-Guide-September-2023.pdf",
       "title": "Bonds To Finance The Sustainable Blue Economy A Practitioners Guide September 2023",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 15.59
+      "sizeMB": 15.59,
+      "lastStatus": 200
     },
     {
       "id": "pdf2755994",
       "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2024/11/Raising-ambition-and-accelerating-delivery-of-climate-finance_Third-IHLEG-report.pdf",
       "title": "Raising Ambition And Accelerating Delivery Of Climate Finance Third Ihleg Report",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 2.55
+      "sizeMB": 2.55,
+      "lastStatus": 200
     },
     {
       "id": "pdf3050722",
       "url": "https://www.ngfs.net/system/files/import/ngfs/medias/documents/scaling-up-blended-finance-for-climate-mitigation-and-adaptation-in-emdes.pdf",
       "title": "Scaling Up Blended Finance For Climate Mitigation And Adaptation In Emdes",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.0
+      "sizeMB": 0,
+      "lastStatus": 200
     },
     {
       "id": "pdf7331842",
       "url": "https://www.publichealth.va.gov/docs/employeehealth/14-Finance-Terms.pdf",
       "title": "VA Finance Terms and Definitions",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "author": "U.S. Department of Veterans Affairs, Veterans Health Administration, Patient Care Services",
       "pages": 4,
       "sizeMB": 0.1,
-      "yearPublished": "2011"
+      "yearPublished": "2011",
+      "lastStatus": 200
     },
     {
       "id": "pdf4239972",
       "url": "https://drew.edu/wp-content/uploads/sites/6/2022/01/CASP_185_Master-of-Finance-Concentration-Flyers_2021_Investment-Management-IM_V2.pdf",
       "title": "Casp 185 Master Of Finance Concentration Flyers 2021 Investment Management Im V2",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
-      "isAvailable": true,
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
       "pages": 0,
-      "sizeMB": 1.46
+      "sizeMB": 1.46,
+      "lastStatus": 403
     },
     {
       "id": "pdf3954609",
       "url": "https://business.fsu.edu/sites/g/files/upcbnu1771/files/2023-05/Finance%202023-2024.pdf",
       "title": "Finance%202023 2024",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.13
+      "sizeMB": 0.13,
+      "lastStatus": 200
     },
     {
       "id": "pdf8104226",
       "url": "https://www.accountingforsustainability.org/content/dam/a4s/corporate/home/KnowledgeHub/Guide-pdf/Net%20Zero%20A%20Practical%20Guide%20for%20Finance%20Teams.pdf.downloadasset.pdf",
       "title": "Net%20Zero%20A%20Practical%20Guide%20For%20Finance%20Teams.Downloadasset",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
-      "isAvailable": true,
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
       "pages": 0,
-      "sizeMB": 0.85
+      "sizeMB": 0.85,
+      "lastStatus": 403
     },
     {
       "id": "pdf1325715",
       "url": "https://home.hamptonu.edu/biz/wp-content/uploads/sites/4/2020/06/FINANCE-CURRICULUM.pdf",
       "title": "Finance Curriculum",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.56
+      "sizeMB": 0.56,
+      "lastStatus": 200
     },
     {
       "id": "pdf8269101",
       "url": "https://www.uiw.edu/academics/documents/hebsba/hebsba-mba-finance-fnl.pdf",
       "title": "Hebsba Mba Finance Fnl",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.11
+      "sizeMB": 0.11,
+      "lastStatus": 200
     },
     {
       "id": "pdf8207395",
       "url": "https://home.barclays/content/dam/home-barclays/documents/citizenship/our-reporting-and-policy-positions/Barclays-Transition-Finance-Framework-V1.pdf",
       "title": "Barclays Transition Finance Framework V1",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.0
+      "sizeMB": 0,
+      "lastStatus": 200
     },
     {
       "id": "pdf1331959",
       "url": "https://www.unr.edu/main/pdfs/verified-accessible/colleges-schools/business/advising/fin-major-checklist.pdf",
       "title": "Fin Major Checklist",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.49
+      "sizeMB": 0.49,
+      "lastStatus": 200
     },
     {
       "id": "pdf2147231",
       "url": "https://www.eeoc.gov/sites/default/files/migrated_files/eeoc/statistics/reports/finance/finance.pdf",
       "title": "Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.23
+      "sizeMB": 0.23,
+      "lastStatus": 200
     },
     {
       "id": "pdf7944835",
       "url": "https://www.epa.gov/sites/default/files/2021-01/documents/leveraging_development_finance_tools_attract_oz_investment.pdf",
       "title": "Leveraging Development Finance Tools Attract Oz Investment",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
-      "isAvailable": true
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "lastStatus": 403
     },
     {
       "id": "pdf4989103",
       "url": "https://catalog.tamu.edu/undergraduate/business/finance/bba/bba.pdf",
       "title": "Finance - BBA",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "author": "CourseLeaf",
       "pages": 2,
       "sizeMB": 0.07,
-      "yearPublished": "2025"
+      "yearPublished": "2025",
+      "lastStatus": 200
     },
     {
       "id": "pdf1366651",
       "url": "https://www.utrgv.edu/advising/_files/documents/roadmaps/2024/finance-bachelor_of_business_administration.pdf",
       "title": "Finance Bachelor Of Business Administration",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.14
+      "sizeMB": 0.14,
+      "lastStatus": 200
     },
     {
       "id": "pdf8770379",
       "url": "https://www.climatepolicyinitiative.org/wp-content/uploads/2023/11/Global-Landscape-of-Climate-Finance-2023.pdf",
       "title": "Global Landscape Of Climate Finance 2023",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 6.93
+      "sizeMB": 6.93,
+      "lastStatus": 200
     },
     {
       "id": "pdf6314699",
       "url": "https://www.iosco.org/library/pubdocs/pdf/ioscopd754.pdf",
       "title": "Ioscopd754",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.56
+      "sizeMB": 0.56,
+      "lastStatus": 200
     },
     {
       "id": "pdf7371352",
       "url": "https://www.subr.edu/assets/subr/Curriculums/Bachelor-of-Science-in-Finance-17_20.pdf",
       "title": "Bachelor Of Science In Finance 17 20",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.15
+      "sizeMB": 0.15,
+      "lastStatus": 200
     },
     {
       "id": "pdf2317824",
       "url": "https://www.fema.gov/sites/default/files/documents/fema_finance-admin-section-chief_draft-nqs-position-task-book.pdf",
       "title": "Fema Finance Admin Section Chief Draft Nqs Position Task Book",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
-      "isAvailable": true,
-      "sizeMB": 0.53
+      "lastChecked": "2025-03-19",
+      "isAvailable": false,
+      "sizeMB": 0.53,
+      "lastStatus": 403
     },
     {
       "id": "pdf5489293",
       "url": "https://www.sos.wa.gov/sites/default/files/2022-09/JJCo%20Board%20Members%20Finance%20and%20Accounting%20Booklet%202014.pdf",
       "title": "Jjco%20Board%20Members%20Finance%20And%20Accounting%20Booklet%202014",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
       "pages": 0,
-      "sizeMB": 0.79
+      "sizeMB": 0.79,
+      "lastStatus": 200
     },
     {
       "id": "pdf9406187",
       "url": "https://www.purdueglobal.edu/degree-programs/business/bachelors-finance.pdf",
       "title": "Bachelors Finance",
       "dateAdded": "2025-03-16",
-      "lastChecked": "2025-03-16",
+      "lastChecked": "2025-03-19",
       "isAvailable": true,
-      "sizeMB": 0.42
+      "sizeMB": 0.42,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf8709635",
+      "url": "https://www.phoenixsymphony.org/uploads/Elements%20of%20Music.pdf",
+      "title": "Elements%20Of%20Music",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.55,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf3146486",
+      "url": "https://www.ifpi.org/wp-content/uploads/2023/12/IFPI-Engaging-With-Music-2023_full-report.pdf",
+      "title": "Ifpi Engaging With Music 2023 Full Report",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 5.96,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf4551706",
+      "url": "https://www.nationalartsstandards.org/sites/default/files/Music%20Traditional%20and%20Emerging%20Ensembles%20at%20a%20Glance%203-24-17.pdf",
+      "title": "Music%20Traditional%20And%20Emerging%20Ensembles%20At%20A%20Glance%203 24 17",
+      "dateAdded": "2025-03-16",
+      "lastChecked": "2025-03-19",
+      "isAvailable": true,
+      "sizeMB": 0.57,
+      "lastStatus": 200
+    },
+    {
+      "id": "pdf6022504",
+      "url": "https://www.rwwny.org/wp-content/uploads/2017/04/How-to-Write-a-TV-Pilot.pdf",
+      "title": "How To Write A TV Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.42,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf1929838",
+      "url": "https://desertscreenwritersgroup.wordpress.com/wp-content/uploads/2015/10/tv-pilot-kit-writers-store.pdf",
+      "title": "Tv Pilot Kit Writers Store",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.15,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf4619961",
+      "url": "https://www.filmla.com/wp-content/uploads/2016/08/2016_TV_Production_Study_v3_WEB.pdf",
+      "title": "2016 TV Production Study V3 WEB",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.19,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf9871097",
+      "url": "https://academics.smcvt.edu/mjda/STREAMING%20TV/2021%20PILOT%20EPISODE%20COMPARISON%20-%20NEW%20CONCEPT%20IDEA.pdf",
+      "title": "2021 PILOT EPISODE COMPARISON NEW CONCEPT IDEA",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.54,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf7154623",
+      "url": "https://www.lessonplansdigger.com/wp-content/uploads/2015/06/TV-Series-Pilot.pdf",
+      "title": "The Dos and Don’ts of Writing an Original TV Pilot - Reading",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Małgosia",
+      "pages": 3,
+      "sizeMB": 0.01,
+      "yearPublished": "2015",
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf4192673",
+      "url": "https://www.thetelevisionpilot.com/wp-content/uploads/2020/05/Outer_Banks_1x01_-_Pilot.pdf",
+      "title": "Outer Banks 1x01 Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.37,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf6484372",
+      "url": "https://thetelevisionpilot.com/wp-content/uploads/2018/01/Young_Sheldon_1x01_-_Pilot.pdf",
+      "title": "USP_Wed_2_8nostars",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 34,
+      "sizeMB": 0.08,
+      "yearPublished": "2017",
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf7736741",
+      "url": "https://d1dlq8f5fkueth.cloudfront.net/resources/tv-standards-v2.pdf",
+      "title": "Tv Standards V2",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf8061484",
+      "url": "https://thetelevisionpilot.com/wp-content/uploads/2017/09/Empire_1x01_-_Pilot.pdf",
+      "title": "Empire 1x01 Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
     }
   ]
 }

@@ -5,6 +5,9 @@ PDF Finder Script
 This script searches the web for PDF files using various methods and outputs the results
 in a format compatible with the Random PDF Explorer application.
 
+Contributors: Maurice Gaston, Claude https://claude.ai
+Last Updated: March 2025
+
 Requirements:
     pip install requests beautifulsoup4 googlesearch-python pdfplumber tqdm
 
@@ -24,21 +27,29 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import requests
 from bs4 import BeautifulSoup
-from googlesearch import search
 from tqdm import tqdm
 
-# Optional: if you want to extract PDF metadata
+# Try to import optional dependencies
+try:
+    from googlesearch import search
+    GOOGLE_SEARCH_AVAILABLE = True
+except ImportError:
+    GOOGLE_SEARCH_AVAILABLE = False
+    print("Warning: googlesearch-python not available. Google search method will be disabled.")
+
 try:
     import pdfplumber
     PDFPLUMBER_AVAILABLE = True
 except ImportError:
     PDFPLUMBER_AVAILABLE = False
+    print("Warning: pdfplumber not available. PDF metadata extraction will be limited.")
 
 # Constants
 USER_AGENTS = [
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0'
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 ]
 
 # Request delays to avoid being blocked (in seconds)
@@ -97,6 +108,11 @@ class PDFFinder:
         Returns:
             List of URLs that might be PDFs
         """
+        if not GOOGLE_SEARCH_AVAILABLE:
+            if self.verbose:
+                print("Google search method not available. Install googlesearch-python package.")
+            return []
+            
         # Add 'filetype:pdf' to the query if not already present
         if 'filetype:pdf' not in query.lower():
             query = f"{query} filetype:pdf"
@@ -235,12 +251,13 @@ class PDFFinder:
         
         return results
     
-    def validate_pdf_url(self, url: str) -> Tuple[bool, Dict[str, Union[str, int]]]:
+    def validate_pdf_url(self, url: str, verify: bool = True) -> Tuple[bool, Dict[str, Union[str, int]]]:
         """
         Validate that a URL actually points to a PDF and get basic metadata.
         
         Args:
             url: The URL to check
+            verify: Whether to download a sample to verify content
             
         Returns:
             Tuple of (is_valid, metadata_dict)
@@ -253,7 +270,9 @@ class PDFFinder:
             head_response = self.session.head(url, headers=headers, timeout=10, allow_redirects=True)
             
             content_type = head_response.headers.get('Content-Type', '').lower()
-            if 'application/pdf' not in content_type:
+            if 'application/pdf' not in content_type and not url.lower().endswith('.pdf'):
+                if self.verbose:
+                    print(f"Skipping non-PDF content type: {content_type} for {url}")
                 return False, {}
                 
             # Get content length if available
@@ -261,7 +280,7 @@ class PDFFinder:
             if content_length:
                 # Convert to MB for readability
                 size_mb = round(int(content_length) / (1024 * 1024), 2)
-                metadata['size_mb'] = size_mb
+                metadata['sizeMB'] = size_mb
                 
                 # Skip very large PDFs
                 if size_mb > 50:  # Adjust this threshold as needed
@@ -271,8 +290,13 @@ class PDFFinder:
             
             # Get the PDF title from the URL if we can't extract it
             filename = os.path.basename(urllib.parse.urlparse(url).path)
-            title = filename.replace('.pdf', '').replace('-', ' ').replace('_', ' ').title()
+            title = filename.replace('.pdf', '').replace('-', ' ').replace('_', ' ').replace('%20', ' ')
+            title = ' '.join(w.capitalize() if w.islower() else w for w in title.split())
             metadata['title'] = title
+            
+            # Skip deep verification if not requested
+            if not verify:
+                return True, metadata
             
             # Try to get more metadata if pdfplumber is available
             if PDFPLUMBER_AVAILABLE:
@@ -290,7 +314,7 @@ class PDFFinder:
                             chunks.append(chunk)
                         
                         # Save to a temporary file
-                        temp_file = 'temp_pdf_download.pdf'
+                        temp_file = f'temp_pdf_download_{random.randint(1000, 9999)}.pdf'
                         with open(temp_file, 'wb') as f:
                             for chunk in chunks:
                                 f.write(chunk)
@@ -311,9 +335,7 @@ class PDFFinder:
                                             date_str = date_str[2:10]  # Extract YYYYMMDD
                                             try:
                                                 year = date_str[:4]
-                                                month = date_str[4:6]
-                                                day = date_str[6:8]
-                                                metadata['created'] = f"{year}-{month}-{day}"
+                                                metadata['yearPublished'] = year
                                             except:
                                                 pass
                                 
@@ -359,7 +381,7 @@ class PDFFinder:
             return False, {}
     
     def search_and_process(self, query: str, limit: int = 10, 
-                          search_methods: List[str] = None) -> List[Dict]:
+                          search_methods: List[str] = None, verify: bool = True) -> List[Dict]:
         """
         Search for PDFs using the specified methods and process the results.
         
@@ -368,6 +390,7 @@ class PDFFinder:
             limit: Maximum number of results per search method
             search_methods: List of search methods to use ['google', 'duckduckgo', 'website']
                             If 'website' is included, the query should be a website URL
+            verify: Whether to download a sample of each PDF to verify its content
             
         Returns:
             List of validated PDF information dictionaries
@@ -409,7 +432,7 @@ class PDFFinder:
         # Validate and process each URL
         results = []
         for url in tqdm(unique_urls, desc="Validating PDFs", disable=not self.verbose):
-            is_valid, metadata = self.validate_pdf_url(url)
+            is_valid, metadata = self.validate_pdf_url(url, verify=verify)
             if is_valid:
                 # Generate a unique ID
                 pdf_id = f"pdf{abs(hash(url)) % 10000000:07d}"
@@ -420,7 +443,8 @@ class PDFFinder:
                     "title": metadata.get('title', "Untitled PDF"),
                     "dateAdded": datetime.now().strftime("%Y-%m-%d"),
                     "lastChecked": datetime.now().strftime("%Y-%m-%d"),
-                    "isAvailable": True
+                    "isAvailable": True,
+                    "lastStatus": 200
                 }
                 
                 # Add optional metadata if available
@@ -428,10 +452,12 @@ class PDFFinder:
                     pdf_entry["author"] = metadata['author']
                 if 'pages' in metadata:
                     pdf_entry["pages"] = metadata['pages']
-                if 'size_mb' in metadata:
-                    pdf_entry["sizeMB"] = metadata['size_mb']
-                if 'created' in metadata:
-                    pdf_entry["yearPublished"] = metadata['created'][:4]  # Just the year
+                if 'sizeMB' in metadata:
+                    pdf_entry["sizeMB"] = metadata['sizeMB']
+                if 'yearPublished' in metadata:
+                    pdf_entry["yearPublished"] = metadata['yearPublished']
+                if len(query) > 0:
+                    pdf_entry["sourceQuery"] = query.split(" ")
                 
                 results.append(pdf_entry)
                 self.data['pdfs'].append(pdf_entry)
@@ -450,6 +476,9 @@ class PDFFinder:
     def save_results(self) -> None:
         """Save the current results to the output file."""
         self.data["lastValidated"] = datetime.now().isoformat()
+        
+        # Ensure directory exists
+        os.makedirs(os.path.dirname(os.path.abspath(self.output_file)), exist_ok=True)
         
         with open(self.output_file, 'w', encoding='utf-8') as f:
             json.dump(self.data, f, indent=2, ensure_ascii=False)
@@ -474,6 +503,8 @@ def main():
                         help='Enable verbose output')
     parser.add_argument('--append', action='store_true', default=True,
                         help='Append to existing output file instead of overwriting')
+    parser.add_argument('--no-verify', action='store_true',
+                        help='Skip verification of PDF content')
     
     args = parser.parse_args()
     
@@ -490,7 +521,12 @@ def main():
     finder = PDFFinder(output_file=args.output, existing_file=args.existing, 
                        verbose=args.verbose)
     
-    results = finder.search_and_process(args.query, args.limit, search_methods)
+    results = finder.search_and_process(
+        args.query, 
+        args.limit, 
+        search_methods, 
+        verify=not args.no_verify
+    )
     
     print(f"Found {len(results)} new PDFs")
     

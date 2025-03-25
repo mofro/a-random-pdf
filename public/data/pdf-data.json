@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2025-03-19T23:21:10.232Z",
+  "lastValidated": "2025-03-24T23:42:35.169179",
   "pdfs": [
     {
       "id": "pdf9918964",
@@ -1819,6 +1819,221 @@
       "isAvailable": true,
       "sizeMB": 0.57,
       "lastStatus": 200
+    },
+    {
+      "id": "pdf6022504",
+      "url": "https://www.rwwny.org/wp-content/uploads/2017/04/How-to-Write-a-TV-Pilot.pdf",
+      "title": "How To Write A TV Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.42,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf1929838",
+      "url": "https://desertscreenwritersgroup.wordpress.com/wp-content/uploads/2015/10/tv-pilot-kit-writers-store.pdf",
+      "title": "Tv Pilot Kit Writers Store",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.15,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf4619961",
+      "url": "https://www.filmla.com/wp-content/uploads/2016/08/2016_TV_Production_Study_v3_WEB.pdf",
+      "title": "2016 TV Production Study V3 WEB",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.19,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf9871097",
+      "url": "https://academics.smcvt.edu/mjda/STREAMING%20TV/2021%20PILOT%20EPISODE%20COMPARISON%20-%20NEW%20CONCEPT%20IDEA.pdf",
+      "title": "2021 PILOT EPISODE COMPARISON NEW CONCEPT IDEA",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.54,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf7154623",
+      "url": "https://www.lessonplansdigger.com/wp-content/uploads/2015/06/TV-Series-Pilot.pdf",
+      "title": "The Dos and Don’ts of Writing an Original TV Pilot - Reading",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Małgosia",
+      "pages": 3,
+      "sizeMB": 0.01,
+      "yearPublished": "2015",
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf4192673",
+      "url": "https://www.thetelevisionpilot.com/wp-content/uploads/2020/05/Outer_Banks_1x01_-_Pilot.pdf",
+      "title": "Outer Banks 1x01 Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.37,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf6484372",
+      "url": "https://thetelevisionpilot.com/wp-content/uploads/2018/01/Young_Sheldon_1x01_-_Pilot.pdf",
+      "title": "USP_Wed_2_8nostars",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 34,
+      "sizeMB": 0.08,
+      "yearPublished": "2017",
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf7736741",
+      "url": "https://d1dlq8f5fkueth.cloudfront.net/resources/tv-standards-v2.pdf",
+      "title": "Tv Standards V2",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf8061484",
+      "url": "https://thetelevisionpilot.com/wp-content/uploads/2017/09/Empire_1x01_-_Pilot.pdf",
+      "title": "Empire 1x01 Pilot",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "sourceQuery": [
+        "television",
+        "pilot"
+      ]
+    },
+    {
+      "id": "pdf3691427",
+      "url": "https://fcs.tennessee.edu/wp-content/uploads/sites/23/2021/08/Cooking-Basics.pdf",
+      "title": "Cooking Basics",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.15,
+      "sourceQuery": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "pdf2434085",
+      "url": "https://cookingmatters.org/wp-content/uploads/2022/09/Making-Recipes-Work-For-You.pdf",
+      "title": "Making Recipes Work For You",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.14,
+      "sourceQuery": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "pdf1011104",
+      "url": "https://www.nutrition.va.gov/docs/Cookbooks/CookingWithEaseCookbookJAN2023.pdf",
+      "title": "CookingWithEaseCookbookJAN2023",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.41,
+      "sourceQuery": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "pdf0562909",
+      "url": "https://www.itcmi.org/wp-content/uploads/2022/03/ACR_Cookbook-Final.pdf",
+      "title": "ACR Cookbook Final",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 6.15,
+      "sourceQuery": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "pdf0101546",
+      "url": "https://wtf.tw/ref/mcgee.pdf",
+      "title": "Mcgee",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 39.54,
+      "sourceQuery": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "pdf8055977",
+      "url": "https://www.scph.org/sites/default/files/editor/CDCScorecard/Healthy%20Cooking%20Methods.pdf",
+      "title": "HEALTHY WORKPLACE FOOD & BEVERAGE TOOLKIT",
+      "dateAdded": "2025-03-24",
+      "lastChecked": "2025-03-24",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 1,
+      "sizeMB": 0.08,
+      "yearPublished": "2015",
+      "sourceQuery": [
+        "cooking"
+      ]
     }
   ]
 }
