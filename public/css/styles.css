@@ -1,10 +1,19 @@
+/* public/css/styles.css */
+/* Random PDF Explorer Styles
+   Contributors: Maurice Gaston, Claude https://claude.ai
+   Last Updated: March 2025
+*/
+
 :root {
-    --primary-color: #4a6fa5;
-    --secondary-color: #166088;
-    --light-color: #f8f9fa;
-    --dark-color: #333;
-    --success-color: #28a745;
-    --border-radius: 5px;
+    --rpdf-primary-color: #4a6fa5;
+    --rpdf-secondary-color: #166088;
+    --rpdf-light-color: #f8f9fa;
+    --rpdf-dark-color: #333;
+    --rpdf-success-color: #28a745;
+    --rpdf-danger-color: #dc3545;
+    --rpdf-border-radius: 5px;
+    --rpdf-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --rpdf-transition: all 0.3s ease;
 }
 
 * {
@@ -16,126 +25,235 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: var(--dark-color);
-    background-color: var(--light-color);
+    color: var(--rpdf-dark-color);
+    background-color: var(--rpdf-light-color);
     padding: 20px;
 }
 
-.container {
+.rpdf-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: var(--border-radius);
+    box-shadow: var(--rpdf-box-shadow);
+    border-radius: var(--rpdf-border-radius);
 }
 
-header {
+.rpdf-header {
     text-align: center;
     margin-bottom: 30px;
 }
 
-h1 {
-    color: var(--primary-color);
+.rpdf-title {
+    color: var(--rpdf-primary-color);
     margin-bottom: 15px;
 }
 
-.intro {
+.rpdf-intro {
     margin-bottom: 25px;
     text-align: center;
 }
 
-.btn {
+.rpdf-btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: var(--primary-color);
+    background-color: var(--rpdf-primary-color);
     color: white;
     border: none;
-    border-radius: var(--border-radius);
+    border-radius: var(--rpdf-border-radius);
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: var(--rpdf-transition);
+    text-decoration: none;
 }
 
-.btn:hover {
-    background-color: var(--secondary-color);
+.rpdf-btn:hover {
+    background-color: var(--rpdf-secondary-color);
 }
 
-.btn:disabled {
+.rpdf-btn:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
 }
 
-.btn-center {
+.rpdf-btn-center {
     display: block;
     margin: 0 auto;
     width: fit-content;
 }
 
-.btn-link {
+.rpdf-btn-link {
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
+}
+
+.rpdf-btn-secondary {
+    background-color: #6c757d;
+}
+
+.rpdf-btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.rpdf-report-btn {
+    background-color: transparent;
+    color: #666;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.rpdf-report-btn:hover {
+    background-color: #f1f1f1;
+    color: #333;
 }
 
 .hidden {
     display: none;
 }
 
-#pdfDisplay {
+.rpdf-pdf-display {
     margin-top: 30px;
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: var(--border-radius);
+    border-radius: var(--rpdf-border-radius);
     background-color: #f9f9f9;
     text-align: center;
 }
 
-#pdfTitle {
-    color: var(--secondary-color);
+.rpdf-pdf-title {
+    color: var(--rpdf-secondary-color);
     margin-bottom: 10px;
 }
 
-.pdf-meta {
+.rpdf-pdf-meta {
     margin-bottom: 15px;
     font-size: 14px;
     color: #666;
 }
 
-footer {
+.rpdf-optional-meta:empty {
+    display: none;
+}
+
+.rpdf-footer {
     margin-top: 40px;
     text-align: center;
     font-size: 14px;
     color: #777;
 }
 
-.settings {
+.rpdf-credits {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #999;
+}
+
+.rpdf-settings {
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #eee;
     text-align: center;
 }
 
-.settings-btn {
+.rpdf-settings-btn {
     background-color: transparent;
     color: #666;
     border: 1px solid #ddd;
     padding: 8px 16px;
     font-size: 14px;
     cursor: pointer;
+    transition: var(--rpdf-transition);
+    border-radius: var(--rpdf-border-radius);
 }
 
-.settings-btn:hover {
+.rpdf-settings-btn:hover {
     background-color: #f1f1f1;
+}
+
+.rpdf-loading {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.rpdf-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: var(--rpdf-primary-color);
+    animation: rpdf-spin 1s linear infinite;
+    margin: 0 auto 10px;
+}
+
+@keyframes rpdf-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rpdf-error {
+    padding: 15px;
+    margin: 20px 0;
+    color: white;
+    background-color: var(--rpdf-danger-color);
+    border-radius: var(--rpdf-border-radius);
+    text-align: center;
+}
+
+.rpdf-report-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: var(--rpdf-border-radius);
+    background-color: white;
+}
+
+.rpdf-form-group {
+    margin-bottom: 15px;
+}
+
+.rpdf-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.rpdf-form-group select,
+.rpdf-form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: var(--rpdf-border-radius);
+}
+
+.rpdf-form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 /* Responsive styles */
 @media (max-width: 600px) {
-    .container {
+    .rpdf-container {
         padding: 15px;
     }
     
-    .btn {
+    .rpdf-btn {
+        width: 100%;
+    }
+    
+    .rpdf-form-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .rpdf-form-actions button {
         width: 100%;
     }
 }

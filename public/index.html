@@ -1,84 +1,94 @@
 <!DOCTYPE html>
-<html class="no-js seed-csp4" lang="en">
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title></title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-	<style type="text/css">
-		/* calculated styles */
-
-		/* Background Style */
-		html {
-			background: #fafafa;
-		}
-
-		.seed-csp4 body {
-			background: transparent;
-			text-align: center;
-			margin: auto;
-			padding-top: 10%;
-		}
-
-
-
-		/* Text Styles */
-		.seed-csp4 body {
-			font-family: Helvetica, Arial, sans-serif
-		}
-
-		.seed-csp4 h1,
-		.seed-csp4 h2,
-		.seed-csp4 h3,
-		.seed-csp4 h4,
-		.seed-csp4 h5,
-		.seed-csp4 h6 {
-			font-family: Helvetica, Arial, sans-serif
-		}
-
-		.seed-csp4 body {
-			color: #666666;
-		}
-
-
-
-		.seed-csp4 h1,
-		.seed-csp4 h2,
-		.seed-csp4 h3,
-		.seed-csp4 h4,
-		.seed-csp4 h5,
-		.seed-csp4 h6 {
-			color: #444444;
-		}
-
-
-		.seed-csp4 a,
-		.seed-csp4 a:visited,
-		.seed-csp4 a:hover,
-		.seed-csp4 a:active,
-		.seed-csp4 a:focus {
-			color: #27AE60;
-		}
-	</style>
-	<!-- JS -->
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random PDF Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Discover freely available PDF resources from around the web.">
+    <meta name="author" content="Maurice Gaston, Claude https://claude.ai">
 </head>
-
 <body>
-	<div id="seed-csp4-page">
-		<div id="seed-csp4-content">
-			<img id='seed-csp4-image'
-				src='img/icons8-pdf-100.png'>
-			<h1 id="seed-csp4-headline">Coming Soon: PDFs</h1>
-			<div id="seed-csp4-description">
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
+    <div class="rpdf-container">
+        <header class="rpdf-header">
+            <h1 class="rpdf-title">Random PDF Explorer</h1>
+            <p class="rpdf-intro">Discover freely available PDF resources from around the web.</p>
+        </header>
+        
+        <button id="randomButton" class="rpdf-btn rpdf-btn-center">Show Me a Random PDF</button>
+        
+        <div id="loadingIndicator" class="rpdf-loading hidden">
+            <div class="rpdf-spinner"></div>
+            <p>Finding a random PDF...</p>
+        </div>
+        
+        <div id="errorDisplay" class="rpdf-error hidden"></div>
+        
+        <div id="pdfDisplay" class="rpdf-pdf-display hidden">
+            <h2 id="pdfTitle" class="rpdf-pdf-title"></h2>
+            <div class="rpdf-pdf-meta">
+                <p id="pdfAuthor"></p>
+                <p>Source: <span id="pdfDomain"></span></p>
+                <p id="pdfDate"></p>
+                <p id="pdfPages" class="rpdf-optional-meta"></p>
+                <p id="pdfYear" class="rpdf-optional-meta"></p>
+                <p id="pdfQuery" class="rpdf-optional-meta"></p>
+            </div>
+            <a id="pdfLink" target="_blank" rel="noopener noreferrer" class="rpdf-btn rpdf-btn-link">View PDF</a>
+            <!-- <button id="reportButton" class="rpdf-btn rpdf-report-btn hidden">Report Issue</button> -->
+        </div>
+        
+        <div id="reportForm" class="rpdf-report-form hidden">
+            <h3>Report an Issue</h3>
+            <form id="issueReportForm">
+                <input type="hidden" id="reportPdfId" name="pdfId">
+                <input type="hidden" id="reportPdfTitle" name="pdfTitle">
+                <div class="rpdf-form-group">
+                    <label for="issueType">Issue Type:</label>
+                    <select id="issueType" name="issueType" required>
+                        <option value="">Select an issue</option>
+                        <option value="broken">Broken Link</option>
+                        <option value="inappropriate">Inappropriate Content</option>
+                        <option value="copyright">Copyright Concern</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="rpdf-form-group">
+                    <label for="issueDescription">Description:</label>
+                    <textarea id="issueDescription" name="description" rows="3" required></textarea>
+                </div>
+                <div class="rpdf-form-actions">
+                    <button type="submit" class="rpdf-btn">Submit Report</button>
+                    <button type="button" id="closeReport" class="rpdf-btn rpdf-btn-secondary">Cancel</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="rpdf-settings">
+            <button id="resetHistory" class="rpdf-settings-btn">Reset Viewing History</button>
+        </div>
+        
+        <footer class="rpdf-footer">
+            <p>This site provides links to freely available PDFs hosted elsewhere on the web.</p>
+            <p class="rpdf-credits">Developed by Maurice Gaston with assistance from Claude.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Environment configuration
+        window.RPDF_CONFIG = {
+            // Default to production settings
+            dataPath: 'data/pdf-data.json',
+            debug: false,
+            maxHistorySize: 50
+        };
+        
+        // Dev environment override
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            window.RPDF_CONFIG.dataPath = 'data/pdf-data.json';
+            window.RPDF_CONFIG.debug = true;
+        }
+    </script>
+    <script src="js/app.js"></script>
 </body>
-
 </html>
