@@ -143,7 +143,7 @@ def main():
     )
     
     # Print results summary
-    print(f"\nUpdate completed:")
+    print(f"|Update completed:")
     print(f"- {len(results)} new PDFs added")
     print(f"- Collection now contains {len(finder.data['pdfs'])} PDFs total")
     print(f"- Updated collection saved to {output_file}")

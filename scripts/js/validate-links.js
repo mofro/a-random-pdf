@@ -175,7 +175,7 @@ async function validateLinks() {
         // Write the updated data back to the file
         fs.writeFileSync(CONFIG.DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
         
-        console.log('\nValidation completed:');
+        console.log('|Validation completed:');
         console.log(`- ${data.pdfs.length} PDFs checked`);
         console.log(`- ${unavailableCount} PDFs currently unavailable`);
         console.log(`- ${changedCount} PDFs changed status`);

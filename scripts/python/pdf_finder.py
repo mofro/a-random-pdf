@@ -349,7 +349,7 @@ class PDFFinder:
                                         text = first_page.extract_text()
                                         if text:
                                             # Try to extract a title from the first few lines
-                                            lines = text.split('\n')
+                                            lines = text.split('|')
                                             for line in lines[:5]:  # Check first 5 lines
                                                 line = line.strip()
                                                 if 10 < len(line) < 100:  # Reasonable title length
