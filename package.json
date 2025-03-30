@@ -10,7 +10,19 @@
         "validate": "node scripts/js/validate-links.js",
         "add-pdf": "python scripts/python/update_pdf_collection.py",
         "serve": "serve public",
-        "deploy": "gh-pages -d public"
+        "deploy": "gh-pages -d public",
+        "update-pdfs": "node scripts/js/update-pdfs.js",
+        "update-pdfs:all": "node scripts/js/update-pdfs.js --all",
+        "update-pdfs:ai": "node scripts/js/update-pdfs.js --category=ai",
+        "update-pdfs:programming": "node scripts/js/update-pdfs.js --category=programming",
+        "update-pdfs:security": "node scripts/js/update-pdfs.js --category=security",
+        "update-pdfs:urls": "node scripts/js/update-pdfs.js --urls",
+        "add-url": "node scripts/js/add-url.js",
+        "schedule": "node scripts/js/schedule-updates.js",
+        "schedule:install": "node scripts/js/schedule-updates.js --install",
+        "schedule:status": "node scripts/js/schedule-updates.js --status",
+        "schedule:uninstall": "node scripts/js/schedule-updates.js --uninstall",
+        "standardize": "node scripts/js/standardize-schema.js"
     },
     "author": "Maurice Gaston",
     "license": "MIT",
@@ -25,6 +37,10 @@
         "jsdom": "^26.0.0",
         "jsdom-global": "^3.0.2",
         "serve": "^14.2.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.7",
+        "uuid": "^9.0.1"
     },
     "jest": {
         "testEnvironment": "jsdom"
