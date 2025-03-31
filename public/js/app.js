@@ -34,7 +34,8 @@ const RPDF = (function() {
             maxResults: 20,
             highlightMatches: true
         },
-        rememberFilters: true
+        rememberFilters: true,
+        enableUrlParameters: true // New config option for URL parameters
     };
 
     // Allow user to override config via localStorage or window.RPDF_CONFIG
@@ -306,10 +307,169 @@ const RPDF = (function() {
         
         let activeFilters = {
             category: safeConfig.ui?.defaultCategory || null,
+            categories: [], // New array for multi-selection
             searchTerm: '',
             source: null,
             tags: []
         };
+
+        // NEW: Parse URL parameters and apply to active filters
+        function parseUrlParameters() {
+            if (!safeConfig.enableUrlParameters) return;
+            
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                
+                // Parse category parameter
+                if (urlParams.has('category')) {
+                    const categoryParam = urlParams.get('category');
+                    
+                    // Check if multiple categories are provided (comma-separated)
+                    if (categoryParam.includes(',')) {
+                        activeFilters.categories = categoryParam.split(',').filter(Boolean);
+                        activeFilters.category = null; // Clear single category
+                    } else {
+                        activeFilters.category = categoryParam || null;
+                        activeFilters.categories = categoryParam ? [categoryParam] : [];
+                    }
+                }
+                
+                // Parse categories parameter (explicit multi-selection support)
+                if (urlParams.has('categories')) {
+                    const categoriesParam = urlParams.get('categories');
+                    activeFilters.categories = categoriesParam ? categoriesParam.split(',').filter(Boolean) : [];
+                    activeFilters.category = null; // Clear single category when using explicit multi-selection
+                }
+                
+                // Parse search parameter
+                if (urlParams.has('search')) {
+                    activeFilters.searchTerm = urlParams.get('search') || '';
+                }
+                
+                // Parse source parameter
+                if (urlParams.has('source')) {
+                    activeFilters.source = urlParams.get('source') || null;
+                }
+                
+                // Parse tags parameter (comma-separated list)
+                if (urlParams.has('tags')) {
+                    const tagsParam = urlParams.get('tags');
+                    activeFilters.tags = tagsParam ? tagsParam.split(',').filter(Boolean) : [];
+                }
+                
+                if (safeConfig.debug) {
+                    console.log('Filters from URL parameters:', activeFilters);
+                }
+            } catch (error) {
+                console.error('Error parsing URL parameters:', error);
+            }
+        }
+        
+        // NEW: Update URL with current filters without page reload
+        function updateUrlWithFilters() {
+            if (!safeConfig.enableUrlParameters) return;
+            
+            try {
+                const url = new URL(window.location);
+                
+                // Update category/categories parameter
+                if (activeFilters.categories && activeFilters.categories.length > 0) {
+                    // Use 'categories' parameter for multiple categories
+                    url.searchParams.delete('category');
+                    url.searchParams.set('categories', activeFilters.categories.join(','));
+                } else if (activeFilters.category) {
+                    // Use 'category' parameter for single category (backward compatibility)
+                    url.searchParams.set('category', activeFilters.category);
+                    url.searchParams.delete('categories');
+                } else {
+                    // No categories selected
+                    url.searchParams.delete('category');
+                    url.searchParams.delete('categories');
+                }
+                
+                // Update search parameter
+                if (activeFilters.searchTerm) {
+                    url.searchParams.set('search', activeFilters.searchTerm);
+                } else {
+                    url.searchParams.delete('search');
+                }
+                
+                // Update source parameter
+                if (activeFilters.source) {
+                    url.searchParams.set('source', activeFilters.source);
+                } else {
+                    url.searchParams.delete('source');
+                }
+                
+                // Update tags parameter
+                if (activeFilters.tags && activeFilters.tags.length > 0) {
+                    url.searchParams.set('tags', activeFilters.tags.join(','));
+                } else {
+                    url.searchParams.delete('tags');
+                }
+                
+                // Update URL without page reload
+                window.history.pushState({}, '', url);
+                
+                if (safeConfig.debug) {
+                    console.log('Updated URL with filters:', url.toString());
+                }
+            } catch (error) {
+                console.error('Error updating URL with filters:', error);
+            }
+        }
+        
+        // MODIFIED: Set category and update URL
+        function setCategory(categoryId) {
+            activeFilters.category = categoryId;
+            
+            // Update URL parameters
+            updateUrlWithFilters();
+            
+            // If configured to remember filters, save to localStorage
+            if (safeConfig.rememberFilters) {
+                storage.setItem('rpdf_lastCategory', categoryId || '');
+            }
+        }
+        
+        // NEW: Set tags and update URL
+        function setTags(tags) {
+            activeFilters.tags = Array.isArray(tags) ? tags : [];
+            
+            // Update URL parameters
+            updateUrlWithFilters();
+            
+            // If configured to remember filters, save to localStorage
+            if (safeConfig.rememberFilters) {
+                storage.setItem('rpdf_lastTags', JSON.stringify(activeFilters.tags));
+            }
+        }
+        
+        // NEW: Set search term and update URL
+        function setSearchTerm(term) {
+            activeFilters.searchTerm = term || '';
+            
+            // Update URL parameters
+            updateUrlWithFilters();
+            
+            // If configured to remember filters, save to localStorage
+            if (safeConfig.rememberFilters) {
+                storage.setItem('rpdf_lastSearchTerm', activeFilters.searchTerm);
+            }
+        }
+        
+        // NEW: Set source and update URL
+        function setSource(sourceId) {
+            activeFilters.source = sourceId;
+            
+            // Update URL parameters
+            updateUrlWithFilters();
+            
+            // If configured to remember filters, save to localStorage
+            if (safeConfig.rememberFilters) {
+                storage.setItem('rpdf_lastSource', sourceId || '');
+            }
+        }
 
         // Load PDF data with metadata
         async function loadPdfData() {
@@ -333,10 +493,22 @@ const RPDF = (function() {
                 // Filter by availability
                 if (!pdf.isAvailable) return false;
                 
-                // Filter by category
+                // Filter by single category (backward compatibility)
                 if (activeFilters.category && 
                     (!pdf.categories || !pdf.categories.includes(activeFilters.category))) {
                     return false;
+                }
+                
+                // Filter by multiple categories
+                if (activeFilters.categories && activeFilters.categories.length > 0) {
+                    if (!pdf.categories || pdf.categories.length === 0) return false;
+                    
+                    // Check if the PDF has any of the selected categories
+                    const hasMatchingCategory = pdf.categories.some(cat => 
+                        activeFilters.categories.includes(cat)
+                    );
+                    
+                    if (!hasMatchingCategory) return false;
                 }
                 
                 // Filter by source
@@ -387,13 +559,8 @@ const RPDF = (function() {
                     throw new Error('No PDFs available');
                 }
                 
-                // Apply category filters if needed
-                let filteredPdfs = pdfData.pdfs.filter(pdf => pdf.isAvailable);
-                
-                if (activeFilters.category) {
-                    filteredPdfs = filteredPdfs.filter(pdf => 
-                        pdf.categories && pdf.categories.includes(activeFilters.category));
-                }
+                // Apply filters to get filtered PDFs
+                const filteredPdfs = getFilteredPdfs();
                 
                 if (filteredPdfs.length === 0) {
                     throw new Error('No PDFs match your current filters');
@@ -403,11 +570,11 @@ const RPDF = (function() {
                 const viewedIds = new Set(viewHistory);
                 const unviewedPdfs = filteredPdfs.filter(pdf => !viewedIds.has(pdf.id));
                 
-                // If all have been viewed, reset history
+                // If all have been viewed, reset history and select from all filtered PDFs
                 let selectedPdf;
                 if (unviewedPdfs.length === 0) {
                     if (safeConfig.debug) {
-                        console.log('All PDFs have been viewed. Resetting history.');
+                        console.log('All PDFs in the current filter have been viewed. Resetting history.');
                     }
                     viewHistory = [];
                     const randomIndex = Math.floor(Math.random() * filteredPdfs.length);
@@ -423,112 +590,514 @@ const RPDF = (function() {
             }
         }
 
-        // Setup category filters UI
-        function setupCategoryFilters() {
+        // MODIFIED: Setup category filters UI with selection box
+        function setupCategoryFilters(accordionGroup) {
             if (!safeConfig.ui?.showCategories || !pdfData?.metadata?.categories) return;
             
-            // Create filter container
+            // Create accordion container
+            const accordionContainer = document.createElement('div');
+            accordionContainer.className = 'rpdf-accordion-container';
+            
+            // Create details element for accordion behavior
+            const detailsElement = document.createElement('details');
+            detailsElement.className = 'rpdf-filter-details';
+            // Open by default if filters are active
+            detailsElement.open = activeFilters.category || activeFilters.categories.length > 0;
+            
+            // Create summary element (header)
+            const summaryElement = document.createElement('summary');
+            summaryElement.className = 'rpdf-filter-summary';
+            summaryElement.textContent = 'Categories';
+            detailsElement.appendChild(summaryElement);
+            
+            // Create filter container inside the details
             const filterContainer = document.createElement('div');
             filterContainer.className = 'category-filters';
             filterContainer.setAttribute('aria-label', 'Category filters');
             
-            // Add "All" option
-            const allButton = document.createElement('button');
-            allButton.textContent = 'All';
-            allButton.className = `category-button ${!activeFilters.category ? 'active' : ''}`;
-            allButton.addEventListener('click', () => {
-                setCategory(null);
-                updateFilterUI();
-            });
-            filterContainer.appendChild(allButton);
+            // Create label
+            const filterLabel = document.createElement('label');
+            filterLabel.textContent = 'Select categories:';
+            filterLabel.className = 'filter-label';
+            filterContainer.appendChild(filterLabel);
             
-            // Add category buttons (limited by maxDisplayedCategories)
-            const displayCategories = pdfData.metadata.categories.slice(0, safeConfig.ui?.maxDisplayedCategories || 7);
+            // Create selection box container
+            const selectionBox = document.createElement('div');
+            selectionBox.className = 'select-box tags-select';
+            selectionBox.setAttribute('aria-label', 'Select categories');
             
-            displayCategories.forEach(category => {
-                const button = document.createElement('button');
-                button.textContent = category.name;
-                button.className = `category-button ${activeFilters.category === category.id ? 'active' : ''}`;
-                button.style.backgroundColor = category.color;
-                button.addEventListener('click', () => {
-                    setCategory(category.id);
-                    updateFilterUI();
-                });
-                filterContainer.appendChild(button);
-            });
+            // Add "All Categories" option
+            const allOption = document.createElement('div');
+            allOption.className = 'tag-option' + (!activeFilters.categories || activeFilters.categories.length === 0 ? ' selected' : '');
+            allOption.setAttribute('data-value', '');
             
-            // If we have more categories than we can display, add a dropdown
-            if (pdfData.metadata.categories.length > (safeConfig.ui?.maxDisplayedCategories || 7)) {
-                const dropdown = document.createElement('select');
-                dropdown.className = 'category-dropdown';
-                dropdown.addEventListener('change', (e) => {
-                    setCategory(e.target.value === 'all' ? null : e.target.value);
-                    updateFilterUI();
-                });
+            const allCheckbox = document.createElement('input');
+            allCheckbox.type = 'checkbox';
+            allCheckbox.checked = !activeFilters.categories || activeFilters.categories.length === 0;
+            allCheckbox.id = 'category-all';
+            
+            const allLabel = document.createElement('label');
+            allLabel.setAttribute('for', 'category-all');
+            allLabel.textContent = 'All Categories';
+            
+            allOption.appendChild(allCheckbox);
+            allOption.appendChild(allLabel);
+            selectionBox.appendChild(allOption);
+            
+            // Add category options
+            pdfData.metadata.categories.forEach(category => {
+                const option = document.createElement('div');
+                option.className = 'tag-option' + (activeFilters.categories && activeFilters.categories.includes(category.id) ? ' selected' : '');
+                option.setAttribute('data-value', category.id);
                 
-                // Add "More..." option
-                const moreOption = document.createElement('option');
-                moreOption.textContent = 'More...';
-                moreOption.disabled = true;
-                moreOption.selected = true;
-                dropdown.appendChild(moreOption);
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.checked = activeFilters.categories && activeFilters.categories.includes(category.id);
+                checkbox.id = 'category-' + category.id;
                 
-                // Add "All" option
-                const allOption = document.createElement('option');
-                allOption.textContent = 'All Categories';
-                allOption.value = 'all';
-                dropdown.appendChild(allOption);
+                const label = document.createElement('label');
+                label.setAttribute('for', 'category-' + category.id);
+                label.textContent = category.name;
                 
-                // Add all categories
-                pdfData.metadata.categories.forEach(category => {
-                    const option = document.createElement('option');
-                    option.textContent = category.name;
-                    option.value = category.id;
-                    dropdown.appendChild(option);
-                });
-                
-                filterContainer.appendChild(dropdown);
-            }
-            
-            // Insert before the random button
-            const randomButton = elements.randomButton;
-            randomButton.parentNode.insertBefore(filterContainer, randomButton);
-        }
-
-        // Set active category filter
-        function setCategory(categoryId) {
-            activeFilters.category = categoryId;
-            
-            // Save preference if the user wants persistence
-            if (safeConfig.rememberFilters) {
-                storage.setItem('rpdf_lastCategory', categoryId || '');
-            }
-        }
-
-        // Update UI to match current filters
-        function updateFilterUI() {
-            // Skip if there's no data yet or categories aren't set up
-            if (!pdfData?.metadata?.categories) return;
-            
-            // Update category buttons
-            document.querySelectorAll('.category-button').forEach(button => {
-                button.classList.remove('active');
-                if (
-                    (button.textContent === 'All' && !activeFilters.category) ||
-                    (pdfData.metadata.categories.find(c => c.name === button.textContent && c.id === activeFilters.category))
-                ) {
-                    button.classList.add('active');
+                if (category.color) {
+                    const colorIndicator = document.createElement('span');
+                    colorIndicator.style.display = 'inline-block';
+                    colorIndicator.style.width = '12px';
+                    colorIndicator.style.height = '12px';
+                    colorIndicator.style.backgroundColor = category.color;
+                    colorIndicator.style.marginRight = '5px';
+                    colorIndicator.style.borderRadius = '3px';
+                    label.prepend(colorIndicator);
                 }
+                
+                option.appendChild(checkbox);
+                option.appendChild(label);
+                selectionBox.appendChild(option);
+                
+                // Add click event to the entire option div
+                option.addEventListener('click', (e) => {
+                    // Ignore clicks on checkbox (it handles its own state)
+                    if (e.target !== checkbox) {
+                        checkbox.checked = !checkbox.checked;
+                    }
+                    
+                    updateCategorySelections();
+                });
             });
             
-            // Update filter indicator text
-            const filterCount = Object.values(activeFilters).filter(f => 
-                f !== null && f !== '' && (!Array.isArray(f) || f.length > 0)
-            ).length;
+            // Add click event to "All Categories" option
+            allOption.addEventListener('click', (e) => {
+                // Ignore clicks on checkbox (it handles its own state)
+                if (e.target !== allCheckbox) {
+                    allCheckbox.checked = !allCheckbox.checked;
+                }
+                
+                if (allCheckbox.checked) {
+                    // Uncheck all other categories
+                    const checkboxes = selectionBox.querySelectorAll('input[type="checkbox"]:not(#category-all)');
+                    checkboxes.forEach(cb => cb.checked = false);
+                }
+                
+                updateCategorySelections();
+            });
             
+            // Function to update activeFilters based on checkbox selections
+            function updateCategorySelections() {
+                const allSelected = document.getElementById('category-all').checked;
+                
+                if (allSelected) {
+                    // Clear category filters
+                    activeFilters.category = null;
+                    activeFilters.categories = [];
+                } else {
+                    // Get all checked categories
+                    const checked = Array.from(selectionBox.querySelectorAll('input[type="checkbox"]:checked:not(#category-all)'));
+                    const selectedValues = checked.map(cb => cb.id.replace('category-', ''));
+                    
+                    if (selectedValues.length === 0) {
+                        // If none selected, default to all
+                        document.getElementById('category-all').checked = true;
+                        activeFilters.category = null;
+                        activeFilters.categories = [];
+                    } else {
+                        // Update with selected values
+                        activeFilters.categories = selectedValues;
+                        activeFilters.category = null; // Clear single category
+                    }
+                }
+                
+                // Update UI and URL
+                    updateFilterUI();
+            }
+            
+            filterContainer.appendChild(selectionBox);
+            
+            // Create helper text
+            const helperText = document.createElement('div');
+            helperText.className = 'filter-helper-text';
+            helperText.textContent = 'Click on a category to select/deselect';
+            filterContainer.appendChild(helperText);
+            
+            // Add the filter container to the details element
+            detailsElement.appendChild(filterContainer);
+            
+            // Add the details to the accordion container
+            accordionContainer.appendChild(detailsElement);
+            
+            // Add the accordion container to the accordion group
+            accordionGroup.appendChild(accordionContainer);
+            
+            // Create filter status badge for the summary to show count
+            updateCategoryFilterBadge();
+        }
+
+        // MODIFIED: Set up tags filter UI with selection box
+        function setupTagsFilter(accordionGroup) {
+            if (!safeConfig.ui?.showTags) return;
+            
+            // Get all unique tags
+            const allTags = new Set();
+            if (pdfData && pdfData.pdfs) {
+                pdfData.pdfs.forEach(pdf => {
+                    if (pdf.tags && Array.isArray(pdf.tags)) {
+                        pdf.tags.forEach(tag => allTags.add(tag));
+                    }
+                });
+            }
+            
+            // Sort tags alphabetically
+            const sortedTags = Array.from(allTags).sort();
+            
+            if (sortedTags.length > 0) {
+                // Create accordion container
+                const accordionContainer = document.createElement('div');
+                accordionContainer.className = 'rpdf-accordion-container';
+                
+                // Create details element for accordion behavior
+                const detailsElement = document.createElement('details');
+                detailsElement.className = 'rpdf-filter-details';
+                // Open by default if tags are active
+                detailsElement.open = activeFilters.tags && activeFilters.tags.length > 0;
+                
+                // Create summary element (header)
+                const summaryElement = document.createElement('summary');
+                summaryElement.className = 'rpdf-filter-summary';
+                summaryElement.textContent = 'Tags';
+                detailsElement.appendChild(summaryElement);
+                
+                // Create tags container inside the details
+                const tagsContainer = document.createElement('div');
+                tagsContainer.className = 'tags-filter-container';
+                
+                const tagsTitle = document.createElement('div');
+                tagsTitle.className = 'filter-label';
+                tagsTitle.textContent = 'Select tags:';
+                tagsContainer.appendChild(tagsTitle);
+                
+                // Create selection box container
+                const selectionBox = document.createElement('div');
+                selectionBox.className = 'select-box tags-select';
+                selectionBox.setAttribute('aria-label', 'Select tags');
+                
+                // Add tags as options
+                sortedTags.forEach(tag => {
+                    const option = document.createElement('div');
+                    option.className = 'tag-option' + (activeFilters.tags.includes(tag) ? ' selected' : '');
+                    option.setAttribute('data-value', tag);
+                    
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.checked = activeFilters.tags.includes(tag);
+                    checkbox.id = 'tag-' + tag.replace(/\s+/g, '-').toLowerCase();
+                    
+                    const label = document.createElement('label');
+                    label.setAttribute('for', 'tag-' + tag.replace(/\s+/g, '-').toLowerCase());
+                    label.textContent = tag;
+                    
+                    option.appendChild(checkbox);
+                    option.appendChild(label);
+                    selectionBox.appendChild(option);
+                    
+                    // Add click event to the entire option div
+                    option.addEventListener('click', (e) => {
+                        // Ignore clicks on checkbox (it handles its own state)
+                        if (e.target !== checkbox) {
+                            checkbox.checked = !checkbox.checked;
+                        }
+                        
+                        updateTagSelections();
+                    });
+                });
+                
+                // Function to update activeFilters based on checkbox selections
+                function updateTagSelections() {
+                    const checked = Array.from(selectionBox.querySelectorAll('input[type="checkbox"]:checked'));
+                    const selectedTags = checked.map(cb => cb.parentNode.getAttribute('data-value'));
+                    
+                    // Update active filters
+                    setTags(selectedTags);
+                    updateFilterUI();
+                    
+                    // Update the tag filter badge
+                    updateTagFilterBadge();
+                }
+                
+                tagsContainer.appendChild(selectionBox);
+                
+                // Create helper text
+                const helperText = document.createElement('div');
+                helperText.className = 'filter-helper-text';
+                helperText.textContent = 'Click on a tag to select/deselect';
+                tagsContainer.appendChild(helperText);
+                
+                // Add the tags container to the details element
+                detailsElement.appendChild(tagsContainer);
+                
+                // Add the details to the accordion container
+                accordionContainer.appendChild(detailsElement);
+                
+                // Add the accordion container to the accordion group
+                accordionGroup.appendChild(accordionContainer);
+                
+                // Create filter status badge for the summary to show count
+                updateTagFilterBadge();
+            }
+        }
+        
+        // NEW: Update category filter badge
+        function updateCategoryFilterBadge() {
+            const summary = document.querySelector('.rpdf-filter-details:first-of-type .rpdf-filter-summary');
+            if (!summary) return;
+            
+            // Remove existing badge
+            const existingBadge = summary.querySelector('.filter-badge');
+            if (existingBadge) {
+                summary.removeChild(existingBadge);
+            }
+            
+            // Add badge if categories are selected
+            if (activeFilters.categories.length > 0 || activeFilters.category) {
+                const badge = document.createElement('span');
+                badge.className = 'filter-badge';
+                
+                const count = activeFilters.categories.length || (activeFilters.category ? 1 : 0);
+                badge.textContent = count;
+                
+                summary.appendChild(badge);
+            }
+        }
+        
+        // NEW: Update tag filter badge
+        function updateTagFilterBadge() {
+            const summary = document.querySelector('.rpdf-filter-details:nth-of-type(2) .rpdf-filter-summary');
+            if (!summary) return;
+            
+            // Remove existing badge
+            const existingBadge = summary.querySelector('.filter-badge');
+            if (existingBadge) {
+                summary.removeChild(existingBadge);
+            }
+            
+            // Add badge if tags are selected
+            if (activeFilters.tags.length > 0) {
+                const badge = document.createElement('span');
+                badge.className = 'filter-badge';
+                badge.textContent = activeFilters.tags.length;
+                
+                summary.appendChild(badge);
+            }
+        }
+
+        // MODIFIED: Update filter UI to reflect active filters and update all badges
+        function updateFilterUI() {
+            // Update URL parameters
+            const params = new URLSearchParams(window.location.search);
+            
+            // Handle categories (plural for multiple, singular for backward compatibility)
+            if (activeFilters.categories && activeFilters.categories.length > 0) {
+                params.set('categories', activeFilters.categories.join(','));
+                // Also keep the singular version for backward compatibility
+                if (activeFilters.categories.length === 1) {
+                    params.set('category', activeFilters.categories[0]);
+                } else {
+                    params.delete('category');
+                }
+            } else {
+                params.delete('categories');
+                params.delete('category');
+            }
+            
+            // Handle tags
+            if (activeFilters.tags && activeFilters.tags.length > 0) {
+                params.set('tags', activeFilters.tags.join(','));
+            } else {
+                params.delete('tags');
+            }
+            
+            // Handle search
+            if (activeFilters.searchTerm && activeFilters.searchTerm.trim() !== '') {
+                params.set('search', activeFilters.searchTerm.trim());
+            } else {
+                params.delete('search');
+            }
+            
+            // Handle source
+            if (activeFilters.source && activeFilters.source.trim() !== '') {
+                params.set('source', activeFilters.source.trim());
+            } else {
+                params.delete('source');
+            }
+            
+            // Update URL without refreshing
+            const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+            window.history.pushState({ path: newUrl }, '', newUrl);
+            
+            // Update UI elements to reflect active filters
+            updateUIElements();
+            
+            // Update filter indicators
             const filterIndicator = document.getElementById('filter-indicator');
             if (filterIndicator) {
-                filterIndicator.textContent = filterCount > 0 ? `Filters: ${filterCount}` : '';
+                const activeFiltersCount = 
+                    (activeFilters.categories?.length || 0) + 
+                    (activeFilters.tags?.length || 0) + 
+                    (activeFilters.searchTerm ? 1 : 0) + 
+                    (activeFilters.source ? 1 : 0);
+                
+                if (activeFiltersCount > 0) {
+                    filterIndicator.textContent = `Active filters: ${activeFiltersCount}`;
+                    filterIndicator.style.display = 'block';
+                } else {
+                    filterIndicator.style.display = 'none';
+                }
+            }
+            
+            // Update all filter badges
+            updateCategoryFilterBadge();
+            updateTagFilterBadge();
+            updateSearchFilterBadge();
+            
+            // Check if any filters are active
+            const hasActiveFilters = 
+                activeFilters.categories.length > 0 ||
+                activeFilters.searchTerm || 
+                (activeFilters.tags && activeFilters.tags.length > 0) ||
+                activeFilters.source;
+            
+            // Add or remove clear filters button
+            addOrRemoveClearFiltersButton(hasActiveFilters);
+            
+            // Apply filters to PDFs
+            filterPDFs();
+        }
+        
+        // NEW: Update UI elements to reflect active filters
+        function updateUIElements() {
+            // Update category checkboxes if they exist
+            const categoryOptions = document.querySelectorAll('.category-filters .tag-option');
+            if (categoryOptions.length > 0) {
+                // Update "All Categories" option
+                const allOption = document.getElementById('category-all');
+                if (allOption) {
+                    allOption.checked = activeFilters.categories.length === 0;
+                    allOption.parentElement.classList.toggle('selected', activeFilters.categories.length === 0);
+                }
+                
+                // Update category options
+                categoryOptions.forEach(option => {
+                    const value = option.getAttribute('data-value');
+                    if (value) { // Skip "All Categories" option
+                        const checkbox = option.querySelector('input[type="checkbox"]');
+                        const isSelected = activeFilters.categories.includes(value);
+                        if (checkbox) checkbox.checked = isSelected;
+                        option.classList.toggle('selected', isSelected);
+                    }
+                });
+            }
+            
+            // Update tag checkboxes
+            const tagOptions = document.querySelectorAll('.tags-filter-container .tag-option');
+            tagOptions.forEach(option => {
+                const value = option.getAttribute('data-value');
+                const checkbox = option.querySelector('input[type="checkbox"]');
+                const isSelected = activeFilters.tags.includes(value);
+                if (checkbox) checkbox.checked = isSelected;
+                option.classList.toggle('selected', isSelected);
+            });
+            
+            // Update search input if exists
+            const searchInput = document.querySelector('.search-input');
+            if (searchInput && searchInput.value !== activeFilters.searchTerm) {
+                searchInput.value = activeFilters.searchTerm || '';
+            }
+            
+            // Find the accordion sections by looking at their summaries
+            const summaries = document.querySelectorAll('.rpdf-filter-summary');
+            
+            // Open accordions if they have active filters
+            summaries.forEach(summary => {
+                const text = summary.textContent || '';
+                const details = summary.closest('.rpdf-filter-details');
+                
+                if (!details) return;
+                
+                if (text.includes('Categories') && activeFilters.categories.length > 0) {
+                    details.open = true;
+                } else if (text.includes('Tags') && activeFilters.tags.length > 0) {
+                    details.open = true;
+                } else if (text.includes('Search') && activeFilters.searchTerm) {
+                    details.open = true;
+                }
+            });
+        }
+
+        // NEW: Add or remove clear filters button
+        function addOrRemoveClearFiltersButton(hasActiveFilters) {
+            // Remove existing button if it exists
+            const existingButton = document.getElementById('clear-filters-button');
+            if (existingButton) {
+                existingButton.parentNode.removeChild(existingButton);
+            }
+            
+            // If filters are active, add a clear filters button
+            if (hasActiveFilters) {
+                const buttonContainer = document.createElement('div');
+                buttonContainer.className = 'clear-filters-container';
+                
+                const clearButton = document.createElement('button');
+                clearButton.id = 'clear-filters-button';
+                clearButton.className = 'clear-filters-button';
+                clearButton.textContent = 'Clear Filters';
+                clearButton.setAttribute('aria-label', 'Clear all active filters');
+                
+                clearButton.addEventListener('click', () => {
+                    // Reset filters but not history
+                    activeFilters = {
+                        category: null,
+                        categories: [],
+                        searchTerm: '',
+                        source: null,
+                        tags: []
+                    };
+                    
+                    // Update URL
+                    updateUrlWithFilters();
+                    
+                    // Update UI
+                    updateFilterUI();
+                });
+                
+                buttonContainer.appendChild(clearButton);
+                
+                // Insert after the last accordion but inside the accordion group
+                const accordionGroup = document.getElementById('filters-group');
+                if (accordionGroup) {
+                    // Position after all accordion containers but before any other content
+                    accordionGroup.appendChild(buttonContainer);
+                } else if (elements.randomButton && elements.randomButton.parentNode) {
+                    // Fallback to original behavior if accordion group not found
+                    elements.randomButton.parentNode.insertBefore(buttonContainer, elements.randomButton);
+                }
             }
         }
 
@@ -545,7 +1114,40 @@ const RPDF = (function() {
                 hideLoading(elements);
             } catch (error) {
                 hideLoading(elements);
-                showError(elements, error.message || 'Failed to load a random PDF');
+                
+                // More specific error messages
+                let errorMessage = 'Failed to load a random PDF';
+                
+                if (error.message && error.message.includes('No PDFs match your current filters')) {
+                    if (activeFilters.category) {
+                        const categoryName = pdfData?.metadata?.categories.find(c => c.id === activeFilters.category)?.name || activeFilters.category;
+                        errorMessage = `No PDFs found in the "${categoryName}" category`;
+                        
+                        // Add additional filter information if multiple filters are active
+                        if (activeFilters.tags && activeFilters.tags.length > 0) {
+                            errorMessage += ` with the selected tags`;
+                        }
+                        if (activeFilters.searchTerm) {
+                            errorMessage += ` matching "${activeFilters.searchTerm}"`;
+                        }
+                    } else if (activeFilters.tags && activeFilters.tags.length > 0) {
+                        errorMessage = `No PDFs found with the selected tags`;
+                        if (activeFilters.searchTerm) {
+                            errorMessage += ` matching "${activeFilters.searchTerm}"`;
+                        }
+                    } else if (activeFilters.searchTerm) {
+                        errorMessage = `No PDFs found matching "${activeFilters.searchTerm}"`;
+                    } else {
+                        errorMessage = 'No PDFs match your current filters';
+                    }
+                    
+                    // Suggest resetting filters
+                    errorMessage += '. Try removing some filters.';
+                } else if (error.message && error.message.includes('No PDFs available')) {
+                    errorMessage = 'No PDFs available';
+                }
+                
+                showError(elements, errorMessage);
                 
                 if (safeConfig.debug) {
                     console.error('Error getting random PDF:', error);
@@ -553,26 +1155,38 @@ const RPDF = (function() {
             }
         }
 
+        // MODIFIED: Handle reset functionality to clear categories array
         function handleResetHistory() {
             clearHistory(storage);
             pdfData = null;
             viewHistory = [];
+            
+            // Reset filters
             activeFilters = {
                 category: safeConfig.ui?.defaultCategory || null,
+                categories: [],
                 searchTerm: '',
                 source: null,
                 tags: []
             };
+            
+            // Update URL
+            updateUrlWithFilters();
+            
+            // Clear localStorage filters if enabled
+            if (safeConfig.rememberFilters) {
+                storage.removeItem('rpdf_lastCategory');
+                storage.removeItem('rpdf_lastCategories');
+                storage.removeItem('rpdf_lastTags');
+                storage.removeItem('rpdf_lastSearchTerm');
+                storage.removeItem('rpdf_lastSource');
+            }
+            
+            // Update UI
+            updateFilterUI();
         }
 
-        // Set up event listeners
-        elements.randomButton.addEventListener('click', handleRandomButtonClick);
-        elements.resetHistory.addEventListener('click', handleResetHistory);
-
-        // Initialize history
-        viewHistory = getViewHistory(storage);
-
-        // Modified initialize function
+        // MODIFIED: Initialize function with connected accordion group
         async function initialize() {
             try {
                 showLoading(elements);
@@ -583,27 +1197,77 @@ const RPDF = (function() {
                 // Load view history
                 viewHistory = getViewHistory(storage);
                 
+                // Parse URL parameters (if enabled)
+                if (safeConfig.enableUrlParameters) {
+                    parseUrlParameters();
+                }
+                
                 // Set up event listeners
                 elements.randomButton.addEventListener('click', handleRandomButtonClick);
                 elements.resetHistory.addEventListener('click', handleResetHistory);
                 
-                // Setup UI with categories after data is loaded
-                if (pdfData && pdfData.metadata) {
-                    setupCategoryFilters();
+                // Handle browser back/forward navigation
+                window.addEventListener('popstate', () => {
+                    parseUrlParameters();
+                    updateFilterUI();
+                });
                 
-                    // Restore saved filters if enabled
-                    if (safeConfig.rememberFilters) {
+                // Create accordion group container for all filters
+                const accordionGroup = document.createElement('div');
+                accordionGroup.className = 'rpdf-accordion-group';
+                accordionGroup.id = 'filters-group';
+                
+                // Add a heading to match help section style
+                const filtersHeading = document.createElement('h2');
+                filtersHeading.className = 'rpdf-filters-heading';
+                filtersHeading.textContent = 'Filter Options';
+                accordionGroup.appendChild(filtersHeading);
+                
+                // Insert accordion group before the help section instead of the random button
+                const helpSection = document.querySelector('.help-section');
+                if (helpSection) {
+                    helpSection.parentNode.insertBefore(accordionGroup, helpSection);
+                } else if (elements.randomButton && elements.randomButton.parentNode) {
+                    // Fallback to the old position if help section not found
+                    elements.randomButton.parentNode.insertBefore(accordionGroup, elements.randomButton);
+                }
+                
+                // Setup UI components after data is loaded
+                if (pdfData && pdfData.metadata) {
+                    // Enable search if configured
+                    if (safeConfig.search?.enableFullTextSearch) {
+                        setupSearchUI(elements, activeFilters, updateFilterUI, setSearchTerm, accordionGroup);
+                    }
+                    
+                    // Set up category filters
+                    setupCategoryFilters(accordionGroup);
+                    
+                    // Set up tag filters
+                    setupTagsFilter(accordionGroup);
+                
+                    // Restore saved filters if enabled and not already set by URL
+                    if (safeConfig.rememberFilters && !safeConfig.enableUrlParameters) {
                         const savedCategory = storage.getItem('rpdf_lastCategory');
                         if (savedCategory) {
                             activeFilters.category = savedCategory === '' ? null : savedCategory;
-                            updateFilterUI();
+                        }
+                        
+                        const savedTags = storage.getItem('rpdf_lastTags');
+                        if (savedTags) {
+                            try {
+                                activeFilters.tags = JSON.parse(savedTags) || [];
+                            } catch (e) {
+                                activeFilters.tags = [];
+                            }
+                        }
+                        
+                        const savedSearchTerm = storage.getItem('rpdf_lastSearchTerm');
+                        if (savedSearchTerm) {
+                            activeFilters.searchTerm = savedSearchTerm;
                         }
                     }
                     
-                    // Enable search if configured
-                    if (safeConfig.search?.enableFullTextSearch) {
-                        setupSearchUI(elements, activeFilters, updateFilterUI);
-                    }
+                    updateFilterUI();
                 }
                 
                 hideLoading(elements);
@@ -638,30 +1302,63 @@ const RPDF = (function() {
             addToHistory: (id) => addToHistory(storage, id),
             clearHistory: () => clearHistory(storage),
             setCategory,
-            getActiveFilters: () => ({...activeFilters})
+            setTags,
+            setSearchTerm,
+            setSource,
+            getActiveFilters: () => ({...activeFilters}),
+            updateUrlWithFilters,
+            parseUrlParameters
         };
     }
 
-    // Create the setupSearchUI function that we're trying to call
-    function setupSearchUI(elements, activeFilters, updateFilterUI) {
-        // Create search container
+    // MODIFIED: Setup search UI with accordion style
+    function setupSearchUI(elements, activeFilters, updateFilterUI, setSearchTerm, accordionGroup) {
+        // Create accordion container
+        const accordionContainer = document.createElement('div');
+        accordionContainer.className = 'rpdf-accordion-container';
+        
+        // Create details element for accordion behavior
+        const detailsElement = document.createElement('details');
+        detailsElement.className = 'rpdf-filter-details';
+        // Open by default if search is active
+        detailsElement.open = activeFilters.searchTerm && activeFilters.searchTerm.length > 0;
+        
+        // Create summary element (header)
+        const summaryElement = document.createElement('summary');
+        summaryElement.className = 'rpdf-filter-summary';
+        summaryElement.textContent = 'Search';
+        detailsElement.appendChild(summaryElement);
+        
+        // Create search container inside the details
         const searchContainer = document.createElement('div');
         searchContainer.className = 'search-container';
+        
+        // Add label for consistency with other filters
+        const searchLabel = document.createElement('div');
+        searchLabel.className = 'filter-label';
+        searchLabel.textContent = 'Search for PDFs:';
+        searchContainer.appendChild(searchLabel);
+        
+        // Create search input wrapper for better styling
+        const inputWrapper = document.createElement('div');
+        inputWrapper.className = 'search-input-wrapper';
         
         // Create search input
         const searchInput = document.createElement('input');
         searchInput.type = 'text';
-        searchInput.placeholder = 'Search PDFs...';
+        searchInput.placeholder = 'Enter search terms...';
         searchInput.className = 'search-input';
         searchInput.setAttribute('aria-label', 'Search PDFs');
+        searchInput.value = activeFilters.searchTerm || '';
         
         // Add debounced search handler
         let debounceTimeout;
         searchInput.addEventListener('input', (e) => {
             clearTimeout(debounceTimeout);
             debounceTimeout = setTimeout(() => {
-                activeFilters.searchTerm = e.target.value;
+                setSearchTerm(e.target.value);
                 updateFilterUI();
+                updateSearchFilterBadge();
             }, 300);
         });
         
@@ -670,13 +1367,15 @@ const RPDF = (function() {
         searchButton.textContent = 'Search';
         searchButton.className = 'search-button';
         searchButton.addEventListener('click', () => {
-            activeFilters.searchTerm = searchInput.value;
+            setSearchTerm(searchInput.value);
             updateFilterUI();
+            updateSearchFilterBadge();
         });
         
-        // Add to container
-        searchContainer.appendChild(searchInput);
-        searchContainer.appendChild(searchButton);
+        // Add to input wrapper
+        inputWrapper.appendChild(searchInput);
+        inputWrapper.appendChild(searchButton);
+        searchContainer.appendChild(inputWrapper);
         
         // Create filter indicator
         const filterIndicator = document.createElement('div');
@@ -684,9 +1383,37 @@ const RPDF = (function() {
         filterIndicator.className = 'filter-indicator';
         searchContainer.appendChild(filterIndicator);
         
-        // Insert before random button
-        if (elements.randomButton && elements.randomButton.parentNode) {
-            elements.randomButton.parentNode.insertBefore(searchContainer, elements.randomButton);
+        // Add the search container to the details element
+        detailsElement.appendChild(searchContainer);
+        
+        // Add the details to the accordion container
+        accordionContainer.appendChild(detailsElement);
+        
+        // Add the accordion container to the accordion group
+        accordionGroup.appendChild(accordionContainer);
+        
+        // Create filter status badge for the summary to show active search
+        updateSearchFilterBadge();
+    }
+    
+    // NEW: Update search filter badge
+    function updateSearchFilterBadge() {
+        const summary = document.querySelector('.rpdf-filter-details:first-of-type .rpdf-filter-summary');
+        if (!summary || summary.textContent !== 'Search') return;
+        
+        // Remove existing badge
+        const existingBadge = summary.querySelector('.filter-badge');
+        if (existingBadge) {
+            summary.removeChild(existingBadge);
+        }
+        
+        // Add badge if search is active
+        if (activeFilters.searchTerm && activeFilters.searchTerm.length > 0) {
+            const badge = document.createElement('span');
+            badge.className = 'filter-badge';
+            badge.textContent = '✓';
+            
+            summary.appendChild(badge);
         }
     }
 

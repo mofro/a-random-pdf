@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random PDF Explorer</title>
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="description" content="Discover freely available PDF resources from around the web.">
+    <meta name="description" content="Discover freely available PDF resources from around the web. Filter by category, tags, or search terms.">
     <meta name="author" content="Maurice Gaston, Claude https://claude.ai">
 </head>
 <body>
@@ -64,6 +64,45 @@
             </form>
         </div>
         
+        <div class="help-section">
+            <h2>Help & Tips</h2>
+            
+            <div class="help-content">
+                <h3>Using Filters</h3>
+                <p>You can filter the PDFs by using the filters section at the top of the page:</p>
+                <ul>
+                    <li><strong>Search:</strong> Enter search terms to find PDFs with matching titles or descriptions.</li>
+                    <li><strong>Categories:</strong> Check the boxes next to categories you want to include.</li>
+                    <li><strong>Tags:</strong> Check one or more tags to filter PDFs by specific tags.</li>
+                </ul>
+                <p>Each filter section displays a checkmark when filters are active. You can toggle sections open or closed to save space.</p>
+                
+                <h3>Selection Tips</h3>
+                <ul>
+                    <li>Check multiple categories or tags to see PDFs that match any of them.</li>
+                    <li>Click "All Categories" to clear category selections.</li>
+                    <li>When a filter is active, it will have a badge showing how many items are selected.</li>
+                    <li>Use the "Clear Filters" button to reset all selections at once.</li>
+                </ul>
+                
+                <h3>URL Parameters</h3>
+                <p>You can also use URL parameters to directly access filtered results:</p>
+                <ul>
+                    <li><code>?categories=ai,programming</code> - Show PDFs from multiple categories</li>
+                    <li><code>?category=security</code> - Show PDFs from a single category (for backward compatibility)</li>
+                    <li><code>?tags=javascript,web-development</code> - Show PDFs with specific tags</li>
+                    <li><code>?search=machine learning</code> - Show PDFs matching search terms</li>
+                </ul>
+                
+                <h3>Examples</h3>
+                <div class="example-links">
+                    <a href="?categories=ai,programming">AI & Programming PDFs</a>
+                    <a href="?tags=security,networking">Security & Networking PDFs</a>
+                    <a href="?search=machine learning">Machine Learning PDFs</a>
+                </div>
+            </div>
+        </div>
+        
         <div class="rpdf-settings">
             <button id="resetHistory" class="rpdf-settings-btn">Reset Viewing History</button>
         </div>
@@ -80,7 +119,13 @@
             // Default to production settings
             dataPath: 'data/pdf-data.json',
             debug: false,
-            maxHistorySize: 50
+            maxHistorySize: 50,
+            ui: {
+                showCategories: true,
+                showTags: true,
+                maxDisplayedCategories: 5
+            },
+            enableUrlParameters: true
         };
         
         // Dev environment override

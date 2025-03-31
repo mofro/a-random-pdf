@@ -264,91 +264,397 @@ body {
 
 /* css/enhanced-styles.css */
 .category-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 16px;
+  padding: 16px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
-.category-button {
-  padding: 8px 12px;
-  border: none;
-  border-radius: 16px;
+.filter-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--rpdf-dark-color);
+}
+
+.category-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: var(--rpdf-border-radius);
+  background-color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.category-select option {
+  padding: 8px;
+}
+
+.category-select option:checked {
+  background-color: var(--rpdf-primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.filter-helper-text {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* Update tags display styles */
+.tags-filter-container {
+  padding: 16px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.tags-filter-container h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--rpdf-dark-color);
+}
+
+.tags-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-button {
+  font-size: 12px;
+  padding: 4px 8px;
   background-color: #ecf0f1;
+  border: 1px solid #ddd;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.category-button.active {
-  font-weight: bold;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-.category-dropdown {
-  padding: 8px;
-  border-radius: 16px;
-  background-color: #ecf0f1;
-}
-
-.search-container {
-  display: flex;
-  margin-bottom: 16px;
-  width: 100%;
-}
-
-.search-input {
-  flex: 1;
-  padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px 0 0 4px;
-  font-size: 14px;
-}
-
-.search-button {
-  padding: 8px 16px;
-  background-color: #3498db;
+.tag-button.active {
+  background-color: var(--rpdf-primary-color);
   color: white;
-  border: none;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
+  border-color: var(--rpdf-secondary-color);
 }
 
+/* Filter indicator */
 .filter-indicator {
-  margin-left: 8px;
+  display: inline-block;
   padding: 4px 8px;
   background-color: #f1c40f;
   border-radius: 12px;
   font-size: 12px;
-  align-self: center;
-}
-
-.tags-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
   margin-top: 8px;
 }
 
-.tag {
-  font-size: 12px;
-  padding: 2px 6px;
-  background-color: #e0e0e0;
-  border-radius: 10px;
+/* New clear filters button */
+.clear-filters-container {
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+}
+
+.clear-filters-button {
+  padding: 8px 16px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+.clear-filters-button:hover {
+  background-color: #c0392b;
+}
+
+/* Help section styles */
+.help-section {
+    margin: 30px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 1000px;
+}
+
+.help-section h2 {
+    margin: 0;
+    padding: 15px 20px;
+    background-color: #4a6cf7;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    font-size: 20px;
+}
+
+.help-content {
+    padding: 20px;
+}
+
+.help-content h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.help-content ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.help-content li {
+    margin-bottom: 8px;
+}
+
+.example-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.example-links a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #f0f4ff;
+    border: 1px solid #c1d1ff;
+    border-radius: 4px;
+    color: #4a6cf7;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.example-links a:hover {
+    background-color: #d8e3ff;
+}
+
+/* Keyboard key styling */
+kbd {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  color: #333;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 3px 5px;
+  margin: 0 2px;
+  vertical-align: middle;
 }
 
 /* Responsive design */
 @media (max-width: 600px) {
-  .category-filters {
-    flex-direction: column;
+  .rpdf-accordion-container {
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 20px);
   }
   
-  .search-container {
-    flex-direction: column;
+  .category-filters,
+  .tags-filter-container {
+    padding: 12px;
   }
-  
-  .search-input, .search-button {
+}
+
+/* Accordion filter styles - connected group */
+.rpdf-accordion-group {
+  margin: 30px 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.rpdf-accordion-container:first-of-type {
+  border-top: 1px solid #e8e8e8;
+}
+
+.rpdf-accordion-container {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: white;
+}
+
+.rpdf-accordion-container:last-child {
+  border-bottom: none;
+}
+
+.rpdf-filter-details {
+  width: 100%;
+}
+
+.rpdf-filter-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  font-weight: bold;
+  color: var(--rpdf-primary-color);
+  background-color: #f8f9fa;
+  cursor: pointer;
+  position: relative;
+}
+
+.rpdf-filter-summary::after {
+  content: '▼';
+  font-size: 12px;
+  color: var(--rpdf-primary-color);
+  transition: transform 0.3s ease;
+}
+
+.rpdf-filter-details[open] .rpdf-filter-summary::after {
+  transform: rotate(180deg);
+}
+
+.rpdf-filter-details[open] .rpdf-filter-summary {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Selection boxes styles */
+.select-box {
+  margin-top: 8px;
+  width: 100%;
+}
+
+/* Tag selection box */
+.tags-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: var(--rpdf-border-radius);
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.tag-option {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 2px 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 3px;
+}
+
+.tag-option:hover {
+  background-color: #f0f4ff;
+}
+
+.tag-option.selected {
+  background-color: var(--rpdf-primary-color);
+  color: white;
+}
+
+.tag-option input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.search-container {
+    padding: 16px;
+    margin: 0;
     width: 100%;
-    border-radius: 4px;
-    margin-bottom: 8px;
-  }
+}
+
+.search-input-wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-button:hover {
+    background-color: #3a5ce7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .category-filters,
+    .tags-filter-container,
+    .search-container {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    
+    .search-input-wrapper {
+        width: 100%;
+    }
+    
+    .search-input,
+    .search-button {
+        font-size: 14px;
+    }
+
+    /* Example links in a single column */
+    .example-links {
+        flex-direction: column;
+    }
+
+    .example-links a {
+        margin: 5px 0;
+    }
+}
+
+.help-content code {
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  background-color: var(--rpdf-primary-color);
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.rpdf-filters-heading {
+    margin: 0;
+    padding: 15px 20px;
+    background-color: #4a6cf7;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    font-size: 20px;
 }

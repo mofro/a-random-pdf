@@ -172,7 +172,7 @@ function setupTestEnvironment() {
             ui: {
                 showCategories: true,
                 showSources: true,
-                showTags: false,
+                showTags: true, // Enable tags UI for testing
                 defaultCategory: null,
                 maxDisplayedCategories: 7
             },
@@ -181,7 +181,8 @@ function setupTestEnvironment() {
                 searchFields: ['title', 'author', 'tags'],
                 maxResults: 20
             },
-            rememberFilters: true
+            rememberFilters: true,
+            enableUrlParameters: true // Enable URL parameter functionality
         }
     });
 
@@ -198,24 +199,20 @@ function setupTestEnvironment() {
 // Cleanup after tests
 function cleanupTestEnvironment({ originalFetch } = {}) {
     // Clear all event listeners
-    const newBody = document.body.cloneNode(false);
-    document.body.parentNode.replaceChild(newBody, document.body);
+    document.body.innerHTML = '';
     
-    // Clear mocks
-    jest.clearAllMocks();
-    
-    // Reset window.RPDF_CONFIG
-    delete window.RPDF_CONFIG;
-    
-    // Reset RPDF namespace
-    delete window.RPDF;
-    
-    // Restore original fetch if it existed
+    // Restore original fetch if it was passed
     if (originalFetch) {
         window.fetch = originalFetch;
-    } else {
-        delete window.fetch;
     }
+    
+    // Clear window location search
+    if (window.history && window.history.pushState) {
+        window.history.pushState({}, '', window.location.pathname);
+    }
+    
+    // Clean up mocks
+    jest.restoreAllMocks();
 }
 
 describe('PDF Explorer Tests', () => {
@@ -461,6 +458,177 @@ describe('Category Filtering', () => {
     test('setCategory should save preference to localStorage if rememberFilters is enabled', () => {
         app.setCategory('programming');
         expect(mockStorage.setItem).toHaveBeenCalledWith('rpdf_lastCategory', 'programming');
+    });
+});
+
+// Add new tests for URL parameter functionality
+describe('URL parameter functionality', () => {
+    let testEnvironment;
+    
+    beforeEach(() => {
+        // Set up a clean test environment
+        testEnvironment = setupTestEnvironment();
+        
+        // Clear URL parameters
+        window.history.pushState({}, '', window.location.pathname);
+    });
+    
+    afterEach(() => {
+        cleanupTestEnvironment(testEnvironment);
+    });
+    
+    test('parseUrlParameters correctly sets category from URL', () => {
+        // Set up URL with category parameter
+        window.history.pushState({}, '', `${window.location.pathname}?category=ai`);
+        
+        // Call the parse function
+        testEnvironment.app.parseUrlParameters();
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.category).toBe('ai');
+    });
+    
+    test('parseUrlParameters correctly sets search term from URL', () => {
+        // Set up URL with search parameter
+        window.history.pushState({}, '', `${window.location.pathname}?search=neural`);
+        
+        // Call the parse function
+        testEnvironment.app.parseUrlParameters();
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.searchTerm).toBe('neural');
+    });
+    
+    test('parseUrlParameters correctly sets tags from URL', () => {
+        // Set up URL with tags parameter
+        window.history.pushState({}, '', `${window.location.pathname}?tags=neural-networks,ai`);
+        
+        // Call the parse function
+        testEnvironment.app.parseUrlParameters();
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.tags).toEqual(['neural-networks', 'ai']);
+    });
+    
+    test('parseUrlParameters handles multiple parameters correctly', () => {
+        // Set up URL with multiple parameters
+        window.history.pushState({}, '', `${window.location.pathname}?category=programming&search=javascript&tags=web-development`);
+        
+        // Call the parse function
+        testEnvironment.app.parseUrlParameters();
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.category).toBe('programming');
+        expect(filters.searchTerm).toBe('javascript');
+        expect(filters.tags).toEqual(['web-development']);
+    });
+    
+    test('updateUrlWithFilters correctly updates the URL with current filters', () => {
+        // Set some filters
+        testEnvironment.app.setCategory('ai');
+        testEnvironment.app.setSearchTerm('neural');
+        testEnvironment.app.setTags(['machine-learning']);
+        
+        // Call the update function
+        testEnvironment.app.updateUrlWithFilters();
+        
+        // Check if URL was updated
+        const urlParams = new URLSearchParams(window.location.search);
+        expect(urlParams.get('category')).toBe('ai');
+        expect(urlParams.get('search')).toBe('neural');
+        expect(urlParams.get('tags')).toBe('machine-learning');
+    });
+    
+    test('updateUrlWithFilters removes parameters when filters are cleared', () => {
+        // First set some filters
+        testEnvironment.app.setCategory('ai');
+        testEnvironment.app.setSearchTerm('neural');
+        testEnvironment.app.updateUrlWithFilters();
+        
+        // Now clear the filters
+        testEnvironment.app.setCategory(null);
+        testEnvironment.app.setSearchTerm('');
+        testEnvironment.app.updateUrlWithFilters();
+        
+        // Check if URL parameters were removed
+        const urlParams = new URLSearchParams(window.location.search);
+        expect(urlParams.has('category')).toBe(false);
+        expect(urlParams.has('search')).toBe(false);
+    });
+    
+    test('setCategory updates both activeFilters and URL', () => {
+        // Call setCategory
+        testEnvironment.app.setCategory('programming');
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.category).toBe('programming');
+        
+        // Check if URL was updated
+        const urlParams = new URLSearchParams(window.location.search);
+        expect(urlParams.get('category')).toBe('programming');
+    });
+    
+    test('setTags updates both activeFilters and URL', () => {
+        // Call setTags
+        testEnvironment.app.setTags(['javascript', 'web-development']);
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.tags).toEqual(['javascript', 'web-development']);
+        
+        // Check if URL was updated
+        const urlParams = new URLSearchParams(window.location.search);
+        expect(urlParams.get('tags')).toBe('javascript,web-development');
+    });
+    
+    test('setSearchTerm updates both activeFilters and URL', () => {
+        // Call setSearchTerm
+        testEnvironment.app.setSearchTerm('neural networks');
+        
+        // Check if activeFilters was updated
+        const filters = testEnvironment.app.getActiveFilters();
+        expect(filters.searchTerm).toBe('neural networks');
+        
+        // Check if URL was updated
+        const urlParams = new URLSearchParams(window.location.search);
+        expect(urlParams.get('search')).toBe('neural networks');
+    });
+    
+    test('getRandomPdf respects category filter from URL parameters', async () => {
+        // Set up URL with category parameter
+        window.history.pushState({}, '', `${window.location.pathname}?category=ai`);
+        
+        // Call the parse function
+        testEnvironment.app.parseUrlParameters();
+        
+        // Get a random PDF
+        const pdf = await testEnvironment.app.getRandomPdf();
+        
+        // Check if the PDF is from the selected category
+        expect(pdf.categories).toContain('ai');
+    });
+    
+    test('Resetting filters also clears URL parameters', () => {
+        // First set some filters
+        testEnvironment.app.setCategory('ai');
+        testEnvironment.app.setTags(['neural-networks']);
+        testEnvironment.app.setSearchTerm('machine learning');
+        testEnvironment.app.updateUrlWithFilters();
+        
+        // Verify URL has parameters
+        expect(window.location.search).not.toBe('');
+        
+        // Trigger reset
+        const resetButton = document.getElementById('resetHistory');
+        resetButton.click();
+        
+        // Check if URL parameters were cleared
+        expect(window.location.search).toBe('');
     });
 });
 
