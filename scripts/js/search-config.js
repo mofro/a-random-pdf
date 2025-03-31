@@ -8,7 +8,248 @@
 module.exports = {
   // Categories for organizing PDFs
   categories: [
-    { id: "ai", name: "Artificial Intelligence", keywords: ["machine learning", "neural networks", "AI"], color: "#3498db" },
+  {
+    "id": "ai",
+    "name": "Artificial Intelligence",
+    "keywords": [
+      "machine learning",
+      "neural networks",
+      "AI",
+      "deep learning",
+      "reinforcement learning"
+    ],
+    "color": "#3498db"
+  },
+  {
+    "id": "programming",
+    "name": "Programming",
+    "keywords": [
+      "javascript",
+      "python",
+      "algorithms",
+      "software engineering",
+      "web development"
+    ],
+    "color": "#2ecc71"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "keywords": [
+      "cybersecurity",
+      "encryption",
+      "privacy",
+      "network security",
+      "vulnerabilities"
+    ],
+    "color": "#e74c3c"
+  },
+  {
+    "id": "networks",
+    "name": "Networks",
+    "keywords": [
+      "distributed systems",
+      "protocols",
+      "internet",
+      "wireless networking",
+      "computer networks"
+    ],
+    "color": "#9b59b6"
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "keywords": [
+      "SQL",
+      "NoSQL",
+      "data modeling",
+      "database optimization",
+      "database management"
+    ],
+    "color": "#f1c40f"
+  },
+  {
+    "id": "gaming",
+    "name": "Game Development",
+    "keywords": [
+      "game design",
+      "game engines",
+      "unity",
+      "unreal engine",
+      "godot"
+    ],
+    "color": "#e67e22"
+  },
+  {
+    "id": "gamedesign",
+    "name": "Game Design",
+    "keywords": [
+      "level design",
+      "narrative design",
+      "game mechanics",
+      "game balance",
+      "game documents"
+    ],
+    "color": "#d35400"
+  },
+  {
+    "id": "gametesting",
+    "name": "Game Testing & QA",
+    "keywords": [
+      "playtesting",
+      "game testing",
+      "quality assurance",
+      "beta testing",
+      "user experience"
+    ],
+    "color": "#16a085"
+  },
+  {
+    "id": "gameai",
+    "name": "Game AI",
+    "keywords": [
+      "npc behaviors",
+      "pathfinding",
+      "game ai",
+      "procedural generation"
+    ],
+    "color": "#8e44ad"
+  },
+  {
+    "id": "esports",
+    "name": "Esports",
+    "keywords": [
+      "competitive gaming",
+      "esports",
+      "tournament",
+      "game streaming",
+      "professional gaming"
+    ],
+    "color": "#c0392b"
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "keywords": [
+      "medical research",
+      "healthcare",
+      "clinical",
+      "anatomy",
+      "physiology",
+      "diagnosis"
+    ],
+    "color": "#27ae60"
+  },
+  {
+    "id": "science",
+    "name": "General Science",
+    "keywords": [
+      "scientific research",
+      "experiments",
+      "methodology",
+      "science",
+      "environmental science"
+    ],
+    "color": "#2980b9"
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "keywords": [
+      "quantum physics",
+      "theoretical physics",
+      "mechanics",
+      "relativity",
+      "particle physics"
+    ],
+    "color": "#8e44ad"
+  },
+  {
+    "id": "politics",
+    "name": "Politics",
+    "keywords": [
+      "political science",
+      "government",
+      "policy",
+      "international relations",
+      "public administration"
+    ],
+    "color": "#c0392b"
+  },
+  {
+    "id": "literature",
+    "name": "Literature",
+    "keywords": [
+      "literary analysis",
+      "poetry",
+      "fiction",
+      "novels",
+      "writing",
+      "criticism"
+    ],
+    "color": "#d35400"
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "keywords": [
+      "athletics",
+      "coaching",
+      "training",
+      "sports science",
+      "physical education",
+      "sports psychology"
+    ],
+    "color": "#16a085"
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "keywords": [
+      "historical research",
+      "ancient history",
+      "modern history",
+      "civilizations",
+      "historical documents"
+    ],
+    "color": "#7f8c8d"
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "keywords": [
+      "mechanical engineering",
+      "electrical engineering",
+      "civil engineering",
+      "engineering design"
+    ],
+    "color": "#34495e"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "keywords": [
+      "music theory",
+      "musical composition",
+      "music history",
+      "instruments",
+      "musicology"
+    ],
+    "color": "#1abc9c"
+  },
+  {
+    "id": "film",
+    "name": "Film & Media",
+    "keywords": [
+      "screenplay",
+      "film production",
+      "cinematography",
+      "film analysis",
+      "media studies"
+    ],
+    "color": "#95a5a6"
+  }
+], color: "#3498db" },
     { id: "programming", name: "Programming", keywords: ["javascript", "python", "algorithms"], color: "#2ecc71" },
     { id: "security", name: "Security", keywords: ["cybersecurity", "encryption", "privacy"], color: "#e74c3c" },
     { id: "networks", name: "Networks", keywords: ["distributed systems", "protocols", "internet"], color: "#9b59b6" },
@@ -162,8 +403,8 @@ module.exports = {
   paths: {
     dataFile: 'public/data/pdf-data.json', // Main data file
     backupFile: 'public/data/pdf-data.backup.json', // Backup of the data file
-    searchesFile: 'searches.md', // File containing searches to run
-    urlsFile: 'urls.json' // File containing specific URL targets
+    searchesFile: 'config/searches.md', // File containing searches to run
+    urlsFile: 'config/urls.json' // File containing specific URL targets
   },
   
   // Search limits

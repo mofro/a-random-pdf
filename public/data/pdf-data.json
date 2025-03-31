@@ -27,6 +27,81 @@
         "id": "databases",
         "name": "Databases",
         "color": "#f1c40f"
+      },
+      {
+        "id": "gaming",
+        "name": "Game Development",
+        "color": "#e67e22"
+      },
+      {
+        "id": "gamedesign",
+        "name": "Game Design",
+        "color": "#d35400"
+      },
+      {
+        "id": "gametesting",
+        "name": "Game Testing & QA",
+        "color": "#16a085"
+      },
+      {
+        "id": "gameai",
+        "name": "Game AI",
+        "color": "#8e44ad"
+      },
+      {
+        "id": "esports",
+        "name": "Esports",
+        "color": "#c0392b"
+      },
+      {
+        "id": "medicine",
+        "name": "Medicine",
+        "color": "#27ae60"
+      },
+      {
+        "id": "science",
+        "name": "General Science",
+        "color": "#2980b9"
+      },
+      {
+        "id": "physics",
+        "name": "Physics",
+        "color": "#8e44ad"
+      },
+      {
+        "id": "politics",
+        "name": "Politics",
+        "color": "#c0392b"
+      },
+      {
+        "id": "literature",
+        "name": "Literature",
+        "color": "#d35400"
+      },
+      {
+        "id": "sports",
+        "name": "Sports",
+        "color": "#16a085"
+      },
+      {
+        "id": "history",
+        "name": "History",
+        "color": "#7f8c8d"
+      },
+      {
+        "id": "engineering",
+        "name": "Engineering",
+        "color": "#34495e"
+      },
+      {
+        "id": "music",
+        "name": "Music",
+        "color": "#1abc9c"
+      },
+      {
+        "id": "film",
+        "name": "Film & Media",
+        "color": "#95a5a6"
       }
     ],
     "sources": [
@@ -45,7 +120,8 @@
         "name": "IEEE",
         "url": "https://ieeexplore.ieee.org"
       }
-    ]
+    ],
+    "lastUpdated": "2025-03-31T01:16:17.503Z"
   },
   "pdfs": [
     {
