@@ -249,24 +249,6 @@ module.exports = {
     ],
     "color": "#95a5a6"
   }
-], color: "#3498db" },
-    { id: "programming", name: "Programming", keywords: ["javascript", "python", "algorithms"], color: "#2ecc71" },
-    { id: "security", name: "Security", keywords: ["cybersecurity", "encryption", "privacy"], color: "#e74c3c" },
-    { id: "networks", name: "Networks", keywords: ["distributed systems", "protocols", "internet"], color: "#9b59b6" },
-    { id: "databases", name: "Databases", keywords: ["SQL", "NoSQL", "data modeling"], color: "#f1c40f" },
-    // Add gaming categories
-    { id: "gaming", name: "Game Development", keywords: ["game design", "game engines", "unity", "unreal engine"], color: "#e67e22" },
-    { id: "gamedesign", name: "Game Design", keywords: ["level design", "narrative design", "game mechanics", "game balance"], color: "#d35400" },
-    { id: "gametesting", name: "Game Testing & QA", keywords: ["playtesting", "game testing", "quality assurance", "beta testing"], color: "#16a085" },
-    { id: "gameai", name: "Game AI", keywords: ["npc behaviors", "pathfinding", "game ai", "procedural generation"], color: "#8e44ad" },
-    { id: "esports", name: "Esports", keywords: ["competitive gaming", "esports", "tournament", "game streaming"], color: "#c0392b" },
-    // New categories for specific interests
-    { id: "medicine", name: "Medicine", keywords: ["medical research", "healthcare", "clinical", "anatomy", "physiology"], color: "#27ae60" },
-    { id: "science", name: "General Science", keywords: ["scientific research", "experiments", "methodology", "science"], color: "#2980b9" },
-    { id: "physics", name: "Physics", keywords: ["quantum physics", "theoretical physics", "mechanics", "relativity"], color: "#8e44ad" },
-    { id: "politics", name: "Politics", keywords: ["political science", "government", "policy", "international relations"], color: "#c0392b" },
-    { id: "literature", name: "Literature", keywords: ["literary analysis", "poetry", "fiction", "novels", "writing"], color: "#d35400" },
-    { id: "sports", name: "Sports", keywords: ["athletics", "coaching", "training", "sports science", "physical education"], color: "#16a085" }
   ],
   
   // Sources to search

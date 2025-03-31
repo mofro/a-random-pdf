@@ -17,6 +17,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Union
@@ -61,6 +62,8 @@ def parse_arguments():
     parser.add_argument('--website', type=str, help='Website URL to search for PDFs')
     parser.add_argument('--limit', type=int, default=10,
                         help='Maximum number of results per search method')
+    parser.add_argument('--all', action='store_true',
+                        help='Update PDFs for all categories using centralized configuration')
     
     # File paths
     parser.add_argument('--output', type=str, default=None,
@@ -100,41 +103,45 @@ def parse_arguments():
     
     # If interactive mode, prompt for query if not provided
     if args.interactive:
-        if not args.query and not args.website:
+        if not args.query and not args.website and not args.all:
             print("\nInteractive Mode")
             print("===============")
             
-            search_type = input("Search type (1=query, 2=website) [1]: ").strip() or "1"
+            search_type = input("Search type (1=query, 2=website, 3=all categories) [1]: ").strip() or "1"
             
             if search_type == "1":
                 args.query = input("Enter search query: ").strip()
                 if not args.query:
                     print("Error: Search query is required in interactive mode")
                     sys.exit(1)
-            else:
+            elif search_type == "2":
                 args.website = input("Enter website URL: ").strip()
                 if not args.website:
                     print("Error: Website URL is required in interactive mode")
                     sys.exit(1)
+            elif search_type == "3":
+                args.all = True
+                print("All categories mode selected")
             
-            args.limit = int(input(f"Maximum results [default: {args.limit}]: ").strip() or args.limit)
+            args.limit = int(input(f"Maximum results per search [default: {args.limit}]: ").strip() or args.limit)
             
-            # Ask for category
-            categories_config = load_categories_config()
-            print("\nAvailable categories:")
-            for i, category in enumerate(categories_config["categories"], 1):
-                print(f"{i}. {category['name']} ({category['id']})")
-            
-            category_choice = input("\nSelect category number or leave empty for auto-categorization: ").strip()
-            if category_choice and category_choice.isdigit():
-                idx = int(category_choice) - 1
-                if 0 <= idx < len(categories_config["categories"]):
-                    args.category = categories_config["categories"][idx]["id"]
-                    print(f"Selected category: {categories_config['categories'][idx]['name']}")
+            # Ask for category if not using all mode
+            if not args.all:
+                categories_config = load_categories_config()
+                print("\nAvailable categories:")
+                for i, category in enumerate(categories_config["categories"], 1):
+                    print(f"{i}. {category['name']} ({category['id']})")
+                
+                category_choice = input("\nSelect category number or leave empty for auto-categorization: ").strip()
+                if category_choice and category_choice.isdigit():
+                    idx = int(category_choice) - 1
+                    if 0 <= idx < len(categories_config["categories"]):
+                        args.category = categories_config["categories"][idx]["id"]
+                        print(f"Selected category: {categories_config['categories'][idx]['name']}")
     
     # Validate arguments
-    if not args.query and not args.website:
-        parser.error("Either --query or --website is required, or use --interactive")
+    if not args.query and not args.website and not args.all:
+        parser.error("Either --query, --website, or --all is required, or use --interactive")
     
     return args
 
@@ -164,12 +171,39 @@ def post_process_results(results, args):
         if args.category:
             pdf['categories'] = [args.category]
         
-        # Auto-categorize based on title and search query
-        elif args.auto_categorize and not pdf.get('categories'):
-            # Create text to analyze
-            analysis_text = f"{pdf.get('title', '')} {pdf.get('sourceQuery', '')}"
+        # Extract tags from sourceQuery before it gets removed in schema compatibility
+        if 'sourceQuery' in pdf:
+            # Initialize tags array if it doesn't exist
+            if 'tags' not in pdf or not pdf['tags']:
+                pdf['tags'] = []
+                
+            # Process sourceQuery to extract potential tags
             if isinstance(pdf.get('sourceQuery'), list):
-                analysis_text += " ".join(pdf['sourceQuery'])
+                # Extract meaningful terms from the query as tags
+                for term in pdf['sourceQuery']:
+                    # Skip common terms, filetype specifiers, and any term containing 'filetype:pdf'
+                    if (term.lower() not in ['filetype:pdf', 'pdf', 'filetype', 'and', 'or', 'the', 'a', 'an'] 
+                            and 'filetype:' not in term.lower()
+                            and len(term) > 2 
+                            and term.lower() not in [t.lower() for t in pdf['tags']]):
+                        pdf['tags'].append(term.lower())
+            elif isinstance(pdf.get('sourceQuery'), str):
+                # Split the string into terms
+                terms = pdf['sourceQuery'].split()
+                for term in terms:
+                    if (term.lower() not in ['filetype:pdf', 'pdf', 'filetype', 'and', 'or', 'the', 'a', 'an']
+                            and 'filetype:' not in term.lower()
+                            and len(term) > 2 
+                            and term.lower() not in [t.lower() for t in pdf['tags']]):
+                        pdf['tags'].append(term.lower())
+            
+            # Remove sourceQuery field to ensure it's not included in final result
+            del pdf['sourceQuery']
+        
+        # Auto-categorize based on title and search query
+        if args.auto_categorize and not pdf.get('categories'):
+            # Create text to analyze from title only since sourceQuery might be deleted
+            analysis_text = pdf.get('title', '')
             
             # Detect categories
             detected_categories = detect_categories(analysis_text)
@@ -233,37 +267,113 @@ def main():
     # Search methods
     search_methods = args.methods.split(',')
     
-    # Use appropriate search method based on arguments
-    if args.website:
-        # When a website is specified, always use the 'website' method
-        search_methods = ['website']
-        query = args.website
-        print(f"Searching website: {query}")
+    # Process all categories mode
+    if args.all:
+        categories_config = load_categories_config()
+        total_results = []
+        
+        print(f"PDF Update Script - All Categories Mode")
+        print(f"=======================================")
+        print(f"Processing {len(categories_config['categories'])} categories")
+        print(f"Using search methods: {', '.join(search_methods)}")
+        print(f"Maximum results per search: {args.limit}")
+        print()
+        
+        for category in categories_config["categories"]:
+            category_id = category["id"]
+            category_name = category["name"]
+            
+            print(f"Processing category: {category_name} ({category_id})")
+            
+            # Use the category keywords to construct search queries
+            all_category_results = []
+            
+            for keyword in category["keywords"]:
+                # Skip very short keywords
+                if len(keyword) < 3:
+                    continue
+                    
+                query = f"{keyword} filetype:pdf"
+                print(f"  Searching for: {query}")
+                
+                # Perform the search with current category
+                temp_args = argparse.Namespace(**vars(args))
+                temp_args.query = query
+                temp_args.category = category_id
+                
+                # Search using current query
+                results = finder.search_and_process(
+                    query=query,
+                    limit=args.limit,
+                    search_methods=search_methods,
+                    verify=not args.no_verify
+                )
+                
+                # Post-process results for this category
+                processed_results = post_process_results(results, temp_args)
+                all_category_results.extend(processed_results)
+                total_results.extend(processed_results)
+                
+                # Short delay between queries to avoid rate limiting
+                time.sleep(1)
+            
+            print(f"  Added {len(all_category_results)} PDFs to category: {category_name}")
+            print()
+        
+        # Update all results in the data file
+        if total_results:
+            finder.save_results()
+            
+        # Print overall results summary
+        print(f"All Categories Update Completed:")
+        print(f"- {len(total_results)} new PDFs added")
+        print(f"- Collection now contains {len(finder.data['pdfs'])} PDFs total")
+        print(f"- Updated collection saved to {output_file}")
+        
+        # Print category statistics
+        print(f"\nCategory statistics:")
+        category_counts = {}
+        for pdf in finder.data["pdfs"]:
+            for cat in pdf.get("categories", ["uncategorized"]):
+                category_counts[cat] = category_counts.get(cat, 0) + 1
+        
+        for cat_id, count in category_counts.items():
+            # Try to get the actual category name
+            cat_name = next((c["name"] for c in categories_config["categories"] if c["id"] == cat_id), cat_id)
+            print(f"- {cat_name}: {count} PDFs")
+        
     else:
-        # Otherwise use the query with specified search methods
-        query = args.query
-        print(f"Searching for: {query} using methods: {', '.join(search_methods)}")
-    
-    # Perform the search
-    results = finder.search_and_process(
-        query=query,
-        limit=args.limit,
-        search_methods=search_methods,
-        verify=not args.no_verify
-    )
-    
-    # Post-process results for schema compatibility and categorization
-    results = post_process_results(results, args)
-    
-    # Update the results in the data file
-    if results:
-        finder.save_results()
-    
-    # Print results summary
-    print(f"|Update completed:")
-    print(f"- {len(results)} new PDFs added")
-    print(f"- Collection now contains {len(finder.data['pdfs'])} PDFs total")
-    print(f"- Updated collection saved to {output_file}")
+        # Use appropriate search method based on arguments
+        if args.website:
+            # When a website is specified, always use the 'website' method
+            search_methods = ['website']
+            query = args.website
+            print(f"Searching website: {query}")
+        else:
+            # Otherwise use the query with specified search methods
+            query = args.query
+            print(f"Searching for: {query} using methods: {', '.join(search_methods)}")
+        
+        # Perform the search
+        results = finder.search_and_process(
+            query=query,
+            limit=args.limit,
+            search_methods=search_methods,
+            verify=not args.no_verify
+        )
+        
+        # Post-process results for schema compatibility and categorization
+        results = post_process_results(results, args)
+        
+        # Update the results in the data file
+        if results:
+            finder.save_results()
+        
+        # Print results summary
+        print(f"|Update completed:")
+        print(f"- {len(results)} new PDFs added")
+        print(f"- Collection now contains {len(finder.data['pdfs'])} PDFs total")
+        print(f"- Updated collection saved to {output_file}")
 
 if __name__ == "__main__":
     main()

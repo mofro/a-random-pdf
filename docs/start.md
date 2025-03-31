@@ -121,6 +121,9 @@ python update_pdf_collection.py --interactive
 
 # Search for PDFs by query
 python update_pdf_collection.py --query "machine learning" --methods google,duckduckgo
+
+# Update PDFs for all categories (similar to npm run update-pdfs:all)
+python update_pdf_collection.py --all
 ```
 
 #### Advanced Options

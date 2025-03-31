@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2025-03-30T23:05:07.044Z",
+  "lastValidated": "2025-03-30T22:16:52.316812",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,44 +104,9 @@
         "color": "#95a5a6"
       }
     ],
-    "sources": [
-      {
-        "id": "arxiv",
-        "name": "arXiv",
-        "url": "https://arxiv.org"
-      },
-      {
-        "id": "acm",
-        "name": "ACM",
-        "url": "https://dl.acm.org"
-      },
-      {
-        "id": "ieee",
-        "name": "IEEE",
-        "url": "https://ieeexplore.ieee.org"
-      }
-    ],
-    "lastUpdated": "2025-03-31T01:16:17.503Z"
+    "lastUpdated": "2025-03-30T21:37:49.887753"
   },
   "pdfs": [
-    {
-      "id": "pdf001",
-      "title": "Distributed Systems: Principles and Paradigms",
-      "author": "Andrew S. Tanenbaum",
-      "url": "https://example.com/pdf1.pdf",
-      "isAvailable": true,
-      "dateAdded": "2023-05-10",
-      "categories": [
-        "networks",
-        "programming"
-      ],
-      "source": "acm",
-      "yearPublished": 2016,
-      "tags": [
-        "distributed-systems",
-        "computer-science"
-      ]
-    },
     {
       "id": "pdf9918964",
       "url": "https://www.bpchalihacollege.org.in/online/attendence/classnotes/files/1699604213.pdf",
@@ -4440,6 +4405,991 @@
       "categories": [],
       "source": "neurips",
       "yearPublished": 2020
+    },
+    {
+      "id": "pdf2573366",
+      "url": "https://ai.stanford.edu/~nilsson/MLBOOK.pdf",
+      "title": "MLBOOK",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.81,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6017300",
+      "url": "https://archive.org/download/python_ebooks_2020/%5BOliver_Theobald%5D_Machine_Learning_for_Absolute_Be.pdf",
+      "title": "%5BOliver Theobald%5D Machine Learning For Absolute Be",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.64,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5616192",
+      "url": "https://web.stanford.edu/~mossr/pdf/cs229-ml-notes.pdf",
+      "title": "Cs229 Ml Notes",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.23,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6348989",
+      "url": "https://www.iitp.ac.in/~ai-nlp-ml/course/dnlp/Neural-Network(Basics).pdf",
+      "title": "Neural Network(Basics)",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.18,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0372819",
+      "url": "https://www.cs.jhu.edu/~phi/ai/slides-2019/lecture-neural-networks.pdf",
+      "title": "Lecture Neural Networks",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.83,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6729882",
+      "url": "https://cse.engineering.nyu.edu/~mleung/CS6673/s09/introductionANN.pdf",
+      "title": "introductionANN",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.32,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3743763",
+      "url": "http://csis.pace.edu/~benjamin/teaching/cs627/webfiles/Astar.pdf",
+      "title": "Astar",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.82,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5232260",
+      "url": "https://kgsea.org/wp-content/uploads/2020/07/Raymond-Kim-BFS-DFS-%E2%80%93-Path-Finding-Algorithms.pdf",
+      "title": "Raymond Kim BFS DFS %E2%80%93 Path Finding Algorithms",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.71,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2168777",
+      "url": "https://www.cs.csustan.edu/~mmartin/teaching/CS4960S15/Corey%20Trevena%20-%20Pathfinding%20Algorithms%20in%20Navigational%20Meshes%20PDF.pdf",
+      "title": "Corey Trevena Pathfinding Algorithms In Navigational Meshes PDF",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.71,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7268795",
+      "url": "https://www.egr.uh.edu/sites/ccoe.egr.uh.edu/files/departments/civil.pdf",
+      "title": "Civil",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.43,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "civil",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1985099",
+      "url": "https://www.utrgv.edu/advising/_files/documents/roadmaps/2024/civil_engineering-bachelor_of_science.pdf",
+      "title": "Civil Engineering Bachelor Of Science",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "civil",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3213006",
+      "url": "https://www.asce.org/-/media/asce-images-and-files/career-and-growth/career-paths/2021-career-paths-brochure.pdf",
+      "title": "2021 Career Paths Brochure",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 5.39,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "civil",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf3085639",
+      "url": "https://faculty.mercer.edu/kunz_rk/documents/DesignIntro.pdf",
+      "title": "DesignIntro",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.51,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4482587",
+      "url": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/09/ME101-4.1-Engineering-Design-Process.pdf",
+      "title": "ME101 4.1 Engineering Design Process",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.58,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2915307",
+      "url": "https://highered.mheducation.com/sites/dl/free/0073534919/902887/Sample_Chapter.pdf",
+      "title": "Sample Chapter",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.64,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6979885",
+      "url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+      "title": "Understanding Machine Learning Theory Algorithms",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf7251548",
+      "url": "https://www.dau.edu/sites/default/files/Migrated/CopDocuments/DAU%20Guidebook%20SWE0057-What%20is%20ML%20V1.1.pdf",
+      "title": "DAU Guidebook SWE0057 What Is ML V1.1",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf3135176",
+      "url": "https://web.stanford.edu/~jurafsky/slp3/7.pdf",
+      "title": "7",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.0,
+      "sourceQuery": [
+        "neural",
+        "networks"
+      ]
+    },
+    {
+      "id": "pdf9272351",
+      "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf",
+      "title": "DeepLearningInNeuralNetworksOverview.JSchmidhuber2015",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.82,
+      "sourceQuery": [
+        "neural",
+        "networks"
+      ]
+    },
+    {
+      "id": "pdf8311226",
+      "url": "https://www.sdstate.edu/sites/default/files/ps/research/bioinformatics/upload/Deep-Learning.pdf",
+      "title": "Deep Learning",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.61,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6150529",
+      "url": "https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf",
+      "title": "NatureDeepReview",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.99,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6698276",
+      "url": "https://info.deepinstinct.com/hubfs/TOF/Deep%20Learning%20for%20Dummies.pdf",
+      "title": "Deep Learning For Dummies",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.12,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0447455",
+      "url": "https://graphics.stanford.edu/courses/cs468-17-spring/LectureSlides/L10%20-%20intro_to_deep_learning.pdf",
+      "title": "L10 Intro To Deep Learning",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.25,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8066727",
+      "url": "https://www.cs.princeton.edu/~arora/TheoryDL.pdf",
+      "title": "TheoryDL",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.16,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2453736",
+      "url": "https://engineering.purdue.edu/DeepLearn/Resources/DeepLearningTheory.pdf",
+      "title": "DeepLearningTheory",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.56,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2769198",
+      "url": "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf",
+      "title": "SuttonBartoIPRLBook2ndEd",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.96,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "reinforcement",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5326234",
+      "url": "https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf",
+      "title": "BartoSutton",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 41.61,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "reinforcement",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2899991",
+      "url": "https://www.princeton.edu/~yael/Publications/Niv2009.pdf",
+      "title": "Niv2009",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.66,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "reinforcement",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8577309",
+      "url": "https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.pdf",
+      "title": "Js Intro",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "sourceQuery": [
+        "javascript"
+      ]
+    },
+    {
+      "id": "pdf0530110",
+      "url": "https://www.cs.toronto.edu/~mashiyat/csc309/Lectures/javascript.pdf",
+      "title": "Javascript",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.65,
+      "sourceQuery": [
+        "javascript"
+      ]
+    },
+    {
+      "id": "pdf4157943",
+      "url": "https://archive.org/download/Vismay/1425_JavaScript-from-Beginner-to-Professional.pdf",
+      "title": "1425 JavaScript From Beginner To Professional",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.97,
+      "sourceQuery": [
+        "javascript"
+      ]
+    },
+    {
+      "id": "pdf6601176",
+      "url": "https://ia804609.us.archive.org/25/items/javascript-the-definitive-guide-7th-edition_202406/javascript-the-definitive-guide-7th-edition.pdf",
+      "title": "Javascript The Definitive Guide 7th Edition",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.97,
+      "sourceQuery": [
+        "javascript"
+      ]
+    },
+    {
+      "id": "pdf2439319",
+      "url": "https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf",
+      "title": "Javascript Cheat Sheet",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.24,
+      "sourceQuery": [
+        "javascript"
+      ]
+    },
+    {
+      "id": "pdf7830418",
+      "url": "https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20An%20Algorithmic%20Perspective%20%282nd%20ed.%29%20%5BMarsland%202014-10-08%5D.pdf",
+      "title": "Machine Learning An Algorithmic Perspective %282nd Ed.%29 %5BMarsland 2014 10 08%5D",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.65,
+      "sourceQuery": [
+        "machine",
+        "learning"
+      ]
+    },
+    {
+      "id": "pdf9389897",
+      "url": "https://hagan.okstate.edu/NNDesign.pdf",
+      "title": "NNDesign",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 11.27,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9580719",
+      "url": "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/AIML/Neural-Networks.pdf",
+      "title": "Neural Networks",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.5,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4111516",
+      "url": "https://fleuret.org/public/lbdl.pdf",
+      "title": "Lbdl",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.52,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8483917",
+      "url": "https://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf",
+      "title": "Python Cheatsheets",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.43,
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ],
+      "categories": [
+        "programming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8599687",
+      "url": "https://www.kodak.com/content/products-brochures/Film/Film-Format-Choices-Infographic.pdf",
+      "title": "Film Format Choices Infographic",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.64,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9951532",
+      "url": "https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/film.original.pdf",
+      "title": "Film.original",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.24,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3659745",
+      "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/film-media-studies/film-media-studies.pdf",
+      "title": "Film Media Studies",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.39,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6190936",
+      "url": "https://fm.hunter.cuny.edu/documents/fm_catalog.pdf",
+      "title": "Fm Catalog",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.13,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf8177209",
+      "url": "https://avscollege.ac.in/notes/english/II%20M.A.,%20Film%20&%20Media%20Studies%20Updated.pdf",
+      "title": "II M.A., Film & Media Studies Updated",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.85,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0369442",
+      "url": "https://catalog.rider.edu/undergraduate/colleges-schools/arts-sciences/majors-minors-certificates/film-media-studies/film-media-studies.pdf",
+      "title": "Film and Media Studies",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "CourseLeaf",
+      "pages": 3,
+      "sizeMB": 0.08,
+      "yearPublished": "2024",
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf0347793",
+      "url": "https://bulletin.wustl.edu/undergrad/artsci/filmandmediastudies/filmandmediastudies.pdf",
+      "title": "Filmandmediastudies",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.56,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1289925",
+      "url": "https://www.eduqas.co.uk/media/tmzja0q3/eduqas_as_film_studies_guidance_for_teaching_b.pdf",
+      "title": "Eduqas As Film Studies Guidance For Teaching B",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.34,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6830174",
+      "url": "http://uchicago-public.courseleaf.com/thecollege/cinemamediastudies/cinemamediastudies.pdf",
+      "title": "Cinemamediastudies",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.41,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+                "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8739122",
+      "url": "https://mu.ac.in/wp-content/uploads/2023/05/211-MACJ-Part-1-sem-2-Introduction-to-Film-Studies-INNER-PAGES.pdf",
+      "title": "211 MACJ Part 1 Sem 2 Introduction To Film Studies INNER PAGES",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.45,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6186158",
+      "url": "https://fm.hunter.cuny.edu/dept/documents/FilmProductionTrack.pdf",
+      "title": "FilmProductionTrack",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 4,
+      "sizeMB": 0.06,
+      "yearPublished": "2022",
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf5164412",
+      "url": "http://catalog.rider.edu/undergraduate/colleges-schools/arts-sciences/majors-minors-certificates/film-and-television/film-and-television.pdf",
+      "title": "Film And Television",
+      "dateAdded": "2025-03-30",
+      "lastChecked": "2025-03-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.17,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
     }
   ]
 }
