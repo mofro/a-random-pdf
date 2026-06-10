@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-06-10T00:07:26.684485",
+  "lastValidated": "2026-06-10T00:37:41.746773",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-06-10T04:07:38.546Z"
+    "lastUpdated": "2026-06-10T04:37:51.484Z"
   },
   "pdfs": [
     {
@@ -35614,6 +35614,436 @@
       "tags": [
         "film",
         "analysis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4157714",
+      "url": "https://mathstat.dal.ca/~brown/sound/python/ABeginnersGuideToPython3Progra.pdf",
+      "title": "ABeginnersGuideToPython3Progra",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.51,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3790515",
+      "url": "https://static.realpython.com/python-basics-sample-chapters.pdf",
+      "title": "Python Basics Sample Chapters",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.48,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7882812",
+      "url": "https://web.stanford.edu/class/cs45/lectures/14-cryptography.pdf",
+      "title": "14 Cryptography",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.5,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8790605",
+      "url": "https://www.cs.umb.edu/~ckelly/teaching/common/lecture/linux/networking/05-WirelessNetworking.pdf",
+      "title": "05 WirelessNetworking",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.35,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2278570",
+      "url": "https://web.cs.wpi.edu/~cs585/s17/Books/Books-PDF/DB%20Systems%20The%20Complete%20Book.pdf",
+      "title": "DB Systems The Complete Book",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 28.05,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3234957",
+      "url": "https://www.deped.gov.ph/wp-content/uploads/5-Updated-as-of-05.29.26_Database-Management.pdf",
+      "title": "5 Updated As Of 05.29.26 Database Management",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6712845",
+      "url": "https://brianschrank.com/gamesprintstudio/readings/Playtesting_Game_Design_Workshop.pdf",
+      "title": "Playtesting Game Design Workshop",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.45,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "playtesting"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8537069",
+      "url": "https://pathfinding.ai/pdf/cmhse-aaai23-jpsw.pdf",
+      "title": "Cmhse Aaai23 Jpsw",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.56,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4962108",
+      "url": "https://gail.wharton.upenn.edu/wp-content/uploads/2026/04/Beyond-Copy-and-Paste-How-Game-Studios-Are-Reorganizing-Around-AI.pdf",
+      "title": "Beyond Copy And Paste How Game Studios Are Reorganizing Around AI",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.28,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "game"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9290497",
+      "url": "https://cs.brown.edu/courses/csci1971/lectures/2021/procedural_generation.pdf",
+      "title": "Procedural Generation",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.32,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "procedural",
+        "generation"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7448351",
+      "url": "https://www.atptour.com/-/media/files/calendar-pdfs/2026/2027-atp-tour-calendar-14-january-2026-updated.pdf",
+      "title": "2027 Atp Tour Calendar 14 January 2026 Updated",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.12,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4758026",
+      "url": "https://www.oclc.org/content/dam/oclc/worldcat/library100/print/lib100_checklist.pdf",
+      "title": "Lib100 Checklist",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.49,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "novels"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1540309",
+      "url": "https://archive.org/download/complete-works-of-h-g-wells-h-g-wells/The%20Complete%20Novels%20of%20George%20Orwell%20by%20George%20Orwell.pdf",
+      "title": "The Complete Novels Of George Orwell By George Orwell",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.82,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "novels"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2153040",
+      "url": "https://uk.sagepub.com/sites/default/files/upm-assets/95301_book_item_95301.pdf",
+      "title": "95301 Book Item 95301",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.6,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "coaching"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3261155",
+      "url": "https://assets.cambridge.org/052190/7802/full_version/0521907802_pub.pdf",
+      "title": "0521907802 Pub",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.96,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2898582",
+      "url": "https://ia800109.us.archive.org/11/items/a-history-of-modern-iran_202503/A%20History%20of%20Modern%20Iran.pdf",
+      "title": "A History Of Modern Iran",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.5,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4556422",
+      "url": "https://archive.org/download/MusicTheoryComposition/music-theory-handbook.pdf",
+      "title": "Music Theory Handbook",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.61,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "theory"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2452628",
+      "url": "https://www.ideals.illinois.edu/items/6892/bitstreams/25283/data.pdf",
+      "title": "Data",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 3.13,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf3369790",
+      "url": "https://www.wipo.int/documents/d/wipo/docs-social-media-gii-global-cinema-data-2025.pdf",
+      "title": "Docs Social Media Gii Global Cinema Data 2025",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.78,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "production"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf3843474",
+      "url": "https://berkeleyguidearchive.github.io/2021-22/undergraduate/departments/media-studies/media-studies.pdf",
+      "title": "Media Studies",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.19,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0866298",
+      "url": "https://api.pageplace.de/preview/DT0400.9781317428305_A41590287/preview-9781317428305_A41590287.pdf",
+      "title": "Preview 9781317428305 A41590287",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.46,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
       ],
       "author": "Unknown",
       "source": "unknown",
