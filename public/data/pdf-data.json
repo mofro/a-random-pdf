@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-06-09T23:45:46.324604",
+  "lastValidated": "2026-06-10T00:07:26.684485",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-06-10T03:45:53.208Z"
+    "lastUpdated": "2026-06-10T04:07:38.546Z"
   },
   "pdfs": [
     {
@@ -34731,6 +34731,889 @@
       ],
       "tags": [
         "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8267068",
+      "url": "https://www.puc.pa.gov/media/3173/24_low-income-broadband-assistance-programs-in-pa.pdf",
+      "title": "24 Low Income Broadband Assistance Programs In Pa",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.77,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4587736",
+      "url": "https://broadbandusa.ntia.gov/sites/default/files/2022-12/Introduction_to_Broadband_and_High_Speed_Internet_FINAL_0.pdf",
+      "title": "Introduction To Broadband And High Speed Internet FINAL 0",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.06,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1302679",
+      "url": "https://intronetworks.cs.luc.edu/current/ComputerNetworks.pdf",
+      "title": "ComputerNetworks",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.19,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "computer",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9891762",
+      "url": "https://archive.org/download/calibre_ebook_libraries/calibre_libraries/202.203.132.245.zip/Computer%20Networks%20%285e%29%20-%20Andrew%20S.%20Tanenbaum%20%26%20DAVID%20J._29.pdf",
+      "title": "Computer Networks %285e%29 Andrew S. Tanenbaum %26 DAVID J. 29",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "computer",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8143920",
+      "url": "https://app.sensortower.com/vgi/assets/reports/The_Big_Game_Engines_Report_of_2025.pdf",
+      "title": "The Big Game Engines Report Of 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.33,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "engines"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8835561",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/game-engine-architecture.pdf",
+      "title": "Game Engine Architecture",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.58,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "engines"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8995151",
+      "url": "https://jm-j.com/education/narrative_design.pdf",
+      "title": "Narrative Design",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.97,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "narrative",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8884483",
+      "url": "https://api.pageplace.de/preview/DT0400.9781501519802_A49748383/preview-9781501519802_A49748383.pdf",
+      "title": "Preview 9781501519802 A49748383",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.98,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "game",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1981938",
+      "url": "https://illuminatenebraska.org/wp-content/uploads/2025/07/IlluminateNE-INNOVATION-ENTREPRENUERSHIP_ProcessOfInnovation_Protyotyping-BetaTesting.pdf",
+      "title": "IlluminateNE INNOVATION ENTREPRENUERSHIP ProcessOfInnovation Protyotyping BetaTesting",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.14,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "beta",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5534801",
+      "url": "https://zipboard.co/wp-content/uploads/2023/12/Mastering-Beta-Testing-A-Comprehensive-Guide-to-Planning-Recruiting-and-Executing-Successful-Web-Application-Tests.pdf",
+      "title": "Mastering Beta Testing A Comprehensive Guide To Planning Recruiting And Executing Successful Web Application Tests",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.57,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "beta",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8863130",
+      "url": "https://assets.super.so/9bd43d2f-3d87-4399-bcf0-c72619825ed8/files/2cda4c82-c534-42f0-8895-9ed845a1a027.pdf",
+      "title": "2cda4c82 C534 42f0 8895 9ed845a1a027",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 22.97,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "user",
+        "experience"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4727458",
+      "url": "https://sis.tv/wp-content/uploads/2025/01/CG_SalesPresenter_v2_compressed.pdf",
+      "title": "CG SalesPresenter V2 Compressed",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.42,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "competitive",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1018632",
+      "url": "https://pgatourmedia.pgatourhq.com/static-assets/page/files/pressreleases/2024/08/2025PGATOURSchedulethruFedExCupPlayoffs.pdf",
+      "title": "2025PGATOURSchedulethruFedExCupPlayoffs",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf3437299",
+      "url": "https://www.atptour.com/-/media/files/calendar-pdfs/2025/2026-atp-tour-calendar-december-2025.pdf",
+      "title": "2026 Atp Tour Calendar December 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2025969",
+      "url": "https://commerce.maryland.gov/Documents/BusinessResource/USAMRDC-US-army-medical-research-and-development-command.pdf",
+      "title": "USAMRDC US Army Medical Research And Development Command",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3104303",
+      "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_6_medicine.pdf",
+      "title": "Ai Index Report 2026 Chapter 6 Medicine",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.7,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6183965",
+      "url": "https://www.cms.gov/files/document/nhe-projections-forecast-summary.pdf",
+      "title": "Nhe Projections Forecast Summary",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.18,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6160764",
+      "url": "https://cdm.gov.in/wp-content/uploads/2024/11/MDP-RM03_CDM-Handout_A-Guide-to-Research.pdf",
+      "title": "MDP RM03 CDM Handout A Guide To Research",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.46,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1470131",
+      "url": "https://www.ibiblio.org/ebooks/Einstein/Einstein_Relativity.pdf",
+      "title": "Einstein Relativity",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.08,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "relativity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5467957",
+      "url": "https://archive.org/download/AlbertEinsteinAndHisWorks/AlbertEinstein-Relativity.pdf",
+      "title": "AlbertEinstein Relativity",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "relativity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8924186",
+      "url": "https://www.congress.gov/crs_external_products/R/PDF/R47716/R47716.4.pdf",
+      "title": "R47716.4",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "government"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf0119282",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/budget_fy2027.pdf",
+      "title": "Budget Fy2027",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.37,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "government"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6983385",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202501186/pdf/DCPD-202501186.pdf",
+      "title": "DCPD 202501186",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.24,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4804494",
+      "url": "https://hostnezt.com/cssfiles/internationalrelations/Understanding%20International%20Relations%20By%20Chris%20Brown.pdf",
+      "title": "Understanding International Relations By Chris Brown",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.08,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "international",
+        "relations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4605365",
+      "url": "https://ia601308.us.archive.org/7/items/cu31924027192941/cu31924027192941.pdf",
+      "title": "Cu31924027192941",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.89,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1818460",
+      "url": "https://archive.org/download/writingoffiction0000whar/writingoffiction0000whar.pdf",
+      "title": "Writingoffiction0000whar",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.59,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1153955",
+      "url": "https://aim.clinic/wp-content/uploads/2024/11/coaching_psychology_manual_margaret_moo.pdf",
+      "title": "Coaching Psychology Manual Margaret Moo",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.3,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "coaching"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2247939",
+      "url": "https://www.marines.mil/Portals/1/MCBUL%201500%20DTD%2020FEB15.pdf",
+      "title": "MCBUL 1500 DTD 20FEB15",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3813683",
+      "url": "https://library.csbmcampus.com/library_csbm/books/higher-diploma-in-sports-&-exercise-science/Sport%20Psychology%20-%20Recomended%20Textbook.pdf",
+      "title": "Sport Psychology Recomended Textbook",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.92,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "psychology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0664291",
+      "url": "https://archive.org/download/the-clash-of-civilizations/the-clash-of-civilizations.pdf",
+      "title": "The Clash Of Civilizations",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.9,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "civilizations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1071603",
+      "url": "https://www.msuniv.ac.in/images/distance%20education/learning%20materials/ug%20pg%202023/pg%202021/MA%20history%20%202023%20%20english%20medium/SHYM13%20-%20I%20Sem%20-%20History%20of%20World%20Civilzsations%20(Excluding%20India).pdf",
+      "title": "SHYM13 I Sem History Of World Civilzsations (Excluding India)",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "civilizations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1601229",
+      "url": "https://masterlitciv.weebly.com/uploads/1/0/6/6/106687017/michael_p._johnson_-_reading_the_american_past_volume_i__to_1877__selected_historical_documents__2008_bedford_st._martins_.pdf",
+      "title": "Michael P. Johnson Reading The American Past Volume I To 1877 Selected Historical Documents 2008 Bedford St. Martins",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.39,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "historical",
+        "documents"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6033603",
+      "url": "https://iem.ca/pdf/resources/Mechanical%20Engineers'%20Handbook,%20Materials%20and%20Engineering%20Mechanics.pdf",
+      "title": "Mechanical Engineers' Handbook, Materials And Engineering Mechanics",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 12.03,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0634110",
+      "url": "https://electricalconnects.com/frontend/images/free_items/electrical-engineering-concepts-and-applications.pdf",
+      "title": "Electrical Engineering Concepts And Applications",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 10.68,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7473428",
+      "url": "https://archive.org/download/soi-book-collection-4/Schoenberg_Arnold_Fundamentals_of_Musical_Composition_no_OCR_text.pdf",
+      "title": "Schoenberg Arnold Fundamentals Of Musical Composition No OCR Text",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.03,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musical",
+        "composition"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7574334",
+      "url": "https://lacountylibrary.org/wp-content/uploads/2025/08/DIY-Library-Program-Music-Composition.pdf",
+      "title": "DIY Library Program Music Composition",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.43,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musical",
+        "composition"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9527975",
+      "url": "https://archive.org/download/the-science-of-musicology/THE%20SCIENCE%20OF%20MUSICOLOGY.pdf",
+      "title": "THE SCIENCE OF MUSICOLOGY",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8251241",
+      "url": "https://posgrado.unam.mx/musica/pdfNCM/Duckle&Pasler_Musicology1.pdf",
+      "title": "Duckle&Pasler Musicology1",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.12,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3985155",
+      "url": "https://scriptserious.com/wp-content/uploads/2025/10/Screenplay-Format-Guide.pdf",
+      "title": "Screenplay Format Guide",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.82,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "screenplay"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0252329",
+      "url": "https://archive.org/download/screenplaythefoundationsofscreenwritingrevisedupdatedsydfield2005/Screenplay%3B%20The%20Foundations%20of%20Screenwriting%2C%20revised%20%26%20updated%20-%20Syd%20Field%20%282005%29.pdf",
+      "title": "Screenplay%3B The Foundations Of Screenwriting%2C Revised %26 Updated Syd Field %282005%29",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.31,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "screenplay"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4665843",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/the-complete-film-production-handbook.pdf",
+      "title": "The Complete Film Production Handbook",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.12,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "production"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5353730",
+      "url": "https://anspachmedia.com/wp-content/uploads/2025/02/Anatomy-of-Film-Production-BOOK.pdf",
+      "title": "Anatomy Of Film Production BOOK",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.99,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "production"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4257463",
+      "url": "https://alexandercollege.ca/web-2024/wp-content/uploads/2024/08/Writing-a-Film-Analysis-Summer-2024.pdf",
+      "title": "Writing A Film Analysis Summer 2024",
+      "dateAdded": "2026-06-10",
+      "lastChecked": "2026-06-10",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.23,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "analysis"
       ],
       "author": "Unknown",
       "source": "unknown",
