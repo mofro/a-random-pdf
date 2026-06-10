@@ -16,6 +16,7 @@ Usage:
 import argparse
 import json
 import os
+import random
 import sys
 import time
 from datetime import datetime
@@ -314,8 +315,9 @@ def main():
                 all_category_results.extend(processed_results)
                 total_results.extend(processed_results)
                 
-                # Short delay between queries to avoid rate limiting
-                time.sleep(1)
+                # Longer delay between queries — 1s gets both Google and DuckDuckGo
+                # rate-limiting after ~4 categories (~20 searches)
+                time.sleep(random.uniform(10, 15))
             
             print(f"  Added {len(all_category_results)} PDFs to category: {category_name}")
             print()
