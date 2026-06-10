@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2025-05-03T21:16:12.493224",
+  "lastValidated": "2026-06-09T23:45:46.324604",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2025-03-30T21:37:49.887753"
+    "lastUpdated": "2026-06-10T03:45:53.208Z"
   },
   "pdfs": [
     {
@@ -4768,7 +4768,7 @@
       "lastChecked": "2025-03-30",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 1.0,
+      "sizeMB": 1,
       "sourceQuery": [
         "neural",
         "networks"
@@ -5442,7 +5442,7 @@
       "isAvailable": true,
       "lastStatus": 200,
       "pages": 0,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "ai"
       ],
@@ -7941,7 +7941,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -7981,7 +7981,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8021,7 +8021,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8101,7 +8101,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8181,7 +8181,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8301,7 +8301,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8321,7 +8321,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8581,7 +8581,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8722,7 +8722,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -8764,7 +8764,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -9076,7 +9076,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -9196,7 +9196,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "security"
       ],
@@ -10792,7 +10792,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "databases"
       ],
@@ -10912,7 +10912,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "databases"
       ],
@@ -12457,7 +12457,7 @@
       "isAvailable": true,
       "lastStatus": 200,
       "pages": 0,
-      "sizeMB": 1.0,
+      "sizeMB": 1,
       "categories": [
         "gaming"
       ],
@@ -13080,7 +13080,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gaming"
       ],
@@ -13220,7 +13220,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gaming"
       ],
@@ -13280,7 +13280,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gaming"
       ],
@@ -13384,7 +13384,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 2.0,
+      "sizeMB": 2,
       "categories": [
         "gaming"
       ],
@@ -15215,7 +15215,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gamedesign"
       ],
@@ -15620,7 +15620,7 @@
       "isAvailable": true,
       "lastStatus": 200,
       "pages": 0,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gametesting"
       ],
@@ -15703,7 +15703,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gametesting"
       ],
@@ -15830,7 +15830,7 @@
       "isAvailable": true,
       "lastStatus": 200,
       "pages": 0,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "gametesting"
       ],
@@ -18378,7 +18378,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "esports"
       ],
@@ -18498,7 +18498,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "esports"
       ],
@@ -19736,7 +19736,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "medicine"
       ],
@@ -20539,7 +20539,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "science"
       ],
@@ -21151,7 +21151,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "science"
       ],
@@ -22813,7 +22813,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 6.0,
+      "sizeMB": 6,
       "categories": [
         "physics"
       ],
@@ -23636,7 +23636,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "politics"
       ],
@@ -23816,7 +23816,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "politics"
       ],
@@ -24534,7 +24534,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "politics"
       ],
@@ -25300,7 +25300,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "literature"
       ],
@@ -26100,7 +26100,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "literature"
       ],
@@ -26440,7 +26440,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26500,7 +26500,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26560,7 +26560,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26640,7 +26640,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26700,7 +26700,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26720,7 +26720,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -26845,7 +26845,7 @@
       "isAvailable": true,
       "lastStatus": 200,
       "pages": 0,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "sports"
       ],
@@ -28020,7 +28020,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "history"
       ],
@@ -28833,7 +28833,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "history"
       ],
@@ -30093,7 +30093,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 0.0,
+      "sizeMB": 0,
       "categories": [
         "engineering"
       ],
@@ -30240,7 +30240,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 3.0,
+      "sizeMB": 3,
       "categories": [
         "music"
       ],
@@ -32128,7 +32128,7 @@
       "lastChecked": "2025-05-03",
       "isAvailable": true,
       "lastStatus": 200,
-      "sizeMB": 2.0,
+      "sizeMB": 2,
       "categories": [
         "film"
       ],
@@ -32894,6 +32894,1848 @@
         "studies"
       ],
       "source": "unknown"
+    },
+    {
+      "id": "pdf5772126",
+      "url": "https://introml.mit.edu/_static/spring24/LectureNotes/chapter_Neural_Networks.pdf",
+      "title": "Chapter Neural Networks",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.25,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9088054",
+      "url": "https://ee104.stanford.edu/lectures/neural.pdf",
+      "title": "Neural",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.73,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8455124",
+      "url": "https://academicweb.nd.edu/~lemmon/courses/deep-learning/lecture-book/deep-learning-book-2025.pdf",
+      "title": "Deep Learning Book 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 25.86,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1888465",
+      "url": "https://archive.org/download/deep-learning-collection-pdf/Deep%20Learning%20with%20Python%20-%20Fran%C3%A7ois%20Chollet%20-%20Manning%20%282018%29.pdf",
+      "title": "Deep Learning With Python Fran%C3%A7ois Chollet Manning %282018%29",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.02,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2913510",
+      "url": "https://archive.org/download/thomas-h.-cormen-charles-e.-leiserson-ronald-l.-rivest-clifford-stein-introducti/Thomas%20H.%20Cormen%2C%20Charles%20E.%20Leiserson%2C%20Ronald%20L.%20Rivest%2C%20Clifford%20Stein%20-%20Introduction%20to%20Algorithms-The%20MIT%20Press%20%282022%29.pdf",
+      "title": "Thomas H. Cormen%2C Charles E. Leiserson%2C Ronald L. Rivest%2C Clifford Stein Introduction To Algorithms The MIT Press %282022%29",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 11.69,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "algorithms"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6704092",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/software-engineering-by-roger-s-pressman.pdf",
+      "title": "Software Engineering By Roger S Pressman",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.27,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "software",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9385184",
+      "url": "https://assets-global.website-files.com/634e4fc81c2f1812ebc880af/65166b470157f4ba8cd5c677_Web%20Development%20A%20Guide%20to%20Skills%2C%20Strategies%2C%20and%20Success.pdf",
+      "title": "65166b470157f4ba8cd5c677 Web Development A Guide To Skills%2C Strategies%2C And Success",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.36,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "web",
+        "development"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7501974",
+      "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2024/05/2024-Report-on-the-Cybersecurity-Posture-of-the-United-States.pdf",
+      "title": "2024 Report On The Cybersecurity Posture Of The United States",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.61,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "cybersecurity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0572061",
+      "url": "https://archive.org/download/strategic_intelligence_network/communication/encryption/introduction_to_modern_cryptography.pdf",
+      "title": "Introduction To Modern Cryptography",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.57,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7381937",
+      "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf",
+      "title": "NIST.FIPS.203",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.19,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0659428",
+      "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF11207/IF11207.3.pdf",
+      "title": "IF11207.3",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf2485442",
+      "url": "https://fpf.org/wp-content/uploads/2025/12/FPF-Anatomy-of-a-State-Comprehensive-Privacy-Law-Report.pdf",
+      "title": "FPF Anatomy Of A State Comprehensive Privacy Law Report",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.84,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5769560",
+      "url": "https://www.pdfiles.net/storage/Books/security/network_security.pdf",
+      "title": "Network Security",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.04,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "network",
+        "security"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9891494",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.41.pdf",
+      "title": "NIST.CSWP.41",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.96,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "vulnerabilities"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4542136",
+      "url": "https://fan1x.github.io/data/2025-26/pds/Distributed_Systems_4.pdf",
+      "title": "Distributed Systems 4",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 23.07,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "distributed",
+        "systems"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0783462",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall23/cos109/13protocol.pdf",
+      "title": "13protocol",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.32,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "protocols"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4403424",
+      "url": "https://www.idc-online.com/technical_references/pdfs/data_communications/How_Does_Wireless_Networking_Work.pdf",
+      "title": "How Does Wireless Networking Work",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.32,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2838827",
+      "url": "https://www.egr.msu.edu/~tongli/Introduction-WCN.pdf",
+      "title": "Introduction WCN",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.5,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf8152679",
+      "url": "https://www2.cs.sfu.ca/CourseCentral/354/jpei/2021/introductionSQL.pdf",
+      "title": "introductionSQL",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.37,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "sql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8994213",
+      "url": "https://docs.oracle.com/en/database/other-databases/nosql-database/24.4/concepts/concepts-guide.pdf",
+      "title": "Concepts Guide",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.52,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "nosql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7356128",
+      "url": "https://sharifdb.github.io/assets/materials/ClassSlides/3-Data%20Modeling-Introduction.pdf",
+      "title": "3 Data Modeling Introduction",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.07,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "data",
+        "modeling"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3805522",
+      "url": "https://archive.org/download/game-design-pack/The%20Art%20of%20Game%20Design%20-%20Jesse%20Schell%20%282014%29%20%282nd%20from%202008%29.pdf",
+      "title": "The Art Of Game Design Jesse Schell %282014%29 %282nd From 2008%29",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 14.81,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3661945",
+      "url": "https://downloads.gamedev.net/pdf/GameDesign2e_Chapter2.pdf",
+      "title": "GameDesign2e Chapter2",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.52,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1981846",
+      "url": "https://projects.vrac.iastate.edu/reu2024/wp-content/uploads/2024/05/01-Intro-to-Unity.pdf",
+      "title": "01 Intro To Unity",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.93,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "unity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5766640",
+      "url": "https://dlss.download.nvidia.com/uebinarypackages/Documentation/UE5+Raytracing+Guideline+v5.4.pdf",
+      "title": "UE5+Raytracing+Guideline+v5.4",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.56,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "unreal",
+        "engine"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2342767",
+      "url": "https://mcoorlim.com/wp-content/uploads/2025/06/Godot-Basics.pdf",
+      "title": "Godot Basics",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.33,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "godot"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3013154",
+      "url": "https://ia801505.us.archive.org/16/items/random-papers2/An%20Architectural%20Approach%20to%20Level%20Design.pdf",
+      "title": "An Architectural Approach To Level Design",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 16.43,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "level",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8198495",
+      "url": "https://archive.org/download/game-design-pack/Game%20Mechanics%20-%20Advanced%20Game%20Design%20-%20E.%20Adams%2C%20J.%20Dormans%20%28New%20Riders%2C%202012%29%20BBS.pdf",
+      "title": "Game Mechanics Advanced Game Design E. Adams%2C J. Dormans %28New Riders%2C 2012%29 BBS",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 27.87,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5590769",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/game-mechanics.pdf",
+      "title": "Game Mechanics",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.49,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2057389",
+      "url": "https://www.dline.info/pca/fulltext/v9n2/pcav9n2_1.pdf",
+      "title": "Pcav9n2 1",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.27,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "balance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1177376",
+      "url": "https://wwwx.cs.unc.edu/~pozefsky/seriousgames/NewDesignDocTemplate.pdf",
+      "title": "NewDesignDocTemplate",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "documents"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5174565",
+      "url": "https://brianschrank.com/gamesprintstudio/readings/Playtesting_Guide.pdf",
+      "title": "Playtesting Guide",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.11,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "playtesting"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0388593",
+      "url": "https://www.cs.utoronto.ca/~elias/csc404/lectures/playtesting_1up.pdf",
+      "title": "Playtesting 1up",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.46,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "playtesting"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5926289",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-28pt1C.pdf",
+      "title": "NIST.SP.1500 28pt1C",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.23,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "quality",
+        "assurance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7790636",
+      "url": "https://www.epa.gov/system/files/documents/2024-04/quality_assurance_project_plan_standard.pdf",
+      "title": "Quality Assurance Project Plan Standard",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.51,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "quality",
+        "assurance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7795551",
+      "url": "https://danforth.co/pages/wp-content/uploads/2025/09/Danforth-UserResearch-ReadyNote.pdf",
+      "title": "Danforth UserResearch ReadyNote",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 2.76,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "user",
+        "experience"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5873635",
+      "url": "https://cs.brown.edu/courses/csci1971/lectures/2021/lecture4.pdf",
+      "title": "Lecture4",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.59,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3864153",
+      "url": "https://services.google.com/fh/files/misc/global_ai_meets_the_games_industry.pdf",
+      "title": "Global Ai Meets The Games Industry",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "game"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5206220",
+      "url": "https://cdn.prod.website-files.com/64b82ffefb8b740467a3cf7c/68a79cc6bac9d1ba6e6cbe09_Esports%20Guidebook%202025.pdf",
+      "title": "68a79cc6bac9d1ba6e6cbe09 Esports Guidebook 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.4,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "esports"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0960568",
+      "url": "https://www.videogameseurope.eu/wp-content/uploads/2025/03/Guide-to-Esports-VGE-ESA-ESA-C-IGEA-1.pdf",
+      "title": "Guide To Esports VGE ESA ESA C IGEA 1",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.02,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "esports"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8209749",
+      "url": "https://ah.lib.nccu.edu.tw/bitstream/140.119/127154/1/234.pdf",
+      "title": "234",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.18,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "game",
+        "streaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2995439",
+      "url": "https://www.irs.gov/pub/irs-pdf/i990sg.pdf",
+      "title": "I990sg",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.14,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "professional",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1981109",
+      "url": "https://bhw.hrsa.gov/sites/default/files/bureau-health-workforce/data-research/State-of-US-Health-Care-Workforce-2025.pdf",
+      "title": "State Of US Health Care Workforce 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9549252",
+      "url": "https://batemanhornecenter.org/wp-content/uploads/2025/05/Clinical-Care-Guide-First-Edition-2025-1.pdf",
+      "title": "Clinical Care Guide First Edition 2025 1",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.94,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7326628",
+      "url": "https://www.ci2i.research.va.gov/paws/pdfs/ciwa-ar.pdf",
+      "title": "Ciwa Ar",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 2,
+      "sizeMB": 0.05,
+      "yearPublished": "2001",
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf1356994",
+      "url": "https://archive.org/download/astronomicalheri0000unse_202306/Anatomy%20101_%20From%20Muscles%20and%20Bones%20to%20Organs%20and%20Systems%2C%20Your%20Guide%20to%20How%20the%20Human%20Body%20Works%20%28%20PDFDrive%20%29.pdf",
+      "title": "Anatomy 101 From Muscles And Bones To Organs And Systems%2C Your Guide To How The Human Body Works %28 PDFDrive %29",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.73,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "anatomy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5883788",
+      "url": "https://www.cms.gov/files/document/fy-2026-icd-10-cm-coding-guidelines.pdf",
+      "title": "Fy 2026 Icd 10 Cm Coding Guidelines",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.8,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "diagnosis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7043340",
+      "url": "https://www.alliedacademies.org/articles/diagnosis-in-healthcare-process-importance-and-challenges.pdf",
+      "title": "Diagnosis In Healthcare Process Importance And Challenges",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.21,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "diagnosis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1766245",
+      "url": "https://files.eric.ed.gov/fulltext/ED673440.pdf",
+      "title": "ED673440",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.49,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4361412",
+      "url": "https://www.arvindguptatoys.com/arvindgupta/700un1.pdf",
+      "title": "700un1",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "experiments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf9074410",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/101-great-science-experiments.pdf",
+      "title": "101 Great Science Experiments",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.44,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "experiments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3273156",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1058646.pdf",
+      "title": "untitled",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 6,
+      "sizeMB": 0.03,
+      "yearPublished": "2015",
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf5767802",
+      "url": "https://web.stanford.edu/class/symsys130/Philosophy%20of%20science.pdf",
+      "title": "Philosophy Of Science",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.2,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1814595",
+      "url": "https://d30dniaih0pjva.cloudfront.net/wp-content/uploads/2025/09/17162405/Volume-1.pdf",
+      "title": "Volume 1",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.99,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "environmental",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7737446",
+      "url": "https://davidmorin.physics.fas.harvard.edu/sites/g/files/omnuum12331/files/2025-10/waves_quantum.pdf",
+      "title": "Waves Quantum",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.47,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "quantum",
+        "physics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2506156",
+      "url": "https://idc-online.com/technical_references/pdfs/mechanical_engineering/Fundamental_Concepts_and_Principles_of_Mechanics.pdf",
+      "title": "Microsoft Word - 02_Statics_of_Rigid_Bodies_01_Concepts.doc",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "pkel015",
+      "pages": 3,
+      "sizeMB": 0.08,
+      "yearPublished": "2013",
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "mechanics"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf0762930",
+      "url": "https://ia801508.us.archive.org/10/items/in.ernet.dli.2015.523571/2015.523571.Engineering-Mechanics_text.pdf",
+      "title": "2015.523571.Engineering Mechanics Text",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 17.97,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf3739772",
+      "url": "https://ia800400.us.archive.org/33/items/IntroductionToParticlePhysics/Introduction%20to%20Particle%20Physics.pdf",
+      "title": "Introduction To Particle Physics",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.98,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "particle",
+        "physics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1417250",
+      "url": "https://polisci.ucla.edu/wp-content/uploads/2025/12/Political-Science-Major-Requirements.pdf",
+      "title": "Political Science Major Requirements",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.11,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "political",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1936675",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+      "title": "03.20.26 National Policy Framework For Artificial Intelligence Legislative Recommendations",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.23,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4784403",
+      "url": "https://www.kcl.ac.uk/policy-institute/assets/what-is-policy.pdf",
+      "title": "What Is Policy",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.86,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5722311",
+      "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi72/0053215.pdf",
+      "title": "0053215",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.96,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "public",
+        "administration"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5875385",
+      "url": "https://lemsas.net/lecturer/config/mylibrary/LN%201.1%20-%20Introduction%20to%20Public%20Administration.pdf",
+      "title": "LN 1.1 Introduction To Public Administration",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.23,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "public",
+        "administration"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5694980",
+      "url": "https://owl.purdue.edu/owl/resources/teaching_resources/documents/new-writing-a-lit-analysis-08202025.pdf",
+      "title": "New Writing A Lit Analysis 08202025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "literary",
+        "analysis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf5321435",
+      "url": "https://www.unlv.edu/sites/default/files/media/document/2026-03/Literary-Analysis_Apr_2023.pdf",
+      "title": "Literary Analysis Apr 2023",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.14,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "literary",
+        "analysis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9091953",
+      "url": "https://irrc.education.uiowa.edu/sites/irrc.education.uiowa.edu/files/2024-11/Beginner%27s%20Guide%20to%20Poetry%209-12%20Branded_0.pdf",
+      "title": "Beginner%27s Guide To Poetry 9 12 Branded 0",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.38,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "poetry"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6535492",
+      "url": "https://studentsuccess.temple.edu/sites/studentsuccess/files/UnderstandingtheWritingProcess.pdf",
+      "title": "UnderstandingtheWritingProcess",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.1,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1989752",
+      "url": "https://wp.optics.arizona.edu/kupinski/wp-content/uploads/sites/91/2023/01/Writing_Science_Joshua_Schimel.pdf",
+      "title": "Writing Science Joshua Schimel",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.98,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6945748",
+      "url": "https://newliteraryhistory.org/wp/wp-content/uploads/2025/04/Gaskill-55-3.pdf",
+      "title": "Gaskill 55 3",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.36,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "criticism"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7675951",
+      "url": "https://ia801605.us.archive.org/view_archive.php?archive=/33/items/GutenbergENzip/09.zip&file=Essay%20on%20Criticism%2C%20An%20-%20Alexander%20Pope%2C%202005%20%2827p%29.pdf",
+      "title": "View Archive.php",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "criticism"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf4363759",
+      "url": "https://ncsi.wested.org/wp-content/uploads/2025/09/NCSI_Defining-Effective-Coaching-Practices-to-Help-Coaches-Support-Teachers-and-Improve-Student-Outcomes_FINAL_ADA.pdf",
+      "title": "NCSI Defining Effective Coaching Practices To Help Coaches Support Teachers And Improve Student Outcomes FINAL ADA",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.7,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "coaching"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2800805",
+      "url": "https://literacy.virginia.edu/sites/literacy/files/2025-10/Coaching-Cycle-Guide.pdf",
+      "title": "Coaching Cycle Guide",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.66,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "coaching"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4541455",
+      "url": "https://www.first.army.mil/Portals/102/FM%207-0.pdf",
+      "title": "FM 7 0",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1292665",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHAFACTSHEET-TRAINING-INSTITUTE.pdf",
+      "title": "OSHAFACTSHEET TRAINING INSTITUTE",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.31,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0738311",
+      "url": "https://storage.e.jimdo.com/file/c8020281-d14e-497e-bbaf-ef842fc07f51/An%20Introduction%20to%20Sports%20Science.pdf",
+      "title": "An Introduction To Sports Science",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 20.04,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2435929",
+      "url": "https://www.cdc.gov/physical-activity-education/media/pdfs/PE_Data_Brief_CDC_Logo_FINAL_191106.pdf",
+      "title": "PE Data Brief CDC Logo FINAL 191106",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.45,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "physical",
+        "education"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9523137",
+      "url": "https://t2t.org/wp-content/uploads/2024/04/National_Physical_Education_Standards.pdf",
+      "title": "National Physical Education Standards",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.28,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "physical",
+        "education"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8619476",
+      "url": "https://media.clemson.edu/library/all_subjects/eguides/history/HistoricalResearch.pdf",
+      "title": "HistoricalResearch",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.13,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "historical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1135519",
+      "url": "https://archive.org/download/historyDEEPWEB/Iran%20_%20A%20Modern%20History%20-%20Amanat%2C%20Abbas.pdf",
+      "title": "Iran A Modern History Amanat%2C Abbas",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 20.71,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8665922",
+      "url": "https://media.australian.museum/media/dd/documents/Year11_MHIS_The_constructions_of_modern_histories_teacher_copy.01d2c62.pdf",
+      "title": "Year11 MHIS The Constructions Of Modern Histories Teacher Copy.01d2c62",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf2556411",
+      "url": "https://batch.libretexts.org/print/Letter/Finished/eng-103949/Full.pdf",
+      "title": "Full",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.18,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7093454",
+      "url": "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/DESIGN%20SISTEM%20DAYA%20GERAK/An%20Introduction%20to%20Mechanical%20Engineering.pdf",
+      "title": "An Introduction To Mechanical Engineering",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 11.98,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8244736",
+      "url": "https://www.stonybrook.edu/commcms/electrical/undergraduate/_program_guides/ESE%20Guide%202025.pdf",
+      "title": "ESE Guide 2025",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.74,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5439417",
+      "url": "https://www.egr.uh.edu/sites/ccoe.egr.uh.edu/files/departments/electrical.pdf",
+      "title": "Electrical",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.28,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4535426",
+      "url": "https://mace.ac.in/wp-content/uploads/2025/07/Bacics-of-Civil-Engg.pdf",
+      "title": "Bacics Of Civil Engg",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "civil",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf5682126",
+      "url": "https://ia803200.us.archive.org/35/items/chemical-engineering-design/CHEMICAL%20ENGINEERING%20Design.pdf",
+      "title": "CHEMICAL ENGINEERING Design",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 22.96,
+      "sourceQuery": [
+        "engineering",
+        "design",
+        "filetype:pdf"
+      ]
+    },
+    {
+      "id": "pdf8730522",
+      "url": "https://harvard-ml-courses.github.io/cs181-web-2024/static/cs181-textbook.pdf",
+      "title": "Cs181 Textbook",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.6,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5888179",
+      "url": "https://archive.org/download/understanding-machine-learning-theory-algorithms_202404/understanding-machine-learning-theory-algorithms.pdf",
+      "title": "Understanding Machine Learning Theory Algorithms",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.48,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3388159",
+      "url": "https://www.stat.berkeley.edu/~spector/python.pdf",
+      "title": "Python",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.47,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2530110",
+      "url": "https://archive.org/download/the_library_17062025/The%20Library/Python%20Programming%20_%20an%20introduction%20to%20computer%20science-%203rd%20Edition.pdf",
+      "title": "Python Programming An Introduction To Computer Science 3rd Edition",
+      "dateAdded": "2026-06-09",
+      "lastChecked": "2026-06-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.7,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
     }
   ]
 }
