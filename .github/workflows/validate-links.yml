@@ -1,0 +1,46 @@
+name: Validate PDF Links
+
+on:
+  schedule:
+    # Run weekly on Wednesday at 02:00 UTC (offset from the Sunday update-pdfs run)
+    - cron: '0 2 * * 3'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate PDF links
+        run: node scripts/js/validate-links.js 2>&1 | tee /tmp/validate-output.txt
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo "## PDF Link Validation" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -8 /tmp/validate-output.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit updated data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data/pdf-data.json
+          git diff --staged --quiet || git commit -m "Validate PDF links — update availability status [skip ci]"
+          git push

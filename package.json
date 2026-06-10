@@ -7,7 +7,7 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage",
-        "validate": "node scripts/js/validate-pdf-links.js",
+        "validate": "node scripts/js/validate-links.js",
         "add-pdf": "python scripts/python/update_pdf_collection.py --interactive",
         "update-pdfs:py:all": "python scripts/python/update_pdf_collection.py --all",
         "serve": "http-server -c-1 ./public",
