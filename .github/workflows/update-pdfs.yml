@@ -37,7 +37,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run PDF update script
-        run: npm run add-pdf -- --query "free educational pdf" --limit 20 --verbose
+        run: npm run update-pdfs:py:all -- --limit 2 --verbose
         env:
           PYTHONUNBUFFERED: 1
 
