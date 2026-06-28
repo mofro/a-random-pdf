@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-06-24T06:29:50.712Z",
+  "lastValidated": "2026-06-28T03:58:59.197256",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-06-21T04:23:08.444Z"
+    "lastUpdated": "2026-06-28T03:58:59.428Z"
   },
   "pdfs": [
     {
@@ -38330,6 +38330,662 @@
       ],
       "tags": [
         "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8786493",
+      "url": "https://static.realpython.com/python-cheatsheet.pdf",
+      "title": "Python Cheatsheet",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.32,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6391698",
+      "url": "https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1212/lectures/4-Variables/4-IntroPython.pdf",
+      "title": "4 IntroPython",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.81,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6517034",
+      "url": "https://bca.klesnc.edu.in/wp-content/uploads/2025/07/Unit-3-Complete-Notes.pdf",
+      "title": "Unit 3 Complete Notes",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.33,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "web",
+        "development"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3392770",
+      "url": "https://privacy.ca.gov/wp-content/uploads/sites/357/2026/02/Annual-Report-2025.pdf",
+      "title": "Annual Report 2025",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.27,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3067715",
+      "url": "https://www.cl.cam.ac.uk/teaching/2526/ConcDisSys/dist-sys-notes.pdf",
+      "title": "Dist Sys Notes",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.82,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "distributed",
+        "systems"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8917582",
+      "url": "https://sites.cs.ucsb.edu/~almeroth/classes/F10.176A/papers/internet-history-09.pdf",
+      "title": "Internet History 09",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.34,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0155398",
+      "url": "https://www.idc-online.com/technical_references/pdfs/information_technology/History_of_the_Internet.pdf",
+      "title": "History Of The Internet",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Parithy",
+      "pages": 4,
+      "sizeMB": 0.05,
+      "yearPublished": "2014",
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf6437975",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/sql-pocket-guide.pdf",
+      "title": "Sql Pocket Guide",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.95,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "sql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4990777",
+      "url": "https://www.cs.umb.edu/cs630/Lecture22NoSQL.pdf",
+      "title": "Lecture22NoSQL",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.27,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "nosql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2156466",
+      "url": "https://www.cl.cam.ac.uk/teaching/2425/Databases/djg-materials/databases_2425_1to8-B.pdf",
+      "title": "Databases 2425 1to8 B",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.75,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7654593",
+      "url": "https://cdn2.unrealengine.com/training-course-catalog-ue5-2022-8aa3ec9f6f61.pdf",
+      "title": "Training Course Catalog Ue5 2022 8aa3ec9f6f61",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 17.61,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "unreal",
+        "engine"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5639841",
+      "url": "https://ia601707.us.archive.org/4/items/unenpdf/UE4GDevelopmentBlueprints.pdf",
+      "title": "UE4GDevelopmentBlueprints",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 13.93,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "unreal",
+        "engine"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0837814",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/17147/3/Grimaldi%2C%20S%20%282020%29%20Narratives%20in%20Design%20Toolkit.pdf",
+      "title": "Grimaldi%2C S %282020%29 Narratives In Design Toolkit",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 13.53,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "narrative",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0405373",
+      "url": "https://www3.cs.stonybrook.edu/~tony/ui/lectures/game_design/GameMechanics.pdf",
+      "title": "GameMechanics",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 12.54,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5012934",
+      "url": "https://gusteve.github.io/GDD.pdf",
+      "title": "GDD",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.99,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "documents"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1074092",
+      "url": "http://www.goldencobra.org/GCplaytestingguide.pdf",
+      "title": "GCplaytestingguide",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.12,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "playtesting"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8983817",
+      "url": "https://investgame.net/wp-content/uploads/2026/06/2026-06-11-q1_2026_report_streamhatchet_wp.pdf",
+      "title": "2026 06 11 Q1 2026 Report Streamhatchet Wp",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.65,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "game",
+        "streaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6824008",
+      "url": "https://media.tghn.org/medialibrary/2025/07/Declaration_of_Helsinki_2024.pdf",
+      "title": "WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants – WMA – The World Medical Association",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 7,
+      "sizeMB": 0.07,
+      "yearPublished": "2025",
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf0655165",
+      "url": "https://www.stritch.luc.edu/lumen/meded/ipm/ipm2/homepage/clinical_abbreviations_and_glossary.pdf",
+      "title": "Clinical Abbreviations And Glossary",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.39,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1808166",
+      "url": "https://pz.harvard.edu/sites/default/files/NatureofScienceUnit.pdf",
+      "title": "NatureofScienceUnit",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.06,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9112103",
+      "url": "https://www.uscis.gov/sites/default/files/document/memos/PM-602-0199-AdjustmentOfStatusAndDiscretion-20260521.pdf",
+      "title": "PM 602 0199 AdjustmentOfStatusAndDiscretion 20260521",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.35,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9120532",
+      "url": "https://archive.org/download/new-horizon-of-public-administration-by-mohit-bhattacharya/New-horizon-of-public-administration-by-mohit-bhattacharya_text.pdf",
+      "title": "New Horizon Of Public Administration By Mohit Bhattacharya Text",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 17.6,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "public",
+        "administration"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9587577",
+      "url": "https://www.bucks.edu/media/bcccmedialibrary/tutoring/documents/writingareahandoutrevision/literature/IntrotoPoetry.pdf",
+      "title": "IntrotoPoetry",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.59,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "poetry"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6484375",
+      "url": "https://posthegemony.files.wordpress.com/2013/02/borges_collected-fictions.pdf",
+      "title": "Borges Collected Fictions",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 3.23,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6226063",
+      "url": "https://files.eric.ed.gov/fulltext/ED659639.pdf",
+      "title": "ED659639",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.25,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6558311",
+      "url": "https://archive.org/download/CarrollQuigleyTheEvolutionOfCivilizations/Carroll_Quigley_-_The_Evolution_of_Civilizations.pdf",
+      "title": "Carroll Quigley The Evolution Of Civilizations",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.35,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "civilizations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4655042",
+      "url": "https://engineering.fresnostate.edu/ece/documents/roadmap-ee-2025-26-v2.pdf",
+      "title": "Roadmap Ee 2025 26 V2",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.57,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2851064",
+      "url": "https://www.hchsmusic.com/uploads/2/0/4/7/20479636/music_theory_and_practice_textbook.pdf",
+      "title": "Music Theory And Practice Textbook",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 9.99,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "theory"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0156944",
+      "url": "https://archive.org/download/historyofmusic05naum/historyofmusic05naum.pdf",
+      "title": "Historyofmusic05naum",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 21.45,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0262618",
+      "url": "https://users.metu.edu.tr/ilerol/dosyalar/history.pdf",
+      "title": "History",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.1,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4193441",
+      "url": "https://www.charlottesymphony.org/files/c89c3991-3d67-4e79-a86b-ecbacd6b8680--193117d8-1747-40d2-8472-630890745108/instruments-of-the-orchestra.pdf",
+      "title": "Instruments Of The Orchestra",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.35,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "instruments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0641421",
+      "url": "https://berkeleyguidearchive.github.io/2023-24/undergraduate/degree-programs/media-studies/media-studies.pdf",
+      "title": "Media Studies",
+      "dateAdded": "2026-06-28",
+      "lastChecked": "2026-06-28",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.46,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
       ],
       "author": "Unknown",
       "source": "unknown",
