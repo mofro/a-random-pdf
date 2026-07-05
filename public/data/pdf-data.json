@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-07-01T06:56:30.424Z",
+  "lastValidated": "2026-07-05T03:15:04.363377",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-06-28T03:58:59.428Z"
+    "lastUpdated": "2026-07-05T03:15:04.628Z"
   },
   "pdfs": [
     {
@@ -38986,6 +38986,515 @@
       "tags": [
         "media",
         "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1102983",
+      "url": "https://ise.ncsu.edu/wp-content/uploads/sites/9/2022/08/neuralnetworksanddeeplearning.pdf",
+      "title": "Neuralnetworksanddeeplearning",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.82,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0866934",
+      "url": "https://ytx-readings.github.io/AI/books/mathematics/Mathematical%20Foundations%20of%20Reinforcement%20Learning.pdf",
+      "title": "Mathematical Foundations Of Reinforcement Learning",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 18.98,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "reinforcement",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5909438",
+      "url": "https://project1-opal-two.vercel.app/pdf/JavaScript_The_Definitive_Guide.pdf",
+      "title": "JavaScript The Definitive Guide",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.97,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "javascript"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4288463",
+      "url": "https://www.just.edu.jo/~mqais/cis99/pdf/internet.pdf",
+      "title": "Internet",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.51,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4514821",
+      "url": "https://freedomhouse.org/sites/default/files/2025-11/Freedom_on_the_Net_2025_Digital.pdf",
+      "title": "Freedom On The Net 2025 Digital",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.89,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9031098",
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp//microsoft/bade/documents/products-and-services/en-us/owned-and-operated/SQL-Server-2025-Editions.pdf",
+      "title": "SQL Server 2025 Editions",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.27,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "sql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0079390",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-1-4899-7993-3_80674-1.pdf",
+      "title": "978 1 4899 7993 3 80674 1",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8524827",
+      "url": "https://web.cs.wpi.edu/~imgd4000/d16/slides/engines.pdf",
+      "title": "Engines",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.77,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "engines"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5869551",
+      "url": "https://uploads.teachablecdn.com/attachments/JNx5k6GoTmG59gEIYFCo_the-basics-of-ux-design.pdf",
+      "title": "JNx5k6GoTmG59gEIYFCo The Basics Of Ux Design",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "user",
+        "experience"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1703105",
+      "url": "https://commerce.maryland.gov/Documents/BusinessResource/naval-medical-research-center.pdf",
+      "title": "Naval Medical Research Center",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.21,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3791378",
+      "url": "https://www.asecho.org/wp-content/uploads/2025/08/Strain-Guideline-AIP-August-2025.pdf",
+      "title": "Strain Guideline AIP August 2025",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 7.17,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf9118369",
+      "url": "https://ia600504.us.archive.org/16/items/GraysAnatomy40EditiontextOnlyfont18/Gray%27s%20Anatomy%2040%20edition%20%28text%20only%29%20%28font%2018%29.pdf",
+      "title": "Gray%27s Anatomy 40 Edition %28text Only%29 %28font 18%29",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 27.17,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "anatomy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7522287",
+      "url": "https://www.irs.gov/pub/irs-tege/eotopico86.pdf",
+      "title": "Eotopico86",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.11,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6115844",
+      "url": "https://archive.org/download/the-golden-book-of-chemistry-experiments_202408/The%20Golden%20Book%20of%20Chemistry%20Experiments_text.pdf",
+      "title": "The Golden Book Of Chemistry Experiments Text",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.05,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "experiments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4883001",
+      "url": "https://www.science.org/cms/asset/0e05267d-5a7d-4922-babd-64f3bafa624d/science.2026.393.issue-6806.toc.pdf",
+      "title": "Science.2026.393.issue 6806.toc",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8609153",
+      "url": "https://archive.org/download/KleppnerD.KolenkowR.J.IntroductionToMechanics2014/Kleppner-D.-Kolenkow-R.J.-Introduction-to-Mechanics-2014.pdf",
+      "title": "Kleppner D. Kolenkow R.J. Introduction To Mechanics 2014",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.53,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5933269",
+      "url": "https://archive.org/download/epdf.pub_relativity-special-general-and-cosmological/epdf.pub_relativity-special-general-and-cosmological.pdf",
+      "title": "Epdf.pub Relativity Special General And Cosmological",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.24,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "relativity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6782162",
+      "url": "https://www.opm.gov/chcoc/latest-memos/2025-guide-to-telework-and-remote-work-in-the-federal-government.pdf",
+      "title": "2025 Guide To Telework And Remote Work In The Federal Government",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.1,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "government"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4546950",
+      "url": "https://content.byui.edu/file/aaeaff60-24eb-4626-a1b2-8191d6faa261/1/Documents/Five%20Elements%20of%20Fiction/Five_Elements_of_Fiction%20-%20Week%2007.pdf",
+      "title": "Five Elements Of Fiction Week 07",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.23,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7462531",
+      "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12325/IF12325.2.pdf",
+      "title": "IF12325.2",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "athletics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1169851",
+      "url": "https://ia800804.us.archive.org/16/items/TheBigHistoryOfCivilizations/TheBigHistoryOfCivilizations.pdf",
+      "title": "TheBigHistoryOfCivilizations",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.63,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "civilizations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4798908",
+      "url": "https://pmec.ac.in/wp-content/uploads/2025/04/Basic-Mechanical-Engineering-23ES1006.pdf",
+      "title": "Basic Mechanical Engineering 23ES1006",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.69,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7664111",
+      "url": "https://engineering.purdue.edu/EPICS/purdue/documents/engineering-design-process-document-1.pdf",
+      "title": "Engineering Design Process Document 1",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.67,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6056866",
+      "url": "https://catalog.illinois.edu/graduate/faa/music-mmus/musicology/musicology.pdf",
+      "title": "Music: Musicology, MMUS",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "CourseLeaf",
+      "pages": 2,
+      "sizeMB": 0.07,
+      "yearPublished": "2026",
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf3983777",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/screenplay.pdf",
+      "title": "Screenplay",
+      "dateAdded": "2026-07-05",
+      "lastChecked": "2026-07-05",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.59,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "screenplay"
       ],
       "author": "Unknown",
       "source": "unknown",
