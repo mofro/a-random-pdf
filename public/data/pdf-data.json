@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-07-08T05:43:48.869Z",
+  "lastValidated": "2026-07-12T02:54:41.909975",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-07-05T03:15:04.628Z"
+    "lastUpdated": "2026-07-12T02:54:42.097Z"
   },
   "pdfs": [
     {
@@ -39495,6 +39495,440 @@
       ],
       "tags": [
         "screenplay"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6465257",
+      "url": "https://www.tutorialspoint.com/python/python_tutorial.pdf",
+      "title": "Python Tutorial",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1988626",
+      "url": "https://ia801702.us.archive.org/5/items/traitlmentaired00serrgoog_202205/Fluent-Python-Clear_-Concise-and-Effective-Programming_-2nd-Edition-_Luciano-Ramalho_-_z-lib.org_.pdf",
+      "title": "Fluent Python Clear Concise And Effective Programming 2nd Edition Luciano Ramalho Z Lib.org",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 13.96,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9963275",
+      "url": "https://fpf.org/wp-content/uploads/2026/02/Privacy-Enforcement-Retrospective_2026.02.06.pdf",
+      "title": "Privacy Enforcement Retrospective 2026.02.06",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.51,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5986983",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1429708.pdf",
+      "title": "EJ1429708",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0636379",
+      "url": "https://www.cs.columbia.edu/~hgs/teaching/internet/intro2.pdf",
+      "title": "Intro2",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.99,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5822876",
+      "url": "http://kvjqzx.github.io/assets/docs/802.11_Wireless_Networks.pdf",
+      "title": "802.11 Wireless Networks",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.17,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "wireless",
+        "networking"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9883361",
+      "url": "https://bookshelf.quest.com/bookshelf/public_html/12.5/Content/PDFs/Data%20Modeling%20Overview.pdf",
+      "title": "Data Modeling Overview",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.88,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "data",
+        "modeling"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2450755",
+      "url": "https://archive.org/download/random-papers5/Designing%20Games_%20A%20Guide%20to%20Engineering%20Experiences-O%27Reilly%20Media%20%282013%29.pdf",
+      "title": "Designing Games A Guide To Engineering Experiences O%27Reilly Media %282013%29",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.89,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6090892",
+      "url": "https://usimte.github.io/proyectos/psicometria/game_design/08_Game_Design_Documents.pdf",
+      "title": "08 Game Design Documents",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.42,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "documents"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2071866",
+      "url": "https://www.hillpublisher.com/UpFile/202302/20230209185111.pdf",
+      "title": "20230209185111",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.12,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "game",
+        "streaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2673276",
+      "url": "https://investgame.net/wp-content/uploads/2026/02/2026-02-24-2025_yearly_report_final_wp.pdf",
+      "title": "2026 02 24 2025 Yearly Report Final Wp",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.87,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "game",
+        "streaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2879336",
+      "url": "https://www.fightcancer.org/sites/default/files/cdmrp_at_a_glance2025_march2025_final.pdf",
+      "title": "Cdmrp At A Glance2025 March2025 Final",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.17,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7806045",
+      "url": "https://www.nih.gov/sites/default/files/2026-01/2025-NIH-Research-Highlights.pdf",
+      "title": "2025 NIH Research Highlights",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.35,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6806657",
+      "url": "https://bhw.hrsa.gov/sites/default/files/bureau-health-workforce/data-research/State-of-the-Primary-Care-Workforce-2025.pdf",
+      "title": "State Of The Primary Care Workforce 2025",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4490425",
+      "url": "https://aasm.org/wp-content/uploads/2026/02/central-sleep-apnea-guideline-AASM-2025.pdf",
+      "title": "Central Sleep Apnea Guideline AASM 2025",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.31,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf0430313",
+      "url": "https://case.fiu.edu/advising/files/bs-ses-program-sheet-updated-2024.pdf",
+      "title": "Bs Ses Program Sheet Updated 2024",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.23,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf8486978",
+      "url": "https://www.physicaleducationjournal.in/archives/2026/vol8issue3/PartB/8-3-27-481.pdf",
+      "title": "8 3 27 481",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.26,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "psychology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6101048",
+      "url": "https://ia800508.us.archive.org/27/items/a.-schoenberg-fundamentals-of-musical-composition/A.Schoenberg-Fundamentals%20of%20Musical%20Composition_text.pdf",
+      "title": "A.Schoenberg Fundamentals Of Musical Composition Text",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.82,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musical",
+        "composition"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3045376",
+      "url": "https://link.springer.com/content/pdf/10.1007/174_2025_629.pdf",
+      "title": "174 2025 629",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf2953668",
+      "url": "https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/7/33677/files/2025/09/Intro-Media-Studies-Syllabus-2024.pdf",
+      "title": "Intro Media Studies Syllabus 2024",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.44,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7384082",
+      "url": "https://archive.org/download/HHHandbook/HHHandbook.pdf",
+      "title": "HHHandbook",
+      "dateAdded": "2026-07-12",
+      "lastChecked": "2026-07-12",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.08,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
       ],
       "author": "Unknown",
       "source": "unknown",
