@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-07-15T05:11:54.905Z",
+  "lastValidated": "2026-07-19T02:52:35.286941",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-07-12T02:54:42.097Z"
+    "lastUpdated": "2026-07-19T02:52:35.550Z"
   },
   "pdfs": [
     {
@@ -39934,6 +39934,415 @@
       "source": "unknown",
       "yearPublished": null,
       "pages": null
+    },
+    {
+      "id": "pdf1571528",
+      "url": "https://webfiles.amrita.edu/2025/02/deep-learning-material-dept-ece-ase-blr-1.pdf",
+      "title": "Deep Learning Material Dept Ece Ase Blr 1",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 20.54,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8166915",
+      "url": "https://cs229.stanford.edu/materials/CS229-DeepLearning.pdf",
+      "title": "CS229 DeepLearning",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 25.56,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7435510",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1308.pdf",
+      "title": "NIST.SP.1308",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.73,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "cybersecurity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1983626",
+      "url": "https://res.cloudinary.com/duehkebqg/raw/upload/v1782717613/learnstack/samples/handbooks/learnstack-sql-handbook-sample.pdf",
+      "title": "Learnstack Sql Handbook Sample",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.49,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "sql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8618379",
+      "url": "https://www.mpgcamb.com/wp-content/uploads/2024/12/Raghu-Ramakrishnan-Johannes-Gehrke-Database-Management-Systems-McGraw-Hill-Education-2018.pdf",
+      "title": "Raghu Ramakrishnan Johannes Gehrke Database Management Systems McGraw Hill Education 2018",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 12.1,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5043409",
+      "url": "https://www.acquisition.gov/sites/default/files/practitioner_albums/far-part-46-quality-assurance/content/assets/Quality%20Assurance%20Surveillance%20Plan%20Template.pdf",
+      "title": "Quality Assurance Surveillance Plan Template",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.25,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "quality",
+        "assurance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2915899",
+      "url": "https://remc.org/downloads/remc_assets/esportslearningguide-teacherscoaches_v5_03142023.pdf",
+      "title": "Esportslearningguide Teacherscoaches V5 03142023",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.34,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "esports"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7360217",
+      "url": "https://files.gameindustrylibrary.com/documents/stream-hatchet-q2-2025-live-streaming-trends.pdf",
+      "title": "Stream Hatchet Q2 2025 Live Streaming Trends",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.06,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "game",
+        "streaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5812623",
+      "url": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Professional%20Gaming.pdf",
+      "title": "Fatal1ty X370 Professional Gaming",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "professional",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf6265370",
+      "url": "https://www.cms.gov/files/document/fy-2025-icd-10-cm-coding-guidelines.pdf",
+      "title": "Fy 2025 Icd 10 Cm Coding Guidelines",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.8,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "diagnosis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7789699",
+      "url": "https://www.edpb.europa.eu/system/files/2026-06/edpb_guidelines_202601_scientificresearch_factsheet_en.pdf",
+      "title": "Edpb Guidelines 202601 Scientificresearch Factsheet En",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7171933",
+      "url": "https://assets.openstax.org/oscms-prodcms/media/documents/STUDENT_HS_Physics_Lab_Manual_Full.pdf",
+      "title": "STUDENT HS Physics Lab Manual Full",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 15.09,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "experiments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7648424",
+      "url": "https://ia601406.us.archive.org/28/items/ClassicalMechanicsGoldstein3ed/Classical_Mechanics_Goldstein_3ed_text.pdf",
+      "title": "Classical Mechanics Goldstein 3ed Text",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 19.9,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf0735460",
+      "url": "https://poemanalysis.com/wp-content/uploads/2023/11/Poetry-101-Workbook-Digital-v2.0.pdf",
+      "title": "Poetry 101 Workbook Digital V2.0",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.87,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "poetry"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9301236",
+      "url": "https://www.columbia.edu/cu/tat/pdfs/principles_writing.pdf",
+      "title": "Principles of Effective Writing Instruction",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "sm3031",
+      "pages": 2,
+      "sizeMB": 0.03,
+      "yearPublished": "2010",
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf3795478",
+      "url": "https://web-facstaff.sas.upenn.edu/~cavitch/pdf-library/Barthes_Criticism_and_Truth.pdf",
+      "title": "Barthes Criticism And Truth",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.38,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "criticism"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9941817",
+      "url": "https://assets.aws.worldathletics.org/document/6a156f9f527e379c9a3c765f.pdf",
+      "title": "6a156f9f527e379c9a3c765f",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.31,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "athletics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7311636",
+      "url": "https://catalog.utsa.edu/undergraduate/engineeringintegrateddesign/electricalengineering/electricalengineering.pdf",
+      "title": "Electricalengineering",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.17,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0268956",
+      "url": "https://usuo.org/app/uploads/sites/2/2024/08/The-Instruments-of-the-Orchestra.pdf",
+      "title": "The Instruments Of The Orchestra",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.87,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "instruments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4362890",
+      "url": "https://www.researchgate.net/profile/Renata-Sedlakova-2/publication/310952339_Media_Studies_Methodology_and_Research/links/583b509e08aef00f3bfd85a6/Media-Studies-Methodology-and-Research.pdf",
+      "title": "Media Studies Methodology And Research",
+      "dateAdded": "2026-07-19",
+      "lastChecked": "2026-07-19",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
     }
   ]
 }
