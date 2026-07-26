@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-07-22T05:42:04.074Z",
+  "lastValidated": "2026-07-26T02:56:45.875198",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-07-19T02:52:35.550Z"
+    "lastUpdated": "2026-07-26T02:56:46.118Z"
   },
   "pdfs": [
     {
@@ -40343,6 +40343,374 @@
       "yearPublished": null,
       "pages": null,
       "sizeMB": null
+    },
+    {
+      "id": "pdf6494793",
+      "url": "https://www.ftc.gov/system/files/attachments/cybersecurity-small-business/cybersecuirty_sb_factsheets_all.pdf",
+      "title": "Cybersecuirty Sb Factsheets All",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.96,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "cybersecurity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5289694",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-227.pdf",
+      "title": "NIST.SP.800 227",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.86,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7031164",
+      "url": "https://www.cag.edu.tr/uploads/site/lecturer-files/what-is-privacy-the-history-and-definition-of-privacy-ULpz.pdf",
+      "title": "What Is Privacy The History And Definition Of Privacy ULpz",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8870606",
+      "url": "https://sitams.ac.in/wp-content/uploads/2026/07/DS-NOSQL-12UNITS.pdf",
+      "title": "DS NOSQL 12UNITS",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.83,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "nosql"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1594261",
+      "url": "https://web.mit.edu/2.00b/www/resources/playtesting/playtesting_advice.pdf",
+      "title": "Microsoft Word - Advice for Playtesting 3-14-19.docx",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 2,
+      "sizeMB": 0.09,
+      "yearPublished": "2019",
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "playtesting"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf7258030",
+      "url": "https://www.researchgate.net/profile/Xiao-Cui-12/publication/267809499_A-based_Pathfinding_in_Modern_Computer_Games/links/54fd73740cf270426d125adc/A-based-Pathfinding-in-Modern-Computer-Games.pdf",
+      "title": "A Based Pathfinding In Modern Computer Games",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf6078492",
+      "url": "https://pdfs.semanticscholar.org/cff1/42ba19b4ee6d200b9241f3c91f81079aeb48.pdf",
+      "title": "42ba19b4ee6d200b9241f3c91f81079aeb48",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "procedural",
+        "generation"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf2248739",
+      "url": "https://www.theesa.com/wp-content/uploads/2025/09/PoP-2025-v10-web-spreads.pdf",
+      "title": "PoP 2025 V10 Web Spreads",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 4.61,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "professional",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf9623977",
+      "url": "https://www.cms.gov/files/document/fact-sheet-marketplace-2026-open-enrollment.pdf",
+      "title": "Fact Sheet Marketplace 2026 Open Enrollment",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.25,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4565018",
+      "url": "https://www.physics.smu.edu/ryszard/5380fa18/lecture-1.pdf",
+      "title": "Lecture 1",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.82,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "particle",
+        "physics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3869609",
+      "url": "https://rvclibrary.org/wp-content/uploads/2026/07/Debut-Novels-2026.pdf",
+      "title": "Debut Novels 2026",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.35,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "novels"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3201870",
+      "url": "https://www.fldoe.org/file/5663/2526BESTWritingFactSheet.pdf",
+      "title": "2526BESTWritingFactSheet",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4124742",
+      "url": "https://assets.aws.worldathletics.org/document/68baa455bf7985f765e20898.pdf",
+      "title": "68baa455bf7985f765e20898",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.76,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "athletics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5083533",
+      "url": "https://www.nsca.com/contentassets/774454c818b94350a3570a2dcb455059/sport-science-one-sheet.pdf",
+      "title": "Sport Science One Sheet",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.93,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1314457",
+      "url": "https://www.mnhs.org/hubfs/sites/default/files/preservation/grants/historical_research_guidelines.pdf",
+      "title": "Historical Research Guidelines",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 11,
+      "sizeMB": 0.09,
+      "yearPublished": "2001",
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "historical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf3398055",
+      "url": "https://www.lacountylibrary.org/wp-content/uploads/2025/08/DIY-Library-Program-Music-Composition.pdf",
+      "title": "DIY Library Program Music Composition",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.43,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musical",
+        "composition"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4090034",
+      "url": "https://www.vassar.edu/sites/default/files/2025-08/MEDS-overview-for-students-Fall-2025.pdf",
+      "title": "MEDS Overview For Students Fall 2025",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3692340",
+      "url": "https://mediastudies.as.virginia.edu/sites/mediastudies.as.virginia.edu/files/inline-files/MDST%20Graduate%20Handbook%20-%20MA%20PhD%202024.pdf",
+      "title": "MDST Graduate Handbook MA PhD 2024",
+      "dateAdded": "2026-07-26",
+      "lastChecked": "2026-07-26",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.54,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
     }
   ]
 }
