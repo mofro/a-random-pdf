@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-07-26T02:56:45.875198",
+  "lastValidated": "2026-08-02T02:56:10.118567",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-07-26T02:56:46.118Z"
+    "lastUpdated": "2026-08-02T02:56:10.358Z"
   },
   "pdfs": [
     {
@@ -40706,6 +40706,397 @@
       "tags": [
         "media",
         "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8977325",
+      "url": "https://introml.mit.edu/_static/fall25/lectures/lec01/introml-fa25-lec01.pdf",
+      "title": "Introml Fa25 Lec01",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.52,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1220575",
+      "url": "https://www.researchgate.net/profile/Ivan-Paduano/publication/391963006_GAME_DESIGN_MANUAL_The_ultimate_scientific_guide_to_one_of_the_most_fascinating_worlds_of_design/links/682ed7f1026fee1034fa0fcb/GAME-DESIGN-MANUAL-The-ultimate-scientific-guide-to-one-of-the-most-fascinating-worlds-of-design.pdf",
+      "title": "GAME DESIGN MANUAL The Ultimate Scientific Guide To One Of The Most Fascinating Worlds Of Design",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf6923810",
+      "url": "https://foss-gbg.se/wp-content/uploads/2019/11/Game-programming-with-Godot.pdf",
+      "title": "Game Programming With Godot",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.99,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "godot"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9129524",
+      "url": "https://downloads.gamedev.net/pdf/GameLevelDesign1.pdf",
+      "title": "GameLevelDesign1",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.14,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "level",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6912473",
+      "url": "https://archive.org/download/random-papers12a/Game%20Testing%20All%20in%20One%20%282017%29.pdf",
+      "title": "Game Testing All In One %282017%29",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 7.34,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "game",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf9973731",
+      "url": "https://scoutingevent.com/Download/010185382/OR/Competitive_Gaming_Merit_Badge_Class_Info_and_Requirements.pdf",
+      "title": "Competitive Gaming Merit Badge Class Info And Requirements",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "competitive",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf2961118",
+      "url": "https://www.researchgate.net/profile/Kyle-Faust-4/publication/273861242_Competitive_and_Professional_Gaming_Discussing_Potential_Benefits_of_Scientific_Study/links/567bfeb608ae1e63f1e21457/Competitive-and-Professional-Gaming-Discussing-Potential-Benefits-of-Scientific-Study.pdf",
+      "title": "Competitive And Professional Gaming Discussing Potential Benefits Of Scientific Study",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "professional",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf0817969",
+      "url": "https://cdmrp.health.mil/funding/pa/HT942526PRMRPPCTA_GG.pdf",
+      "title": "HT942526PRMRPPCTA GG",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.16,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8826978",
+      "url": "https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2025-IgAN-IgAV-Guideline.pdf",
+      "title": "KDIGO 2025 IgAN IgAV Guideline",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.92,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5506697",
+      "url": "https://prod-i.a.dj.com/public/resources/documents/Science-A-New-Golden-Age.pdf",
+      "title": "Science A New Golden Age",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.31,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0901319",
+      "url": "https://nsf-gov-resources.nsf.gov/2023-08/NSF_Transforming_the_World.pdf",
+      "title": "NSF Transforming The World",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.44,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9244994",
+      "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Environmental_Science.pdf",
+      "title": "Environmental Science",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.28,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "environmental",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1518856",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/USG-Policy-for-Stopping-High-Risk-Life-Sciences-Research_July-2026.pdf",
+      "title": "USG Policy For Stopping High Risk Life Sciences Research July 2026",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.43,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3303469",
+      "url": "https://archive.org/download/hundredbestengli00gowa/hundredbestengli00gowa.pdf",
+      "title": "Hundredbestengli00gowa",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.74,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "poetry"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6423564",
+      "url": "https://athletics.ca/wp-content/uploads/2026/03/Selection-Criteria-WA-U20-Championships-Mar-10-2026-EN.pdf",
+      "title": "Selection Criteria WA U20 Championships Mar 10 2026 EN",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.37,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "athletics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0594141",
+      "url": "https://ncsi.wested.org/wp-content/uploads/2025/09/NCSI_How-Using-a-Coaching-Cycle-Can-Help-Coaches-to-Support-Teachers-and-Improve-Student-Outcomes_FINAL_ADA.pdf",
+      "title": "NCSI How Using A Coaching Cycle Can Help Coaches To Support Teachers And Improve Student Outcomes FINAL ADA",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.68,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "coaching"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2361666",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1207312.pdf",
+      "title": "EJ1207312",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7605580",
+      "url": "https://csva.s3.amazonaws.com/schools/839/Civil/738/Mechanical%20Engineering%20Principles%20by%20John%20Bird%20and%20Carl%20Ross.pdf",
+      "title": "Mechanical Engineering Principles By John Bird And Carl Ross",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 2.59,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf8923716",
+      "url": "https://www.eecs.psu.edu/assets/docs/handbooks/EE-Program-Booklet.pdf",
+      "title": "EE Program Booklet",
+      "dateAdded": "2026-08-02",
+      "lastChecked": "2026-08-02",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.74,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
       ],
       "author": "Unknown",
       "source": "unknown",
