@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-08-02T02:56:10.118567",
+  "lastValidated": "2026-08-09T01:50:00.127936",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-08-02T02:56:10.358Z"
+    "lastUpdated": "2026-08-09T01:50:00.361Z"
   },
   "pdfs": [
     {
@@ -41091,6 +41091,415 @@
       "isAvailable": true,
       "lastStatus": 200,
       "sizeMB": 0.74,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4004095",
+      "url": "https://www.cs.columbia.edu/~lok/3101/lectures/04-softwareeng.pdf",
+      "title": "04 Softwareeng",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.26,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "software",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6180022",
+      "url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "title": "Ccpa Statute Eff 20260101",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.59,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3398989",
+      "url": "https://www.fbi.gov/file-repository/2023-top-routinely-exploited-vulnerabilities.pdf",
+      "title": "2023 Top Routinely Exploited Vulnerabilities",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.9,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "vulnerabilities"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4986223",
+      "url": "https://www.cisa.gov/sites/default/files/publications/AA20-133A_Top_10_Routinely_Exploited_Vulnerabilities_S508C.pdf",
+      "title": "AA20 133A Top 10 Routinely Exploited Vulnerabilities S508C",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "vulnerabilities"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9521247",
+      "url": "https://nrcmec.org/pdf/Course-Content/CSE-CS/NR23/III-I/DBMS/DBMS_Course_Content.pdf",
+      "title": "DBMS Course Content",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.53,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3171273",
+      "url": "https://mcoorlim.com/wp-content/uploads/2025/05/Basics.pdf",
+      "title": "Basics",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.78,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "godot"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5008880",
+      "url": "https://files.thesaurus.ie.edu/design-narratives.pdf",
+      "title": "Design Narratives",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.11,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "narrative",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7769658",
+      "url": "https://www.energy.gov/sites/default/files/2021-07/Module_4D.pdf",
+      "title": "Module 4D",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.83,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "beta",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3617606",
+      "url": "https://www.theesa.com/wp-content/uploads/2024/02/Principles-of-Esports-Engagement-Handout-111319-002.pdf",
+      "title": "Principles Of Esports Engagement Handout 111319 002",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.7,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "esports"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4846921",
+      "url": "https://www.littleleague.org/wp-content/uploads/2026/06/2026-LLB-Southwest-Region-Bracket.8.6b.pdf",
+      "title": "2026 LLB Southwest Region Bracket.8.6b",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.43,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7136903",
+      "url": "https://cdmrp.health.mil/funding/pa/HT942526PRMRPDA_GG.pdf",
+      "title": "HT942526PRMRPDA GG",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.98,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8766563",
+      "url": "https://ia803109.us.archive.org/19/items/Linda-Costanzo-Physiology-2018/%5BBoard%20Review%20Series%5D%20Linda%20S.%20Costanzo%20-%20Physiology%20%282018%2C%20LWW%29.pdf",
+      "title": "%5BBoard Review Series%5D Linda S. Costanzo Physiology %282018%2C LWW%29",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 23.06,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "physiology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0916177",
+      "url": "https://www.opentextbooks.org.hk/system/files/export/10/10643/pdf/SCI_S330_Free_Courseware_10643.pdf",
+      "title": "SCI S330 Free Courseware 10643",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.11,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5566975",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Science-A-New-Golden-Age.pdf",
+      "title": "Science A New Golden Age",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.31,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8525349",
+      "url": "https://archive.org/download/engpub/Classical%20Mechanics%20-%20R.%20Gregory%20%28Cambridge%2C%202006%29.pdf",
+      "title": "Classical Mechanics R. Gregory %28Cambridge%2C 2006%29",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.57,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "mechanics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7493760",
+      "url": "https://www.dhcs.ca.gov/CalAIM/ECM/Documents/CalAIM-ECM-Policy-Guide.pdf",
+      "title": "CalAIM ECM Policy Guide",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf3036888",
+      "url": "https://assets.cambridge.org/052178/2171/excerpt/0521782171_excerpt.pdf",
+      "title": "0521782171 Excerpt",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.21,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1540897",
+      "url": "https://icsesp.global/wp-content/uploads/2026/03/ICSESP-International-Sport-Science-Professional-Standards.pdf",
+      "title": "ICSESP International Sport Science Professional Standards",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 2.25,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5453820",
+      "url": "https://mae.ufl.edu/wp-content/uploads/sites/4/2026/02/ME-2025-2026-2025-09-26.pdf",
+      "title": "ME 2025 2026 2025 09 26",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1282723",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/electrical-engineering-101.pdf",
+      "title": "Electrical Engineering 101",
+      "dateAdded": "2026-08-09",
+      "lastChecked": "2026-08-09",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.18,
       "categories": [
         "engineering"
       ],
