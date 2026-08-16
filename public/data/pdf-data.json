@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-08-09T01:50:00.127936",
+  "lastValidated": "2026-08-16T01:32:15.764077",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-08-09T01:50:00.361Z"
+    "lastUpdated": "2026-08-16T01:32:15.954Z"
   },
   "pdfs": [
     {
@@ -41511,6 +41511,334 @@
       "source": "unknown",
       "yearPublished": null,
       "pages": null
+    },
+    {
+      "id": "pdf2042142",
+      "url": "https://publichealth.hsc.wvu.edu/media/7127/the-internet.pdf",
+      "title": "The Internet",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.74,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5039133",
+      "url": "https://intronetworks.cs.luc.edu/current1/ComputerNetworks.pdf",
+      "title": "ComputerNetworks",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.05,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "computer",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8498511",
+      "url": "https://playersupport.pgatourhq.com/static-assets/files/2026%20PGA%20TOUR%20Regular%20Season%20Schedule.pdf",
+      "title": "2026 PGA TOUR Regular Season Schedule",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf7414359",
+      "url": "https://medjpps.com/mjpps/uploads/topics/17218530829741.pdf",
+      "title": "17218530829741",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.17,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4904784",
+      "url": "https://www.ugeducation.ucla.edu/degreepath/wp-content/uploads/2024/10/Political-Science-2024.pdf",
+      "title": "POLITICAL SCIENCE",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "CAC",
+      "pages": 1,
+      "sizeMB": 0,
+      "yearPublished": "2024",
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "political",
+        "science"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf2026666",
+      "url": "https://archive.org/download/learn2_DropBooks/Writing_Fiction_for_Dummies_ISBN_-_0470530707_DropBooks_APP.pdf",
+      "title": "Writing Fiction For Dummies ISBN 0470530707 DropBooks APP",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 9.74,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5415116",
+      "url": "https://archive.org/download/english-collections-k-z/On%20Writing_%20A%20Memoir%20of%20the%20Craft%20-%20Stephen%20King.pdf",
+      "title": "On Writing A Memoir Of The Craft Stephen King",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.4,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1590091",
+      "url": "https://newcriticism.weebly.com/uploads/2/8/8/3/28834751/criticism_inc._by_john_crowe_ransom.pdf",
+      "title": "Criticism Inc. By John Crowe Ransom",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Gregory Robinson",
+      "pages": 10,
+      "sizeMB": 0.07,
+      "yearPublished": "2014",
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "criticism"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf0470486",
+      "url": "https://www.airforce.com/content/dam/airforce/en/pdf/USC91019023_BMT_Schedule.pdf",
+      "title": "USC91019023 BMT Schedule",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf9361044",
+      "url": "https://ncaaorg.s3.amazonaws.com/ssi/publications/SSI_SMHB.pdf",
+      "title": "SSI SMHB",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 9.95,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9486128",
+      "url": "https://ia903201.us.archive.org/13/items/modern-india-bipan-chandra/Modern%20India-Bipan%20Chandra_text.pdf",
+      "title": "Modern India Bipan Chandra Text",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 12.82,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4640871",
+      "url": "https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/282/2024/10/21165706/24-25-Mechanical-Engineering-Prerequisite-Sheets.pdf",
+      "title": "24 25 Mechanical Engineering Prerequisite Sheets",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.1,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "mechanical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8368068",
+      "url": "https://www.evansville.edu/majors/electricalengineering/downloads/electrical-engineering-guidebook-2025-2026.pdf",
+      "title": "Electrical Engineering Guidebook 2025 2026",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.64,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf7000756",
+      "url": "https://ia801402.us.archive.org/32/items/oxford-history-of-music/Oxford%20History%20of%20Music%204.pdf",
+      "title": "Oxford History Of Music 4",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 9.9,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1079298",
+      "url": "https://music.wisc.edu/wp-content/uploads/2025/09/Musicology-2026.pdf",
+      "title": "Musicology 2026",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 6.06,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6404454",
+      "url": "https://www.nolanfans.com/library/pdf/thedarkknight-screenplay.pdf",
+      "title": "Thedarkknight Screenplay",
+      "dateAdded": "2026-08-16",
+      "lastChecked": "2026-08-16",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "screenplay"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
     }
   ]
 }
