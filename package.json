@@ -40,7 +40,7 @@
         "jest": "^30.4.2",
         "jest-environment-jsdom": "^30.4.1",
         "jest-extended": "^7.0.0",
-        "jsdom": "^26.0.0",
+        "jsdom": "^30.0.1",
         "jsdom-global": "^3.0.2",
         "serve": "^14.2.6"
     },
