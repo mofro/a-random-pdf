@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-08-16T01:32:15.764077",
+  "lastValidated": "2026-08-23T01:33:14.694023",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-08-16T01:32:15.954Z"
+    "lastUpdated": "2026-08-23T01:33:14.890Z"
   },
   "pdfs": [
     {
@@ -41839,6 +41839,377 @@
       "yearPublished": null,
       "pages": null,
       "sizeMB": null
+    },
+    {
+      "id": "pdf1477840",
+      "url": "https://courses.cs.duke.edu/compsci370d/spring25/NeuralNetworks.pdf",
+      "title": "NeuralNetworks",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.88,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5049936",
+      "url": "https://ico.org.uk/media2/bi0bcdxr/encryption-guidance.pdf",
+      "title": "Encryption Guidance",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.18,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4478975",
+      "url": "https://www.dodig.mil/Portals/48/Documents/Programs/Privacy%20Program/pa1974.pdf",
+      "title": "Pa1974",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0786105",
+      "url": "https://henricolibrary.org/images/classes/Internet_Basics.pdf",
+      "title": "Internet Basics",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.96,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1340527",
+      "url": "https://anurag.ac.in/wp-content/uploads/2025/07/Database-Management-Systems.pdf",
+      "title": "Database Management Systems",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 18.76,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7240206",
+      "url": "https://littleleagueworldbaseball.com/wp-content/uploads/2026/06/LLWS_2026_Schedule.pdf",
+      "title": "Little League World Series 2026 Schedule",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Little League World Baseball",
+      "pages": 3,
+      "sizeMB": 0.01,
+      "yearPublished": "2026",
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf5331525",
+      "url": "https://www.alliedacademies.org/articles/the-vital-role-of-medical-research-in-advancing-global-health.pdf",
+      "title": "The Vital Role Of Medical Research In Advancing Global Health",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.21,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf7456040",
+      "url": "https://www.cms.gov/files/document/mm14312-clinical-laboratory-fee-schedule-2026-annual-update.pdf",
+      "title": "Mm14312 Clinical Laboratory Fee Schedule 2026 Annual Update",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.18,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0135335",
+      "url": "https://www.philadelphia.edu.jo/academics/aelshara/uploads/1-%20An%20introduction%20to%20human%20body%20-%20Ms.%20Asma%20El-Shara.pdf",
+      "title": "1 An Introduction To Human Body Ms. Asma El Shara",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.95,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "anatomy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1860158",
+      "url": "https://roamerstherapy.com/wp-content/uploads/2024/12/Example-Diagnostic-Evaluations_-Diagnosis-Treatment-Plan-and-Progress-Note-1.pdf",
+      "title": "Example Diagnostic Evaluations Diagnosis Treatment Plan And Progress Note 1",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.37,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "diagnosis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9324292",
+      "url": "https://external.dandelon.com/download/attachments/dandelon/ids/DE0043E252651C698B56FC1257471004A6AAB.pdf",
+      "title": "DE0043E252651C698B56FC1257471004A6AAB",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.14,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf7936049",
+      "url": "https://cmn-cdn-001.sagepub.com/books/titles/286627/att_sb1_147761.pdf",
+      "title": "Att Sb1 147761",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.76,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "international",
+        "relations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9130670",
+      "url": "http://library.unisel.edu.my/equip-unisel/custom/ebook_catalog/InternationalRelations11ed.pdf",
+      "title": "InternationalRelations11ed",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 13.44,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "international",
+        "relations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8638437",
+      "url": "https://ibo.org/globalassets/new-structure/university-admission/pdfs/subject-guides/sports-exercise-health-science-guide.pdf",
+      "title": "Sports Exercise Health Science Guide",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf6292226",
+      "url": "https://www.cdc.gov/healthy-schools/media/pdfs/PHS_PE_1.pdf",
+      "title": "PHS PE 1",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "physical",
+        "education"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1451538",
+      "url": "https://www.opentextbooks.org.hk/system/files/export/9/9648/pdf/Fundamentals_of_Electrical_Engineering_I_9648.pdf",
+      "title": "Fundamentals Of Electrical Engineering I 9648",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 12.32,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "electrical",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8101651",
+      "url": "https://www.usm.edu/music/_files/history-exams-study-guide.pdf",
+      "title": "History Exams Study Guide",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 3,
+      "sizeMB": 0.04,
+      "yearPublished": "2023",
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "music",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf4562701",
+      "url": "https://uk.sagepub.com/sites/default/files/upm-assets/146119_book_item_146119.pdf",
+      "title": "146119 Book Item 146119",
+      "dateAdded": "2026-08-23",
+      "lastChecked": "2026-08-23",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.86,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
     }
   ]
 }
