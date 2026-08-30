@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-08-23T01:33:14.694023",
+  "lastValidated": "2026-08-30T03:58:59.754883",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-08-23T01:33:14.890Z"
+    "lastUpdated": "2026-08-30T03:58:59.993Z"
   },
   "pdfs": [
     {
@@ -42205,6 +42205,376 @@
       "tags": [
         "media",
         "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2431872",
+      "url": "https://www.cs.cornell.edu/courses/cs4152/2019sp/lectures/14-LevelDesign.pdf",
+      "title": "14 LevelDesign",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 3.96,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "level",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1310587",
+      "url": "https://coin-lab.org/assets/papers/c2026007.pdf",
+      "title": "C2026007",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 9.15,
+      "categories": [
+        "gamedesign"
+      ],
+      "tags": [
+        "game",
+        "balance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7670238",
+      "url": "https://ijcrt.org/papers/IJCRT2511812.pdf",
+      "title": "IJCRT2511812",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.48,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "quality",
+        "assurance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1347295",
+      "url": "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/MMS/Downloads/How-to-Identify-and-Recruit-Test-Sites-for-eCQMs.pdf",
+      "title": "How To Identify And Recruit Test Sites For eCQMs",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.16,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "beta",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1351824",
+      "url": "https://www.unitedformedicalresearch.org/wp-content/uploads/2026/03/UMR_2026-Annual-Economic-Report-FY2025.pdf",
+      "title": "UMR 2026 Annual Economic Report FY2025",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 16.21,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf8861294",
+      "url": "https://www.mimt.org/pdf/Research%20Methodology.pdf",
+      "title": "Research Methodology",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.6,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "methodology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0742855",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/08/NSSTS-082026.pdf",
+      "title": "NSSTS 082026",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.42,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3431400",
+      "url": "https://eaps.mit.edu/wp-content/uploads/2026/04/2026-environmental-science-degree-track.pdf",
+      "title": "2026 Environmental Science Degree Track",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.97,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "environmental",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf0257640",
+      "url": "https://fiscaldata.treasury.gov/static-data/published-reports/frusg/FRUSG_2025.pdf",
+      "title": "FRUSG 2025",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.93,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "government"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5660649",
+      "url": "https://dde.pondiuni.edu.in/files/StudyMaterials/UG/BA-PoliticalScience/3year/BAPS1931InternationalRelations.pdf",
+      "title": "BAPS1931InternationalRelations",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 3,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "international",
+        "relations"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf9736070",
+      "url": "https://yourwritepath.com/wp-content/uploads/2024/03/PDF-FICTION-WRITING-ESSENTIALS-1.pdf",
+      "title": "PDF FICTION WRITING ESSENTIALS 1",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.53,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2081673",
+      "url": "https://keystoliteracy.com/wp-content/uploads/2026/07/The-Essentials-of-Effective-Writing-Instruction.pdf",
+      "title": "The Essentials Of Effective Writing Instruction",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 2.36,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2255948",
+      "url": "https://wrp.duke.edu/sites/twp.duke.edu/files/file-attachments/academic-style-guide.original.pdf",
+      "title": "Academic Style Guide.original",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.36,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4378174",
+      "url": "https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de2332.pdf",
+      "title": "De2332",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.24,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9187070",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA2254.pdf",
+      "title": "OSHA2254",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 5.67,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf7791392",
+      "url": "https://melangepublications.com/img/BSS-INTRODUCTION%20TO%20EXERCISES,SS%20AND%20CT%20BOOK%20(1).pdf",
+      "title": "BSS INTRODUCTION TO EXERCISES,SS AND CT BOOK (1)",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.4,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4473174",
+      "url": "https://archives.cdn.sos.ca.gov/local-gov-program/pdf/historical-county-records.pdf",
+      "title": "Historical County Records",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 2.56,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "historical",
+        "documents"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2816620",
+      "url": "https://s097a1a90a4c5a2b7.jimcontent.com/download/version/1524080969/module/10100467271/name/Engineering%20Design%20-%20Parte%201.pdf",
+      "title": "Engineering Design Parte 1",
+      "dateAdded": "2026-08-30",
+      "lastChecked": "2026-08-30",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 7.46,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
       ],
       "author": "Unknown",
       "source": "unknown",
