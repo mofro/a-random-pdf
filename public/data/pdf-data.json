@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-09-06T03:20:27.061253",
+  "lastValidated": "2026-09-13T03:30:20.067381",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-09-06T03:20:40.864Z"
+    "lastUpdated": "2026-09-13T03:30:20.309Z"
   },
   "pdfs": [
     {
@@ -42575,6 +42575,541 @@
       "tags": [
         "engineering",
         "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4188721",
+      "url": "https://www.cis.jhu.edu/~younes/machine_learning.pdf",
+      "title": "Machine Learning",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf9388607",
+      "url": "https://users.ece.utexas.edu/~perry/education/SE-Intro/L01-sup.pdf",
+      "title": "L01 Sup",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.67,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "software",
+        "engineering"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2672955",
+      "url": "https://www.itu.int/en/ITU-D/Cybersecurity/Documents/Introduction%20to%20the%20Concept%20of%20IT%20Security.pdf",
+      "title": "Introduction To The Concept Of IT Security",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.33,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "cybersecurity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7672934",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall25/cos418/docs/L1-intro.pdf",
+      "title": "L1 Intro",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 3.27,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "distributed",
+        "systems"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1189013",
+      "url": "https://dn720004.ca.archive.org/0/items/unenpdf/LearningUE4GameDevelopment.pdf",
+      "title": "LearningUE4GameDevelopment",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 10.93,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "unreal",
+        "engine"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3588828",
+      "url": "https://www.ilabquality.com/wp-content/uploads/2025/06/ISTQB-Certified-Tester-Game-Testing-CT-GaMe-1.pdf",
+      "title": "ISTQB Certified Tester Game Testing CT GaMe 1",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.55,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "game",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8156654",
+      "url": "https://www.oncc.org/sites/default/files/2026-07/OCNN_Beta_Test_Manual_072226.pdf",
+      "title": "OCNN Beta Test Manual 072226",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.24,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "beta",
+        "testing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4650515",
+      "url": "https://internationalmedia.pgatour.com/uploads/other_resources/2027-pga-tour-regular-season-and-playoffs.pdf",
+      "title": "2027 Pga Tour Regular Season And Playoffs",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.14,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "tournament"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6938509",
+      "url": "https://www.icanotes.com/wp-content/uploads/2024/02/Efficient-Clinical-Note-Writing-Guide-for-Behavioral-Health-Clinicians.pdf",
+      "title": "Efficient Clinical Note Writing Guide For Behavioral Health Clinicians",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.04,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf1452244",
+      "url": "https://archive.org/download/AnatomyAtAGlance/AnatomyAtAGlance.pdf",
+      "title": "AnatomyAtAGlance",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 6.22,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "anatomy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6720121",
+      "url": "https://www.plasticsurgery.org/Documents/Health-Policy/Coding-Payment/ICD-10/icd-10-medical-diagnosis-codes.pdf",
+      "title": "Icd 10 Medical Diagnosis Codes",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.1,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "diagnosis"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3371529",
+      "url": "https://staff.univ-batna2.dz/sites/default/files/boussif-abdelali/files/chapter_i_-_general_introduction_to_scientific_research.pdf",
+      "title": "Chapter I General Introduction To Scientific Research",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.66,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4953553",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/documents/writing-scientific-abstracts-10242025.pdf",
+      "title": "Writing Scientific Abstracts 10242025",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "scientific",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf8555951",
+      "url": "https://www.science.org/cms/asset/c5ddc74f-5c23-46d9-911d-094d965bf5a9/science.2026.393.issue-6814.toc.pdf",
+      "title": "Science.2026.393.issue 6814.toc",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf7119348",
+      "url": "https://ia801609.us.archive.org/18/items/introductiontop00sidggoog/introductiontop00sidggoog.pdf",
+      "title": "Introductiontop00sidggoog",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.28,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "political",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2312534",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
+      "title": "2025 National Security Strategy",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.49,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "policy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0076204",
+      "url": "https://comlib.org/wp-content/uploads/2025/12/Best-of-2025.pdf",
+      "title": "Best Of 2025",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.72,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8919392",
+      "url": "https://owl.purdue.edu/owl/resources/teaching_resources/documents/the-writing-process-20250724.pdf",
+      "title": "The Writing Process 20250724",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "writing"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf5135000",
+      "url": "https://www.trainingconference.com/documents/Training_2026_Brochure.pdf",
+      "title": "Training 2026 Brochure",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 4.69,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6575507",
+      "url": "https://toolboxtalk.com/wp-content/uploads/2026/05/Slip_Trip_Fall_Prevention_Safety_Training.pdf",
+      "title": "(anonymous)",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "(anonymous)",
+      "pages": 4,
+      "sizeMB": 0.01,
+      "yearPublished": "2026",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf1507790",
+      "url": "https://www.nature.com/articles/d41586-021-00814-5.pdf",
+      "title": "D41586 021 00814 5",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "sports",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1455704",
+      "url": "https://edu.wyoming.gov/wp-content/uploads/2024/10/PE-Ch.-10-WYCPS.pdf",
+      "title": "2023 Physical Education Wyoming Content & Performance Standards (Emended Feb. 2025)",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 4,
+      "sizeMB": 0.06,
+      "yearPublished": "2025",
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "physical",
+        "education"
+      ],
+      "author": "Unknown",
+      "source": "unknown"
+    },
+    {
+      "id": "pdf1122588",
+      "url": "https://seess.ca/wp-content/uploads/2025/03/SEE111Textbook.pdf",
+      "title": "SEE111Textbook",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 11.29,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3559134",
+      "url": "https://www.teachengineering.org/content/usu_/activities/usu-1961-everyday-design-cycle/usu-1961-everyday-design-cycle-presentation_v2_am.pdf",
+      "title": "Usu 1961 Everyday Design Cycle Presentation V2 Am",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.67,
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9900763",
+      "url": "https://www.wifv.org/manage/assets/uploads/2025/04/Tax-Incentives-by-State-2025.pdf",
+      "title": "Tax Incentives By State 2025",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.34,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "production"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0505352",
+      "url": "https://globalprograms.temple.edu/sites/globalprograms/files/MediaStudiesProduction.pdf",
+      "title": "MediaStudiesProduction",
+      "dateAdded": "2026-09-13",
+      "lastChecked": "2026-09-13",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.55,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
       ],
       "author": "Unknown",
       "source": "unknown",
