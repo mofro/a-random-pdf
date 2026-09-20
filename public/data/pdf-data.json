@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-09-13T03:30:20.067381",
+  "lastValidated": "2026-09-20T03:44:46.494359",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-09-13T03:30:20.309Z"
+    "lastUpdated": "2026-09-20T03:44:46.735Z"
   },
   "pdfs": [
     {
@@ -43110,6 +43110,332 @@
       "tags": [
         "media",
         "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2677248",
+      "url": "https://61600.csail.mit.edu/2022/notes/lec08.pdf",
+      "title": "Lec08",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.18,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8271257",
+      "url": "https://www.cisa.gov/sites/default/files/2024-11/aa24-317a-2023-top-routinely-exploited-vulnerabilities.pdf",
+      "title": "Aa24 317a 2023 Top Routinely Exploited Vulnerabilities",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "vulnerabilities"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7758664",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall24/cos109/13protocol.pdf",
+      "title": "13protocol",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.24,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "protocols"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2904700",
+      "url": "https://docs.fcc.gov/public/attachments/DOC-421557A1.pdf",
+      "title": "DOC 421557A1",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9003670",
+      "url": "https://cdn.bookey.app/files/pdf/book/en/database-management-systems.pdf",
+      "title": "Database Management Systems",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.09,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "management"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4683411",
+      "url": "https://www.investgame.net/wp-content/uploads/2025/02/The_Big_Game_Engines_Report_of_2025.pdf",
+      "title": "The Big Game Engines Report Of 2025",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.33,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "engines"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9378718",
+      "url": "https://kosbie.net/cmu/spring-22/15-112/notes/student-tp-guides/Pathfinding.pdf",
+      "title": "Pathfinding",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.06,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0912961",
+      "url": "http://www.gameaipro.com/GameAIPro2/GameAIPro2_Chapter16_Theta_Star_for_Any-Angle_Pathfinding.pdf",
+      "title": "GameAIPro2 Chapter16 Theta Star For Any Angle Pathfinding",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.89,
+      "categories": [
+        "gameai"
+      ],
+      "tags": [
+        "pathfinding"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6144351",
+      "url": "https://scoutingevent.com/Download/010185506/OR/Competitive_Gaming_Merit_Badge_Class_Info_and_Requirements.pdf",
+      "title": "Competitive Gaming Merit Badge Class Info And Requirements",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "competitive",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf9348326",
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/156417/files/2022/11/Toxic-Behaviors-in-Team-Based-CompetitiveGaming-The-Case-of-League-of-Legends.pdf",
+      "title": "Toxic Behaviors In Team Based CompetitiveGaming The Case Of League Of Legends",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.85,
+      "categories": [
+        "esports"
+      ],
+      "tags": [
+        "competitive",
+        "gaming"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5319392",
+      "url": "https://www.cms.gov/files/document/optimizing-care-delivery-framework.pdf",
+      "title": "Optimizing Care Delivery Framework",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.77,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5496206",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/The-Great-Healthcare-Plan.pdf",
+      "title": "The Great Healthcare Plan",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.22,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "healthcare"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf3191708",
+      "url": "https://www.nejmgroup.org/wp-content/uploads/ClinicalNeurologyUpdate_0424_lores_Final.pdf",
+      "title": "ClinicalNeurologyUpdate 0424 Lores Final",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 4.75,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf5255986",
+      "url": "http://elibrary.bsu.edu.az/files/books_200/N_173.pdf",
+      "title": "N 173",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 2.04,
+      "categories": [
+        "physics"
+      ],
+      "tags": [
+        "theoretical",
+        "physics"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4754877",
+      "url": "https://www.american.edu/spa/research/upload/ppmridentified.pdf",
+      "title": "Ppmridentified",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.3,
+      "categories": [
+        "politics"
+      ],
+      "tags": [
+        "public",
+        "administration"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5772973",
+      "url": "https://library.ashoka.edu.in/wp-content/uploads/2026/09/NA-FI-Aug.pdf",
+      "title": "NA FI Aug",
+      "dateAdded": "2026-09-20",
+      "lastChecked": "2026-09-20",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.15,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "fiction"
       ],
       "author": "Unknown",
       "source": "unknown",
