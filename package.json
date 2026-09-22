@@ -34,7 +34,7 @@
     "license": "MIT",
     "devDependencies": {
         "@babel/core": "^8.0.6",
-        "@babel/preset-env": "^8.0.2",
+        "@babel/preset-env": "^8.0.6",
         "babel-jest": "^30.4.1",
         "gh-pages": "^6.3.0",
         "jest": "^30.5.2",
