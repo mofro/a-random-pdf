@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-09-20T03:44:46.494359",
+  "lastValidated": "2026-09-27T04:00:56.864253",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-09-20T03:44:46.735Z"
+    "lastUpdated": "2026-09-27T04:00:57.105Z"
   },
   "pdfs": [
     {
@@ -43436,6 +43436,395 @@
       ],
       "tags": [
         "fiction"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf9932474",
+      "url": "https://aikosh.indiaai.gov.in/static/Deep+Learning+Ian+Goodfellow.pdf",
+      "title": "Deep+Learning+Ian+Goodfellow",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf1468709",
+      "url": "https://ia803204.us.archive.org/14/items/Vismay/1425_JavaScript-from-Beginner-to-Professional.pdf",
+      "title": "1425 JavaScript From Beginner To Professional",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 8.97,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "javascript"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7969944",
+      "url": "https://ia802907.us.archive.org/28/items/python-tutorial_202406/PythonTutorial.pdf",
+      "title": "PythonTutorial",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.61,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2568599",
+      "url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "title": "Introduction To Python Programming WEB",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "python"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf4999687",
+      "url": "https://www.cisa.gov/sites/default/files/2026-08/cisa-factsheet-cybersecurity.pdf",
+      "title": "Cisa Factsheet Cybersecurity",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "cybersecurity"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6488654",
+      "url": "https://dkl.com/wp-content/uploads/documents/ebooks/DataKinetics-Database-Optimization-Solutions-eBook.pdf",
+      "title": "DataKinetics Database Optimization Solutions eBook",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 1.36,
+      "categories": [
+        "databases"
+      ],
+      "tags": [
+        "database",
+        "optimization"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf2280614",
+      "url": "https://dbhds.virginia.gov/wp-content/uploads/2026/07/Quality-Manual-July-2026.pdf",
+      "title": "Quality Manual July 2026",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 4.95,
+      "categories": [
+        "gametesting"
+      ],
+      "tags": [
+        "quality",
+        "assurance"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8909744",
+      "url": "https://psbr.org/images/Educational_Materials/cbra_factsheet_biomedical_research.pdf",
+      "title": "Cbra Factsheet Biomedical Research",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "medical",
+        "research"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf5229682",
+      "url": "https://www.nih.gov/sites/default/files/2025-01/clinical-trials-infographic.pdf",
+      "title": "Clinical Trials Infographic",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.31,
+      "categories": [
+        "medicine"
+      ],
+      "tags": [
+        "clinical"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0059792",
+      "url": "https://batch.libretexts.org/print/Finished/bio-69343/Full.pdf",
+      "title": "Full",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.14,
+      "categories": [
+        "science"
+      ],
+      "tags": [
+        "environmental",
+        "science"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4279092",
+      "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/643889/English_III-Ms._Malcom-Morgan-15_types_of_poetry.pdf",
+      "title": "English III Ms. Malcom Morgan 15 Types Of Poetry",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 15.57,
+      "categories": [
+        "literature"
+      ],
+      "tags": [
+        "poetry"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf1408819",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA3824.pdf",
+      "title": "OSHA3824",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.77,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf6731963",
+      "url": "https://juniorofficer.army.mil/wp-content/uploads/sites/13/2021/11/TC25-30CompanyTrainingMtgs.pdf",
+      "title": "TC25 30CompanyTrainingMtgs",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "pages": 0,
+      "sizeMB": 0.93,
+      "categories": [
+        "sports"
+      ],
+      "tags": [
+        "training"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null
+    },
+    {
+      "id": "pdf4577427",
+      "url": "https://plutusias.com/elearning/wp-content/uploads/2025/09/MODERN-HISTORY-5-1.pdf",
+      "title": "MODERN HISTORY 5 1",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "modern",
+        "history"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null,
+      "sizeMB": null
+    },
+    {
+      "id": "pdf5495506",
+      "url": "https://webpages.charlotte.edu/~jmconrad/hsed/intr_0in.pdf",
+      "title": "Introduction to Engineering Design and Problem Solving",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "author": "Summer Institute",
+      "pages": 10,
+      "sizeMB": 0.04,
+      "yearPublished": "2001",
+      "categories": [
+        "engineering"
+      ],
+      "tags": [
+        "engineering",
+        "design"
+      ],
+      "source": "unknown"
+    },
+    {
+      "id": "pdf8689016",
+      "url": "https://www.musicfun.net.au/pdf_files/instruments.pdf",
+      "title": "Instruments",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.69,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "instruments"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf7602507",
+      "url": "https://www.amacad.org/sites/default/files/publication/downloads/HDS4_Musicology-Profile.pdf",
+      "title": "HDS4 Musicology Profile",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.35,
+      "categories": [
+        "music"
+      ],
+      "tags": [
+        "musicology"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4157699",
+      "url": "https://www.collegeofthedesert.edu/_web-items/documents/pdf-files/course-outlines/film-002a-fa22.pdf",
+      "title": "Film 002a Fa22",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.2,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "film",
+        "production"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf4806361",
+      "url": "https://seniorsecondary.tki.org.nz/content/download/812/5566/version/19/file/Media-studies.pdf",
+      "title": "Media Studies",
+      "dateAdded": "2026-09-27",
+      "lastChecked": "2026-09-27",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.28,
+      "categories": [
+        "film"
+      ],
+      "tags": [
+        "media",
+        "studies"
       ],
       "author": "Unknown",
       "source": "unknown",
