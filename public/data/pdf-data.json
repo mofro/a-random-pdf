@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-10-04T04:43:46.035994",
+  "lastValidated": "2026-10-11T04:19:09.473709",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-10-04T04:43:56.883Z"
+    "lastUpdated": "2026-10-11T04:19:09.658Z"
   },
   "pdfs": [
     {
@@ -43825,6 +43825,48 @@
       "tags": [
         "media",
         "studies"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5824220",
+      "url": "https://www.comp.nus.edu.sg/~seer/book/2e/Ch07.%20Web%20Development.pdf",
+      "title": "Ch07. Web Development",
+      "dateAdded": "2026-10-11",
+      "lastChecked": "2026-10-11",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.51,
+      "categories": [
+        "programming"
+      ],
+      "tags": [
+        "web",
+        "development"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf6166141",
+      "url": "https://archive.org/download/GameDesign/foundation-game-design-with-html5-and-javascript.pdf",
+      "title": "Foundation Game Design With Html5 And Javascript",
+      "dateAdded": "2026-10-11",
+      "lastChecked": "2026-10-11",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 15.41,
+      "categories": [
+        "gaming"
+      ],
+      "tags": [
+        "game",
+        "design"
       ],
       "author": "Unknown",
       "source": "unknown",
