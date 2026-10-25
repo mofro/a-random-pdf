@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-10-18T03:21:10.710260",
+  "lastValidated": "2026-10-25T03:31:48.618698",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-10-18T03:21:10.907Z"
+    "lastUpdated": "2026-10-25T03:31:48.855Z"
   },
   "pdfs": [
     {
@@ -43892,6 +43892,68 @@
       "author": "Unknown",
       "source": "unknown",
       "yearPublished": null
+    },
+    {
+      "id": "pdf9306744",
+      "url": "https://freeprogrammingbooks.com/wp-content/uploads/2026/07/neural-networks-and-deep-learning.pdf",
+      "title": "Neural Networks And Deep Learning",
+      "dateAdded": "2026-10-25",
+      "lastChecked": "2026-10-25",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 5.82,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "neural",
+        "networks"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf0146939",
+      "url": "https://web.stanford.edu/class/archive/cs/cs109/cs109.1176/lectures/25-DeepLearning.pdf",
+      "title": "25 DeepLearning",
+      "dateAdded": "2026-10-25",
+      "lastChecked": "2026-10-25",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 25.11,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5912064",
+      "url": "https://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.2-the-internet-and-the-www.pdf",
+      "title": "1.2 The Internet And The Www",
+      "dateAdded": "2026-10-25",
+      "lastChecked": "2026-10-25",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 0.58,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
     }
   ]
 }
