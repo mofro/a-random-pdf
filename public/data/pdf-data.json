@@ -1,5 +1,5 @@
 {
-  "lastValidated": "2026-11-01T04:43:51.517711",
+  "lastValidated": "2026-11-08T04:46:40.033626",
   "metadata": {
     "version": "2.0",
     "categories": [
@@ -104,7 +104,7 @@
         "color": "#95a5a6"
       }
     ],
-    "lastUpdated": "2026-11-01T04:44:03.780Z"
+    "lastUpdated": "2026-11-08T04:46:40.269Z"
   },
   "pdfs": [
     {
@@ -43944,6 +43944,108 @@
       "isAvailable": true,
       "lastStatus": 200,
       "sizeMB": 0.58,
+      "categories": [
+        "networks"
+      ],
+      "tags": [
+        "internet"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8246539",
+      "url": "https://web.stanford.edu/class/datasci112/lectures/introduction_machine_learning.pdf",
+      "title": "Introduction Machine Learning",
+      "dateAdded": "2026-11-08",
+      "lastChecked": "2026-11-08",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.37,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "machine",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8794128",
+      "url": "https://rtavenar.github.io/deep_book/book_en.pdf",
+      "title": "Book En",
+      "dateAdded": "2026-11-08",
+      "lastChecked": "2026-11-08",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.14,
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "deep",
+        "learning"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf5638992",
+      "url": "https://wjarr.com/sites/default/files/fulltext_pdf/WJARR-2026-1951.pdf",
+      "title": "WJARR 2026 1951",
+      "dateAdded": "2026-11-08",
+      "lastChecked": "2026-11-08",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.31,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "encryption"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf2453543",
+      "url": "https://www.thesedonaconference.org/sites/default/files/meeting_paper/Draft%20Data%20Privacy%20Primer_Second%20Edition.pdf",
+      "title": "Draft Data Privacy Primer Second Edition",
+      "dateAdded": "2026-11-08",
+      "lastChecked": "2026-11-08",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.51,
+      "categories": [
+        "security"
+      ],
+      "tags": [
+        "privacy"
+      ],
+      "author": "Unknown",
+      "source": "unknown",
+      "yearPublished": null,
+      "pages": null
+    },
+    {
+      "id": "pdf8336189",
+      "url": "https://www.congress.gov/crs_external_products/R/PDF/R48902/R48902.1.pdf",
+      "title": "R48902.1",
+      "dateAdded": "2026-11-08",
+      "lastChecked": "2026-11-08",
+      "isAvailable": true,
+      "lastStatus": 200,
+      "sizeMB": 1.01,
       "categories": [
         "networks"
       ],
